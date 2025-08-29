@@ -1,0 +1,1611 @@
+{
+  "summary": {
+    "total_workflows": 9,
+    "total_unique_agents": 97,
+    "total_references": 144
+  },
+  "workflows": [
+    {
+      "name": "Financial Planning and Analysis",
+      "file": "fpa-workflows.ts",
+      "agents": [
+        "DQ",
+        "IR",
+        "RA",
+        "FM",
+        "BP",
+        "DA",
+        "KT",
+        "RG",
+        "VA",
+        "DG",
+        "IE",
+        "PA",
+        "NS",
+        "FX",
+        "PD",
+        "CR",
+        "MR",
+        "TD",
+        "SM",
+        "AT",
+        "VD",
+        "HM",
+        "CA",
+        "DM",
+        "AL"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "agents": [
+            "DG",
+            "DA",
+            "CA",
+            "DQ"
+          ],
+          "comments": null
+        },
+        {
+          "step": 2,
+          "agents": [
+            "DQ",
+            "FX",
+            "HM",
+            "IE"
+          ],
+          "comments": null
+        },
+        {
+          "step": 3,
+          "agents": [
+            "VA",
+            "CA",
+            "DA",
+            "TD"
+          ],
+          "comments": null
+        },
+        {
+          "step": 4,
+          "agents": [
+            "IR",
+            "CR",
+            "NS",
+            "RA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 5,
+          "agents": [
+            "MR",
+            "KT",
+            "VD",
+            "AL"
+          ],
+          "comments": null
+        },
+        {
+          "step": 6,
+          "agents": [
+            "RG",
+            "PD",
+            "DM",
+            "FM"
+          ],
+          "comments": null
+        },
+        {
+          "step": 7,
+          "agents": [
+            "BP",
+            "SM",
+            "PA",
+            "AT"
+          ],
+          "comments": null
+        }
+      ],
+      "total_agents": 25
+    },
+    {
+      "name": "Strategic or LR Planning",
+      "file": "fpa-workflows.ts",
+      "agents": [
+        "IR",
+        "CR",
+        "DG",
+        "AM",
+        "MR",
+        "OM",
+        "BI",
+        "SM",
+        "DP",
+        "SP",
+        "PA",
+        "WA",
+        "MC",
+        "TA"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "agents": [
+            "SP",
+            "BI",
+            "DG",
+            "TA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 2,
+          "agents": [
+            "SM",
+            "MC",
+            "OM",
+            "AM"
+          ],
+          "comments": null
+        },
+        {
+          "step": 3,
+          "agents": [
+            "DP",
+            "TA",
+            "PA",
+            "WA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 4,
+          "agents": [
+            "CR",
+            "IR",
+            "MR"
+          ],
+          "comments": null
+        }
+      ],
+      "total_agents": 14
+    },
+    {
+      "name": "Integrated Enterprise Planning",
+      "file": "fpa-workflows.ts",
+      "agents": [
+        "PG",
+        "SA",
+        "DA",
+        "KS",
+        "VA",
+        "DG",
+        "CM",
+        "SG",
+        "OM",
+        "DH",
+        "CR",
+        "CP",
+        "CS",
+        "AT",
+        "MO",
+        "DO",
+        "AC",
+        "DR",
+        "PC",
+        "CA",
+        "DM",
+        "TS"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "agents": [
+            "CA",
+            "DG",
+            "DA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 2,
+          "agents": [
+            "DH",
+            "VA",
+            "CS",
+            "CR"
+          ],
+          "comments": null
+        },
+        {
+          "step": 3,
+          "agents": [
+            "SG",
+            "DM",
+            "AT",
+            "SA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 4,
+          "agents": [
+            "OM",
+            "CS",
+            "MO",
+            "DR"
+          ],
+          "comments": null
+        },
+        {
+          "step": 5,
+          "agents": [
+            "KS",
+            "TS",
+            "AC",
+            "CM"
+          ],
+          "comments": null
+        },
+        {
+          "step": 6,
+          "agents": [
+            "PC",
+            "PG",
+            "CP",
+            "DO"
+          ],
+          "comments": null
+        }
+      ],
+      "total_agents": 22
+    },
+    {
+      "name": "Budgeting",
+      "file": "fpa-workflows.ts",
+      "agents": [
+        "CR",
+        "DG",
+        "BP",
+        "DA",
+        "AP",
+        "MR",
+        "BI",
+        "SM",
+        "CA",
+        "TB",
+        "GP",
+        "VA"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "agents": [
+            "BP",
+            "DG",
+            "TB"
+          ],
+          "comments": null
+        },
+        {
+          "step": 2,
+          "agents": [
+            "VA",
+            "CA",
+            "BI",
+            "GP"
+          ],
+          "comments": null
+        },
+        {
+          "step": 3,
+          "agents": [
+            "BP",
+            "SM",
+            "AP",
+            "MR"
+          ],
+          "comments": null
+        },
+        {
+          "step": 4,
+          "agents": [
+            "MR",
+            "CR",
+            "DA"
+          ],
+          "comments": null
+        }
+      ],
+      "total_agents": 12
+    },
+    {
+      "name": "Dynamic Forecasting",
+      "file": "fpa-workflows.ts",
+      "agents": [
+        "IR",
+        "CR",
+        "DG",
+        "DA",
+        "MR",
+        "DP",
+        "SM",
+        "PA",
+        "MC",
+        "RS",
+        "VA",
+        "PM",
+        "RF",
+        "TA"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "agents": [
+            "RF",
+            "DG",
+            "TA",
+            "DP"
+          ],
+          "comments": null
+        },
+        {
+          "step": 2,
+          "agents": [
+            "RF",
+            "SM",
+            "MC",
+            "PA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 3,
+          "agents": [
+            "VA",
+            "PA",
+            "IR",
+            "RS"
+          ],
+          "comments": null
+        },
+        {
+          "step": 4,
+          "agents": [
+            "MR",
+            "DA",
+            "CR",
+            "PM"
+          ],
+          "comments": null
+        }
+      ],
+      "total_agents": 14
+    },
+    {
+      "name": "Decision Support & Modelling",
+      "file": "fpa-workflows.ts",
+      "agents": [
+        "IR",
+        "CR",
+        "DG",
+        "BP",
+        "AM",
+        "MR",
+        "AP",
+        "OM",
+        "PA",
+        "SM",
+        "CA",
+        "WA",
+        "MC"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "agents": [
+            "SM",
+            "DG",
+            "AM",
+            "CA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 2,
+          "agents": [
+            "MC",
+            "OM",
+            "WA",
+            "PA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 3,
+          "agents": [
+            "OM",
+            "PA",
+            "BP",
+            "IR"
+          ],
+          "comments": null
+        },
+        {
+          "step": 4,
+          "agents": [
+            "CR",
+            "MR",
+            "AP"
+          ],
+          "comments": null
+        }
+      ],
+      "total_agents": 13
+    },
+    {
+      "name": "Quarterly Earnings",
+      "file": "investor-relations-workflows.ts",
+      "agents": [
+        "KMC",
+        "NGE",
+        "BMA",
+        "FAG",
+        "RSA",
+        "FUP",
+        "PGE",
+        "SDE",
+        "SMC",
+        "PRD",
+        "QAP",
+        "ERC"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "agents": [
+            "ERC",
+            "NGE",
+            "KMC"
+          ],
+          "comments": null
+        },
+        {
+          "step": 2,
+          "agents": [
+            "PRD",
+            "PGE",
+            "SMC"
+          ],
+          "comments": null
+        },
+        {
+          "step": 3,
+          "agents": [
+            "SDE",
+            "QAP",
+            "BMA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 4,
+          "agents": [
+            "RSA",
+            "FAG",
+            "FUP"
+          ],
+          "comments": null
+        }
+      ],
+      "total_agents": 12
+    },
+    {
+      "name": "Investment Community Relationship Mgmt",
+      "file": "investor-relations-workflows.ts",
+      "agents": [
+        "RDI",
+        "LOE",
+        "CRI",
+        "ITE",
+        "TPG",
+        "RDR",
+        "ASC",
+        "ATE",
+        "MSE",
+        "PPE",
+        "MAA",
+        "AIT"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "agents": [
+            "ITE",
+            "ASC",
+            "LOE"
+          ],
+          "comments": null
+        },
+        {
+          "step": 2,
+          "agents": [
+            "PPE",
+            "TPG",
+            "RDI"
+          ],
+          "comments": null
+        },
+        {
+          "step": 3,
+          "agents": [
+            "MAA",
+            "ATE",
+            "RDR"
+          ],
+          "comments": null
+        },
+        {
+          "step": 4,
+          "agents": [
+            "MSE",
+            "AIT",
+            "CRI"
+          ],
+          "comments": null
+        }
+      ],
+      "total_agents": 12
+    },
+    {
+      "name": "Competitive Intelligence",
+      "file": "investor-relations-workflows.ts",
+      "agents": [
+        "SPR",
+        "DEW",
+        "DAG",
+        "RPE",
+        "RAM",
+        "PCA",
+        "FAA",
+        "APT",
+        "IRS",
+        "RTD",
+        "SEA",
+        "FBE",
+        "SEE",
+        "PTA",
+        "DMA",
+        "ACT",
+        "RIM",
+        "SNF",
+        "IIG",
+        "DRG"
+      ],
+      "steps": [
+        {
+          "step": 1,
+          "agents": [
+            "DAG",
+            "SNF",
+            "SEA",
+            "FAA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 2,
+          "agents": [
+            "FBE",
+            "APT",
+            "SPR",
+            "DMA"
+          ],
+          "comments": null
+        },
+        {
+          "step": 3,
+          "agents": [
+            "IRS",
+            "PTA",
+            "DEW",
+            "RIM"
+          ],
+          "comments": null
+        },
+        {
+          "step": 4,
+          "agents": [
+            "RAM",
+            "RPE",
+            "ACT",
+            "SEE"
+          ],
+          "comments": null
+        },
+        {
+          "step": 5,
+          "agents": [
+            "IIG",
+            "PCA",
+            "DRG",
+            "RTD"
+          ],
+          "comments": null
+        }
+      ],
+      "total_agents": 20
+    }
+  ],
+  "agent_usage": {
+    "DQ": 1,
+    "IR": 4,
+    "RA": 1,
+    "FM": 1,
+    "BP": 3,
+    "DA": 4,
+    "KT": 1,
+    "RG": 1,
+    "VA": 4,
+    "DG": 6,
+    "IE": 1,
+    "PA": 4,
+    "NS": 1,
+    "FX": 1,
+    "PD": 1,
+    "CR": 6,
+    "MR": 5,
+    "TD": 1,
+    "SM": 5,
+    "AT": 2,
+    "VD": 1,
+    "HM": 1,
+    "CA": 4,
+    "DM": 2,
+    "AL": 1,
+    "AM": 2,
+    "OM": 3,
+    "BI": 2,
+    "DP": 2,
+    "SP": 1,
+    "WA": 2,
+    "MC": 3,
+    "TA": 2,
+    "PG": 1,
+    "SA": 1,
+    "KS": 1,
+    "CM": 1,
+    "SG": 1,
+    "DH": 1,
+    "CP": 1,
+    "CS": 1,
+    "MO": 1,
+    "DO": 1,
+    "AC": 1,
+    "DR": 1,
+    "PC": 1,
+    "TS": 1,
+    "AP": 2,
+    "TB": 1,
+    "GP": 1,
+    "RS": 1,
+    "PM": 1,
+    "RF": 1,
+    "KMC": 1,
+    "NGE": 1,
+    "BMA": 1,
+    "FAG": 1,
+    "RSA": 1,
+    "FUP": 1,
+    "PGE": 1,
+    "SDE": 1,
+    "SMC": 1,
+    "PRD": 1,
+    "QAP": 1,
+    "ERC": 1,
+    "RDI": 1,
+    "LOE": 1,
+    "CRI": 1,
+    "ITE": 1,
+    "TPG": 1,
+    "RDR": 1,
+    "ASC": 1,
+    "ATE": 1,
+    "MSE": 1,
+    "PPE": 1,
+    "MAA": 1,
+    "AIT": 1,
+    "SPR": 1,
+    "DEW": 1,
+    "DAG": 1,
+    "RPE": 1,
+    "RAM": 1,
+    "PCA": 1,
+    "FAA": 1,
+    "APT": 1,
+    "IRS": 1,
+    "RTD": 1,
+    "SEA": 1,
+    "FBE": 1,
+    "SEE": 1,
+    "PTA": 1,
+    "DMA": 1,
+    "ACT": 1,
+    "RIM": 1,
+    "SNF": 1,
+    "IIG": 1,
+    "DRG": 1
+  },
+  "agent_locations": {
+    "DQ": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "IR": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "RA": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "FM": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "BP": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "DA": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "KT": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "RG": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "VA": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "DG": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "IE": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "PA": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "NS": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "FX": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "PD": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "CR": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "MR": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "TD": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "SM": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "AT": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "VD": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "HM": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "CA": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "DM": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "AL": [
+      {
+        "workflow": "Financial Planning and Analysis",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "AM": [
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "OM": [
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "BI": [
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "DP": [
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "SP": [
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "WA": [
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "MC": [
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "TA": [
+      {
+        "workflow": "Strategic or LR Planning",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "PG": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "SA": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "KS": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "CM": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "SG": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "DH": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "CP": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "CS": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "MO": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "DO": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "AC": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "DR": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "PC": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "TS": [
+      {
+        "workflow": "Integrated Enterprise Planning",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "AP": [
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      },
+      {
+        "workflow": "Decision Support & Modelling",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "TB": [
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "GP": [
+      {
+        "workflow": "Budgeting",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "RS": [
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "PM": [
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "RF": [
+      {
+        "workflow": "Dynamic Forecasting",
+        "file": "fpa-workflows.ts"
+      }
+    ],
+    "KMC": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "NGE": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "BMA": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "FAG": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "RSA": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "FUP": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "PGE": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "SDE": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "SMC": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "PRD": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "QAP": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "ERC": [
+      {
+        "workflow": "Quarterly Earnings",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "RDI": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "LOE": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "CRI": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "ITE": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "TPG": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "RDR": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "ASC": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "ATE": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "MSE": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "PPE": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "MAA": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "AIT": [
+      {
+        "workflow": "Investment Community Relationship Mgmt",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "SPR": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "DEW": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "DAG": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "RPE": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "RAM": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "PCA": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "FAA": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "APT": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "IRS": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "RTD": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "SEA": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "FBE": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "SEE": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "PTA": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "DMA": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "ACT": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "RIM": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "SNF": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "IIG": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ],
+    "DRG": [
+      {
+        "workflow": "Competitive Intelligence",
+        "file": "investor-relations-workflows.ts"
+      }
+    ]
+  },
+  "recommended_mappings": {
+    "AC": "GEN-ANALYZE-AC",
+    "ACT": "GEN-ANALYZE-ACT",
+    "AIT": "GEN-ANALYZE-AIT",
+    "AL": "GEN-ANALYZE-AL",
+    "AM": "GEN-ANALYZE-AM",
+    "AP": "GEN-ANALYZE-AP",
+    "APT": "GEN-ANALYZE-APT",
+    "ASC": "GEN-ANALYZE-ASC",
+    "AT": "GEN-ANALYZE-AT",
+    "ATE": "GEN-ANALYZE-ATE",
+    "BI": "GEN-BUSINESS-BI",
+    "BMA": "GEN-BUSINESS-BMA",
+    "BP": "GEN-BUSINESS-BP",
+    "CA": "GEN-CONTROL-CA",
+    "CM": "GEN-CONTROL-CM",
+    "CP": "GEN-CONTROL-CP",
+    "CR": "GEN-CONTROL-CR",
+    "CRI": "GEN-CONTROL-CRI",
+    "CS": "GEN-CONTROL-CS",
+    "DA": "GEN-DATA-DA",
+    "DAG": "GEN-DATA-DAG",
+    "DEW": "GEN-DATA-DEW",
+    "DG": "GEN-DATA-DG",
+    "DH": "GEN-DATA-DH",
+    "DM": "GEN-DATA-DM",
+    "DMA": "GEN-DATA-DMA",
+    "DO": "GEN-DATA-DO",
+    "DP": "GEN-DATA-DP",
+    "DQ": "GEN-DATA-DQ",
+    "DR": "GEN-DATA-DR",
+    "DRG": "GEN-DATA-DRG",
+    "ERC": "GEN-EXECUTE-ERC",
+    "FAA": "FPA-FINANCE-FAA",
+    "FAG": "FPA-FINANCE-FAG",
+    "FBE": "FPA-FINANCE-FBE",
+    "FM": "FPA-FINANCE-FM",
+    "FUP": "FPA-FINANCE-FUP",
+    "FX": "FPA-FINANCE-FX",
+    "GP": "GEN-GENERAL-GP",
+    "HM": "GEN-HANDLE-HM",
+    "IE": "GEN-INTEGRATE-IE",
+    "IIG": "GEN-INTEGRATE-IIG",
+    "IR": "GEN-INTEGRATE-IR",
+    "IRS": "GEN-INTEGRATE-IRS",
+    "ITE": "GEN-INTEGRATE-ITE",
+    "KMC": "GEN-KEY-KMC",
+    "KS": "GEN-KEY-KS",
+    "KT": "GEN-KEY-KT",
+    "LOE": "GEN-LOGIC-LOE",
+    "MAA": "GEN-MANAGE-MAA",
+    "MC": "GEN-MANAGE-MC",
+    "MO": "GEN-MANAGE-MO",
+    "MR": "GEN-MANAGE-MR",
+    "MSE": "GEN-MANAGE-MSE",
+    "NGE": "GEN-NOTIFY-NGE",
+    "NS": "GEN-NOTIFY-NS",
+    "OM": "GEN-OPERATE-OM",
+    "PA": "GEN-PROCESS-PA",
+    "PC": "GEN-PROCESS-PC",
+    "PCA": "GEN-PROCESS-PCA",
+    "PD": "GEN-PROCESS-PD",
+    "PG": "GEN-PROCESS-PG",
+    "PGE": "GEN-PROCESS-PGE",
+    "PM": "GEN-PROCESS-PM",
+    "PPE": "GEN-PROCESS-PPE",
+    "PRD": "GEN-PROCESS-PRD",
+    "PTA": "GEN-PROCESS-PTA",
+    "QAP": "GEN-QUALITY-QAP",
+    "RA": "GEN-REPORT-RA",
+    "RAM": "GEN-REPORT-RAM",
+    "RDI": "GEN-REPORT-RDI",
+    "RDR": "GEN-REPORT-RDR",
+    "RF": "GEN-REPORT-RF",
+    "RG": "GEN-REPORT-RG",
+    "RIM": "GEN-REPORT-RIM",
+    "RPE": "GEN-REPORT-RPE",
+    "RS": "GEN-REPORT-RS",
+    "RSA": "GEN-REPORT-RSA",
+    "RTD": "GEN-REPORT-RTD",
+    "SA": "GEN-SYSTEM-SA",
+    "SDE": "GEN-SYSTEM-SDE",
+    "SEA": "GEN-SYSTEM-SEA",
+    "SEE": "GEN-SYSTEM-SEE",
+    "SG": "GEN-SYSTEM-SG",
+    "SM": "GEN-SYSTEM-SM",
+    "SMC": "GEN-SYSTEM-SMC",
+    "SNF": "GEN-SYSTEM-SNF",
+    "SP": "GEN-SYSTEM-SP",
+    "SPR": "GEN-SYSTEM-SPR",
+    "TA": "GEN-TRACK-TA",
+    "TB": "GEN-TRACK-TB",
+    "TD": "GEN-TRACK-TD",
+    "TPG": "GEN-TRACK-TPG",
+    "TS": "GEN-TRACK-TS",
+    "VA": "GEN-VALIDATE-VA",
+    "VD": "GEN-VALIDATE-VD",
+    "WA": "GEN-WORKFLOW-WA"
+  }
+}

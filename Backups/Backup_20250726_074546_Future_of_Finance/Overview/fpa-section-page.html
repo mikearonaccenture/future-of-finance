@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FP&A - Future of Finance</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 1rem 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        nav .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            cursor: pointer;
+        }
+        
+        .breadcrumb {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            color: #94a3b8;
+        }
+        
+        .breadcrumb a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .breadcrumb a:hover {
+            color: #ffffff;
+        }
+        
+        /* Hero Section */
+        .fpa-hero {
+            margin-top: 80px;
+            padding: 4rem 2rem;
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.05));
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .fpa-hero-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .fpa-hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #ffffff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .fpa-hero p {
+            font-size: 1.25rem;
+            color: #94a3b8;
+            max-width: 800px;
+            line-height: 1.6;
+        }
+        
+        /* Current State */
+        .current-state {
+            padding: 3rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .section-header {
+            margin-bottom: 2rem;
+        }
+        
+        .section-header h2 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: #ffffff;
+        }
+        
+        .section-header p {
+            color: #94a3b8;
+        }
+        
+        .activities-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+        
+        .activity-item {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1rem;
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            transition: all 0.3s;
+        }
+        
+        .activity-item:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(59, 130, 246, 0.3);
+        }
+        
+        .activity-icon {
+            width: 8px;
+            height: 8px;
+            background: #3b82f6;
+            border-radius: 50%;
+            flex-shrink: 0;
+        }
+        
+        /* Transformation Section */
+        .transformation {
+            padding: 3rem 2rem;
+            background: rgba(255, 255, 255, 0.02);
+        }
+        
+        .transformation-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .transformation-visual {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 2rem;
+            margin: 3rem 0;
+        }
+        
+        .from-box, .to-box {
+            flex: 1;
+            padding: 2rem;
+            border-radius: 1rem;
+            text-align: center;
+        }
+        
+        .from-box {
+            background: rgba(239, 68, 68, 0.1);
+            border: 1px solid rgba(239, 68, 68, 0.3);
+        }
+        
+        .to-box {
+            background: rgba(34, 197, 94, 0.1);
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+        
+        .arrow {
+            font-size: 2rem;
+            color: #3b82f6;
+        }
+        
+        /* Prototypes Section */
+        .prototypes {
+            padding: 4rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .prototype-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            margin-bottom: 3rem;
+            overflow: hidden;
+            transition: all 0.3s;
+        }
+        
+        .prototype-card:hover {
+            border-color: rgba(59, 130, 246, 0.5);
+            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.1);
+        }
+        
+        .prototype-header {
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .prototype-header h3 {
+            font-size: 1.75rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+        
+        .status-badge {
+            font-size: 0.875rem;
+            padding: 0.25rem 0.75rem;
+            border-radius: 1rem;
+            background: rgba(34, 197, 94, 0.2);
+            color: #22c55e;
+            border: 1px solid rgba(34, 197, 94, 0.3);
+        }
+        
+        .status-badge.coming-soon {
+            background: rgba(251, 191, 36, 0.2);
+            color: #fbbf24;
+            border-color: rgba(251, 191, 36, 0.3);
+        }
+        
+        .prototype-body {
+            padding: 2rem;
+        }
+        
+        .prototype-description {
+            color: #94a3b8;
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+        
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1.5rem;
+            margin-bottom: 2rem;
+        }
+        
+        .feature-item {
+            display: flex;
+            gap: 1rem;
+        }
+        
+        .feature-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(59, 130, 246, 0.2);
+            border-radius: 0.5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+        
+        .feature-content h4 {
+            font-size: 1.1rem;
+            margin-bottom: 0.25rem;
+            color: #ffffff;
+        }
+        
+        .feature-content p {
+            font-size: 0.875rem;
+            color: #94a3b8;
+            line-height: 1.5;
+        }
+        
+        .prototype-actions {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+        
+        .demo-button {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .demo-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(59, 130, 246, 0.4);
+        }
+        
+        .learn-more {
+            background: transparent;
+            color: #3b82f6;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            border: 2px solid rgba(59, 130, 246, 0.3);
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .learn-more:hover {
+            background: rgba(59, 130, 246, 0.1);
+            border-color: rgba(59, 130, 246, 0.5);
+        }
+        
+        /* Coverage Matrix */
+        .coverage-matrix {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .coverage-matrix h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            text-align: center;
+        }
+        
+        .matrix-table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        .matrix-table th {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 1rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .matrix-table td {
+            padding: 1rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        
+        .matrix-table tr:hover {
+            background: rgba(255, 255, 255, 0.02);
+        }
+        
+        .coverage-indicator {
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            display: inline-block;
+        }
+        
+        .covered {
+            background: #22c55e;
+        }
+        
+        .partial {
+            background: #fbbf24;
+        }
+        
+        .not-covered {
+            background: #64748b;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .fpa-hero h1 {
+                font-size: 2rem;
+            }
+            
+            .transformation-visual {
+                flex-direction: column;
+            }
+            
+            .feature-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo" onclick="location.href='/'">Future of Finance</div>
+            <div class="breadcrumb">
+                <a href="/">Home</a>
+                <span>→</span>
+                <span>FP&A</span>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- FP&A Hero -->
+    <section class="fpa-hero">
+        <div class="fpa-hero-content">
+            <h1>Financial Planning & Analysis</h1>
+            <p>Transform your FP&A function with AI-powered planning, forecasting, and analytics. Experience prototypes that demonstrate how machine learning and automation will revolutionize financial decision-making.</p>
+        </div>
+    </section>
+    
+    <!-- Current State Activities -->
+    <section class="current-state">
+        <div class="section-header">
+            <h2>Current FP&A Activities</h2>
+            <p>Traditional processes that will be transformed by AI</p>
+        </div>
+        
+        <div class="activities-grid">
+            <div class="activity-item">
+                <div class="activity-icon"></div>
+                <span>Financial Planning and Analysis</span>
+            </div>
+            <div class="activity-item">
+                <div class="activity-icon"></div>
+                <span>Strategic or LR Planning</span>
+            </div>
+            <div class="activity-item">
+                <div class="activity-icon"></div>
+                <span>Integrated Enterprise Planning</span>
+            </div>
+            <div class="activity-item">
+                <div class="activity-icon"></div>
+                <span>Budgeting</span>
+            </div>
+            <div class="activity-item">
+                <div class="activity-icon"></div>
+                <span>Dynamic Forecasting</span>
+            </div>
+            <div class="activity-item">
+                <div class="activity-icon"></div>
+                <span>Decision Support & Modelling</span>
+            </div>
+            <div class="activity-item">
+                <div class="activity-icon"></div>
+                <span>Reporting & Analysis</span>
+            </div>
+            <div class="activity-item">
+                <div class="activity-icon"></div>
+                <span>Data/System Effectiveness</span>
+            </div>
+            <div class="activity-item">
+                <div class="activity-icon"></div>
+                <span>Treasury KPI Reporting</span>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Transformation Vision -->
+    <section class="transformation">
+        <div class="transformation-content">
+            <div class="section-header">
+                <h2>The AI Transformation</h2>
+                <p>From manual processes to intelligent automation</p>
+            </div>
+            
+            <div class="transformation-visual">
+                <div class="from-box">
+                    <h3>Today</h3>
+                    <p>15+ days to close</p>
+                    <p>70% time on data prep</p>
+                    <p>±10% forecast accuracy</p>
+                </div>
+                <div class="arrow">→</div>
+                <div class="to-box">
+                    <h3>Future</h3>
+                    <p>2 days automated close</p>
+                    <p>80% time on analysis</p>
+                    <p>±2% forecast accuracy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Prototypes -->
+    <section class="prototypes">
+        <div class="section-header">
+            <h2>Future State Prototypes</h2>
+            <p>Experience the future of FP&A through interactive demonstrations</p>
+        </div>
+        
+        <!-- Prototype 1: Integrated Forecasting Platform -->
+        <div class="prototype-card">
+            <div class="prototype-header">
+                <h3>
+                    Integrated Forecasting Platform
+                    <span class="status-badge">Live Demo</span>
+                </h3>
+            </div>
+            <div class="prototype-body">
+                <p class="prototype-description">
+                    A unified AI-powered platform that connects planning, budgeting, and forecasting across the enterprise. Experience real-time predictions, automated scenario modeling, and natural language insights that transform how finance partners with the business.
+                </p>
+                
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">🤖</div>
+                        <div class="feature-content">
+                            <h4>AI-Powered Predictions</h4>
+                            <p>Machine learning models that achieve 95%+ forecast accuracy with automated driver detection</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🔄</div>
+                        <div class="feature-content">
+                            <h4>Real-time Collaboration</h4>
+                            <p>Connected planning across all departments with instant consolidation and variance analysis</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🎯</div>
+                        <div class="feature-content">
+                            <h4>Scenario Modeling</h4>
+                            <p>Dynamic what-if analysis with Monte Carlo simulations and automated sensitivity testing</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">💬</div>
+                        <div class="feature-content">
+                            <h4>Natural Language Interface</h4>
+                            <p>Ask questions in plain English and receive instant insights with supporting visualizations</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">⚡</div>
+                        <div class="feature-content">
+                            <h4>Predictive Alerts</h4>
+                            <p>Early warning system that identifies risks and opportunities 30-90 days in advance</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">📱</div>
+                        <div class="feature-content">
+                            <h4>Mobile-First Design</h4>
+                            <p>Full functionality on any device with offline capabilities and real-time sync</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="prototype-actions">
+                    <a href="#demo" class="demo-button">Launch Interactive Demo</a>
+                    <a href="#specs" class="learn-more">View Specifications</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Prototype 2: Intelligent Management Reporting -->
+        <div class="prototype-card">
+            <div class="prototype-header">
+                <h3>
+                    Intelligent Management Reporting
+                    <span class="status-badge coming-soon">Coming Q2 2025</span>
+                </h3>
+            </div>
+            <div class="prototype-body">
+                <p class="prototype-description">
+                    Transform static reports into dynamic, AI-driven insights. This next-generation reporting console automatically generates narratives, identifies anomalies, and provides prescriptive recommendations based on real-time data analysis.
+                </p>
+                
+                <div class="feature-grid">
+                    <div class="feature-item">
+                        <div class="feature-icon">📊</div>
+                        <div class="feature-content">
+                            <h4>Automated Narratives</h4>
+                            <p>AI writes executive summaries explaining variances, trends, and key business drivers</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🔍</div>
+                        <div class="feature-content">
+                            <h4>Anomaly Detection</h4>
+                            <p>Machine learning identifies unusual patterns and provides root cause analysis</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🎨</div>
+                        <div class="feature-content">
+                            <h4>Dynamic Visualizations</h4>
+                            <p>Self-adjusting charts and graphs that highlight what matters most to each viewer</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🚀</div>
+                        <div class="feature-content">
+                            <h4>One-Click Distribution</h4>
+                            <p>Automated report generation and distribution with role-based customization</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">💡</div>
+                        <div class="feature-content">
+                            <h4>Prescriptive Analytics</h4>
+                            <p>Actionable recommendations based on historical patterns and predictive models</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon">🔐</div>
+                        <div class="feature-content">
+                            <h4>Governance & Compliance</h4>
+                            <p>Built-in controls ensure data accuracy and regulatory compliance</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="prototype-actions">
+                    <a href="#notify" class="demo-button">Get Notified When Ready</a>
+                    <a href="#roadmap" class="learn-more">View Roadmap</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Coverage Matrix -->
+        <div class="coverage-matrix">
+            <h3>Process Coverage by Prototype</h3>
+            <table class="matrix-table">
+                <thead>
+                    <tr>
+                        <th>FP&A Process</th>
+                        <th>Forecasting Platform</th>
+                        <th>Management Reporting</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Financial Planning and Analysis</td>
+                        <td><span class="coverage-indicator covered"></span></td>
+                        <td><span class="coverage-indicator covered"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Strategic Planning</td>
+                        <td><span class="coverage-indicator covered"></span></td>
+                        <td><span class="coverage-indicator partial"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Integrated Enterprise Planning</td>
+                        <td><span class="coverage-indicator covered"></span></td>
+                        <td><span class="coverage-indicator not-covered"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Budgeting</td>
+                        <td><span class="coverage-indicator covered"></span></td>
+                        <td><span class="coverage-indicator partial"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Dynamic Forecasting</td>
+                        <td><span class="coverage-indicator covered"></span></td>
+                        <td><span class="coverage-indicator partial"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Decision Support & Modelling</td>
+                        <td><span class="coverage-indicator covered"></span></td>
+                        <td><span class="coverage-indicator partial"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Reporting & Analysis</td>
+                        <td><span class="coverage-indicator partial"></span></td>
+                        <td><span class="coverage-indicator covered"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Data/System Effectiveness</td>
+                        <td><span class="coverage-indicator partial"></span></td>
+                        <td><span class="coverage-indicator covered"></span></td>
+                    </tr>
+                    <tr>
+                        <td>Treasury KPI Reporting</td>
+                        <td><span class="coverage-indicator partial"></span></td>
+                        <td><span class="coverage-indicator covered"></span></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div style="margin-top: 1rem; display: flex; gap: 2rem; justify-content: center; color: #94a3b8; font-size: 0.875rem;">
+                <span><span class="coverage-indicator covered" style="display: inline-block; margin-right: 0.5rem;"></span>Full Coverage</span>
+                <span><span class="coverage-indicator partial" style="display: inline-block; margin-right: 0.5rem;"></span>Partial Coverage</span>
+                <span><span class="coverage-indicator not-covered" style="display: inline-block; margin-right: 0.5rem;"></span>Not Covered</span>
+            </div>
+        </div>
+    </section>
+    
+    <script>
+        // Add hover effects and animations
+        document.querySelectorAll('.activity-item').forEach((item, index) => {
+            item.style.opacity = '0';
+            item.style.transform = 'translateY(20px)';
+            setTimeout(() => {
+                item.style.transition = 'all 0.6s';
+                item.style.opacity = '1';
+                item.style.transform = 'translateY(0)';
+            }, index * 50);
+        });
+        
+        // Add prototype card animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.prototype-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(30px)';
+            el.style.transition = 'opacity 0.8s, transform 0.8s';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

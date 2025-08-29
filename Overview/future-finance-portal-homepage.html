@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Future of Finance - AI-Powered Transformation</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #0a0a0a;
+            color: #ffffff;
+            overflow-x: hidden;
+        }
+        
+        /* Navigation */
+        nav {
+            position: fixed;
+            top: 0;
+            width: 100%;
+            background: rgba(10, 10, 10, 0.95);
+            backdrop-filter: blur(10px);
+            z-index: 1000;
+            padding: 1rem 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        nav .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .logo {
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .nav-links {
+            display: flex;
+            gap: 2rem;
+            list-style: none;
+        }
+        
+        .nav-links a {
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        
+        .nav-links a:hover {
+            color: #ffffff;
+        }
+        
+        .cta-button {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            color: white;
+            padding: 0.5rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 30px rgba(59, 130, 246, 0.5);
+        }
+        
+        /* Hero Section */
+        .hero {
+            margin-top: 80px;
+            padding: 4rem 2rem;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(59, 130, 246, 0.1) 0%, transparent 70%);
+            animation: pulse 20s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); opacity: 0.5; }
+            50% { transform: scale(1.1); opacity: 0.3; }
+        }
+        
+        .hero-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            z-index: 1;
+            position: relative;
+        }
+        
+        .hero h1 {
+            font-size: 4rem;
+            font-weight: 700;
+            line-height: 1.1;
+            margin-bottom: 1.5rem;
+            background: linear-gradient(135deg, #ffffff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .hero .subtitle {
+            font-size: 1.5rem;
+            color: #94a3b8;
+            margin-bottom: 3rem;
+            max-width: 800px;
+        }
+        
+        .hero-cta {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+        
+        .primary-button {
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .primary-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 20px 40px rgba(59, 130, 246, 0.4);
+        }
+        
+        .secondary-button {
+            background: transparent;
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 600;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s;
+            display: inline-block;
+        }
+        
+        .secondary-button:hover {
+            background: rgba(255, 255, 255, 0.1);
+            border-color: rgba(255, 255, 255, 0.4);
+        }
+        
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+        }
+        
+        .stat {
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 1rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: all 0.3s;
+        }
+        
+        .stat:hover {
+            background: rgba(255, 255, 255, 0.08);
+            transform: translateY(-5px);
+        }
+        
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .stat-label {
+            color: #94a3b8;
+            margin-top: 0.5rem;
+        }
+        
+        /* Finance Functions Grid */
+        .functions {
+            padding: 4rem 2rem;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .section-title {
+            font-size: 3rem;
+            text-align: center;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #ffffff, #94a3b8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .section-subtitle {
+            text-align: center;
+            color: #94a3b8;
+            margin-bottom: 3rem;
+            font-size: 1.2rem;
+        }
+        
+        .functions-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .function-card {
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            padding: 2rem;
+            transition: all 0.3s;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .function-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1));
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        
+        .function-card:hover::before {
+            opacity: 1;
+        }
+        
+        .function-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(59, 130, 246, 0.5);
+        }
+        
+        .function-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            border-radius: 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+        .function-title {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: #ffffff;
+        }
+        
+        .function-description {
+            color: #94a3b8;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+        }
+        
+        .function-stats {
+            display: flex;
+            gap: 2rem;
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        
+        .function-stat {
+            flex: 1;
+        }
+        
+        .function-stat-value {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #3b82f6;
+        }
+        
+        .function-stat-label {
+            font-size: 0.875rem;
+            color: #64748b;
+        }
+        
+        /* Featured Prototypes */
+        .prototypes {
+            padding: 4rem 2rem;
+            background: rgba(255, 255, 255, 0.02);
+        }
+        
+        .prototype-showcase {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 3rem;
+            align-items: center;
+        }
+        
+        .prototype-info h3 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, #3b82f6, #8b5cf6);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        
+        .prototype-features {
+            list-style: none;
+            margin: 2rem 0;
+        }
+        
+        .prototype-features li {
+            padding: 0.5rem 0;
+            color: #94a3b8;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        
+        .prototype-features li::before {
+            content: '✓';
+            color: #3b82f6;
+            font-weight: bold;
+        }
+        
+        .prototype-preview {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 1rem;
+            padding: 2rem;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .prototype-preview img {
+            width: 100%;
+            border-radius: 0.5rem;
+        }
+        
+        /* Footer */
+        footer {
+            padding: 3rem 2rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            text-align: center;
+            color: #64748b;
+        }
+        
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .prototype-showcase {
+                grid-template-columns: 1fr;
+            }
+            
+            .nav-links {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <div class="logo">Future of Finance</div>
+            <ul class="nav-links">
+                <li><a href="#functions">Functions</a></li>
+                <li><a href="#prototypes">Prototypes</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#resources">Resources</a></li>
+            </ul>
+            <a href="#demo" class="cta-button">Request Demo</a>
+        </div>
+    </nav>
+    
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Experience the AI-Powered<br>Future of Finance</h1>
+            <p class="subtitle">Interactive prototypes showcasing how artificial intelligence will transform every aspect of finance - from planning to reporting, from compliance to treasury.</p>
+            
+            <div class="hero-cta">
+                <a href="#functions" class="primary-button">Explore Prototypes</a>
+                <a href="#demo" class="secondary-button">CFO Executive Tour</a>
+            </div>
+            
+            <div class="stats">
+                <div class="stat">
+                    <div class="stat-value">70%</div>
+                    <div class="stat-label">Reduction in Planning Time</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">95%</div>
+                    <div class="stat-label">Forecast Accuracy</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">10x</div>
+                    <div class="stat-label">Faster Insights</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">300%</div>
+                    <div class="stat-label">ROI in 18 Months</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Finance Functions -->
+    <section class="functions" id="functions">
+        <h2 class="section-title">Transform Every Finance Function</h2>
+        <p class="section-subtitle">Click on any function to explore AI-powered prototypes and see your future state</p>
+        
+        <div class="functions-grid">
+            <div class="function-card" onclick="location.href='#fp&a'">
+                <div class="function-icon">📊</div>
+                <h3 class="function-title">FP&A</h3>
+                <p class="function-description">AI-powered planning, forecasting, and analysis that predicts the future with unprecedented accuracy.</p>
+                <div class="function-stats">
+                    <div class="function-stat">
+                        <div class="function-stat-value">2</div>
+                        <div class="function-stat-label">Prototypes Ready</div>
+                    </div>
+                    <div class="function-stat">
+                        <div class="function-stat-value">9</div>
+                        <div class="function-stat-label">Processes Transformed</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="function-card">
+                <div class="function-icon">📋</div>
+                <h3 class="function-title">Controllership</h3>
+                <p class="function-description">Autonomous close processes and intelligent controls that ensure accuracy and compliance.</p>
+                <div class="function-stats">
+                    <div class="function-stat">
+                        <div class="function-stat-value">Coming</div>
+                        <div class="function-stat-label">Q2 2025</div>
+                    </div>
+                    <div class="function-stat">
+                        <div class="function-stat-value">15</div>
+                        <div class="function-stat-label">Processes</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="function-card">
+                <div class="function-icon">💰</div>
+                <h3 class="function-title">Order to Cash</h3>
+                <p class="function-description">AI-optimized collections and credit management that maximizes cash flow.</p>
+                <div class="function-stats">
+                    <div class="function-stat">
+                        <div class="function-stat-value">Coming</div>
+                        <div class="function-stat-label">Q3 2025</div>
+                    </div>
+                    <div class="function-stat">
+                        <div class="function-stat-value">8</div>
+                        <div class="function-stat-label">Processes</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="function-card">
+                <div class="function-icon">🛒</div>
+                <h3 class="function-title">Procure to Pay</h3>
+                <p class="function-description">Intelligent automation that streamlines purchasing and payments while preventing fraud.</p>
+                <div class="function-stats">
+                    <div class="function-stat">
+                        <div class="function-stat-value">Coming</div>
+                        <div class="function-stat-label">Q3 2025</div>
+                    </div>
+                    <div class="function-stat">
+                        <div class="function-stat-value">10</div>
+                        <div class="function-stat-label">Processes</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="function-card">
+                <div class="function-icon">💼</div>
+                <h3 class="function-title">Corporate Finance</h3>
+                <p class="function-description">AI-driven tax optimization and treasury management for maximum efficiency.</p>
+                <div class="function-stats">
+                    <div class="function-stat">
+                        <div class="function-stat-value">Coming</div>
+                        <div class="function-stat-label">Q4 2025</div>
+                    </div>
+                    <div class="function-stat">
+                        <div class="function-stat-value">14</div>
+                        <div class="function-stat-label">Processes</div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="function-card">
+                <div class="function-icon">📈</div>
+                <h3 class="function-title">Investor Relations</h3>
+                <p class="function-description">Predictive analytics and automated insights for superior stakeholder communication.</p>
+                <div class="function-stats">
+                    <div class="function-stat">
+                        <div class="function-stat-value">Coming</div>
+                        <div class="function-stat-label">2026</div>
+                    </div>
+                    <div class="function-stat">
+                        <div class="function-stat-value">6</div>
+                        <div class="function-stat-label">Processes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Prototype -->
+    <section class="prototypes" id="prototypes">
+        <div class="prototype-showcase">
+            <div class="prototype-info">
+                <h3>Featured: Integrated Forecasting Platform</h3>
+                <p>Experience how AI transforms financial planning with our flagship FP&A prototype. See real-time predictions, automated insights, and scenario modeling that adapts as fast as your business changes.</p>
+                
+                <ul class="prototype-features">
+                    <li>AI-powered rolling forecasts with 95% accuracy</li>
+                    <li>Natural language queries for instant insights</li>
+                    <li>Automated scenario generation and analysis</li>
+                    <li>Real-time collaboration across departments</li>
+                    <li>Predictive alerts 30-90 days in advance</li>
+                </ul>
+                
+                <a href="#fp&a-demo" class="primary-button">Try Live Demo</a>
+            </div>
+            
+            <div class="prototype-preview">
+                <div style="height: 400px; background: linear-gradient(135deg, rgba(59, 130, 246, 0.1), rgba(139, 92, 246, 0.1)); border-radius: 0.5rem; display: flex; align-items: center; justify-content: center; color: #94a3b8;">
+                    [Interactive Demo Preview]
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Future of Finance. Transforming finance through AI innovation.</p>
+    </footer>
+    
+    <script>
+        // Add smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        
+        // Add scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+        
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+        
+        document.querySelectorAll('.function-card, .stat').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s, transform 0.6s';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+===============================================
+BACKUP INFORMATION
+===============================================
+Backup Created: July 27, 2025 at 12:42:31
+Backup Name: Backup_20250727_124231_Workflows_Cleaned_to_63
+
+PURPOSE:
+This backup captures the project state after completing the workflow cleanup to achieve exactly 63 workflows matching our source of truth.
+
+KEY MILESTONE ACHIEVED:
+- Successfully aligned all workflows to the finance taxonomy
+- Removed 17 extra workflows to achieve perfect hygiene
+- Established single source of truth with validation
+
+PROJECT STATE:
+- 7 Finance Functional Areas
+- 63 Core Business Activities  
+- 17 Logical Platforms
+- 63 Detailed Workflows (one for each activity)
+
+WORKFLOWS REMOVED IN CLEANUP:
+1. From cost-accounting-workflows.ts (7 removed):
+   - Inventory Accounting
+   - Cost Allocation
+   - Variance Analysis
+   - Standard Costing
+   - Activity-Based Costing
+   - Cash Management
+   - Project Accounting
+
+2. From controllership-additional-workflows.ts (1 removed):
+   - Invoice to Pay Support Help Desk
+
+3. From fpa-additional-workflows.ts (1 removed):
+   - Data / System Effectiveness & Governance
+
+4. From investor-relations-additional-workflows.ts (1 removed):
+   - Marketing & Events
+
+5. From investor-relations-workflows.ts (3 removed):
+   - ESG Reporting
+   - Shareholder Services
+   - Regulatory Filings
+
+6. From order-to-cash-workflows.ts (3 removed):
+   - Credit Management
+   - Revenue Assurance
+   - Order Modifications
+
+7. From record-to-report-workflows.ts (2 removed):
+   - Financial Reporting
+   - Consolidation & Intercompany
+
+KEY FILES:
+- site-build/finance-taxonomy-source-of-truth.ts (canonical reference)
+- site-build/finance-platform-mapping.ts (17 platforms, activity mappings)
+- site-build/workflows/*.ts (all workflow definitions - exactly 63)
+- site-build/workflow-cleanup-complete.md (cleanup summary)
+
+RESTORATION INSTRUCTIONS:
+To restore from this backup:
+1. Navigate to your project directory
+2. Create a temporary backup of current state: mv site-build site-build-temp
+3. Copy this backup: cp -r Backups/Backup_20250727_124231_Workflows_Cleaned_to_63/site-build .
+4. If restoring entire project: cp -r Backups/Backup_20250727_124231_Workflows_Cleaned_to_63/* .
+
+VERIFICATION AFTER RESTORE:
+cd site-build/workflows && grep -h "name: '" *.ts | sort | uniq | wc -l
+Should output: 63 

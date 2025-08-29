@@ -1,0 +1,1574 @@
+{
+    "metadata": {
+        "totalAgents": 0,
+        "lastUpdated": "2024-01-26",
+        "version": "2.0"
+    },
+    "crossFunctionalAgents": [
+        {
+            "id": "DA",
+            "name": "Data Aggregator",
+            "functions": [
+                "P2P",
+                "O2C",
+                "R2R",
+                "FPA",
+                "CF",
+                "IR"
+            ],
+            "description": "Collects and consolidates data from multiple sources",
+            "workflowSteps": [
+                "Data Collection",
+                "Data Validation",
+                "Data Consolidation"
+            ]
+        },
+        {
+            "id": "AV",
+            "name": "Approval Validator",
+            "functions": [
+                "P2P",
+                "O2C",
+                "R2R",
+                "CF",
+                "FPA"
+            ],
+            "description": "Validates and routes approvals based on business rules",
+            "workflowSteps": [
+                "Approval Routing",
+                "Policy Validation",
+                "Escalation Management"
+            ]
+        },
+        {
+            "id": "RR",
+            "name": "Report Runner",
+            "functions": [
+                "R2R",
+                "FPA",
+                "CF",
+                "IR",
+                "CA"
+            ],
+            "description": "Generates standardized reports across functions",
+            "workflowSteps": [
+                "Report Generation",
+                "Data Formatting",
+                "Distribution"
+            ]
+        },
+        {
+            "id": "AC",
+            "name": "Audit Companion",
+            "functions": [
+                "P2P",
+                "O2C",
+                "R2R",
+                "CA",
+                "CF"
+            ],
+            "description": "Maintains audit trails and compliance documentation",
+            "workflowSteps": [
+                "Audit Trail Creation",
+                "Compliance Checking",
+                "Documentation"
+            ]
+        }
+    ],
+    "functionalAgents": {
+        "procureToPay": [
+            {
+                "id": "IC",
+                "name": "Invoice Capture Agent",
+                "workflowStep": "Invoice to Pay - Receipt & Scanning"
+            },
+            {
+                "id": "IP",
+                "name": "Invoice Processor",
+                "workflowStep": "Invoice Processing"
+            },
+            {
+                "id": "CM",
+                "name": "Contract Matcher",
+                "workflowStep": "Receivable Management - Credit Management"
+            },
+            {
+                "id": "VS",
+                "name": "Vendor Screener",
+                "workflowStep": "Vendor Statement Reconciliation"
+            },
+            {
+                "id": "PA",
+                "name": "Payment Automator",
+                "workflowStep": "Payment Processing"
+            },
+            {
+                "id": "PC",
+                "name": "Procurement Curator",
+                "workflowStep": "Procurement Card Administration"
+            },
+            {
+                "id": "TE",
+                "name": "T&E Examiner",
+                "workflowStep": "Travel & Expense Administration"
+            },
+            {
+                "id": "AR",
+                "name": "AP Reporter",
+                "workflowStep": "AP Reporting & Analytics"
+            },
+            {
+                "id": "IH",
+                "name": "Invoice Helper",
+                "workflowStep": "Invoice to Pay Support Help Desk"
+            },
+            {
+                "id": "DD",
+                "name": "Deduction Detective",
+                "workflowStep": "Collections & Disputes Management - Deductions Management"
+            },
+            {
+                "id": "ML",
+                "name": "ML Ledger Maintainer",
+                "workflowStep": "Maintain AR Ledger and Apply Cash"
+            },
+            {
+                "id": "CR",
+                "name": "Customer Requestor",
+                "workflowStep": "Manage Customer Requests & Inquiries"
+            },
+            {
+                "id": "RA",
+                "name": "Revenue Assurer",
+                "workflowStep": "Revenue Assurance Control Management"
+            },
+            {
+                "id": "MB",
+                "name": "Master Billing Manager",
+                "workflowStep": "Manage Customer Billing"
+            },
+            {
+                "id": "CD",
+                "name": "Collections Director",
+                "workflowStep": "Collections & Disputes Management"
+            },
+            {
+                "id": "SR",
+                "name": "Statement Reconciler",
+                "workflowStep": "Vendor Statement Reconciliation"
+            },
+            {
+                "id": "AP",
+                "name": "Accounts Payable Reconciler",
+                "workflowStep": "Accounts Payable Reconciliation"
+            },
+            {
+                "id": "DE",
+                "name": "Deductions Examiner",
+                "workflowStep": "Deductions Management"
+            },
+            {
+                "id": "TM",
+                "name": "T&E Monitor",
+                "workflowStep": "Travel & Expense Administration - Monitoring"
+            },
+            {
+                "id": "PP",
+                "name": "Payment Planner",
+                "workflowStep": "Payment Processing - Planning"
+            },
+            {
+                "id": "VV",
+                "name": "Vendor Validator",
+                "workflowStep": "Vendor Management - Validation"
+            },
+            {
+                "id": "PS",
+                "name": "Payment Scheduler",
+                "workflowStep": "Payment Processing - Scheduling"
+            },
+            {
+                "id": "IE",
+                "name": "Invoice Expeditor",
+                "workflowStep": "Invoice Processing - Expediting"
+            },
+            {
+                "id": "CS",
+                "name": "Contract Supervisor",
+                "workflowStep": "Contract Management - Supervision"
+            },
+            {
+                "id": "PR",
+                "name": "Purchase Requisitioner",
+                "workflowStep": "Purchase Requisition Processing"
+            },
+            {
+                "id": "PO",
+                "name": "PO Generator",
+                "workflowStep": "Purchase Order Generation"
+            },
+            {
+                "id": "GR",
+                "name": "Goods Receiver",
+                "workflowStep": "Goods Receipt Processing"
+            },
+            {
+                "id": "TW",
+                "name": "Three-Way Matcher",
+                "workflowStep": "Three-Way Match Processing"
+            },
+            {
+                "id": "SP",
+                "name": "Supplier Portal Manager",
+                "workflowStep": "Supplier Portal Management"
+            },
+            {
+                "id": "CE",
+                "name": "Contract Enforcer",
+                "workflowStep": "Contract Compliance Enforcement"
+            },
+            {
+                "id": "DI",
+                "name": "Discount Identifier",
+                "workflowStep": "Early Payment Discount Identification"
+            },
+            {
+                "id": "CF",
+                "name": "Cash Flow Optimizer",
+                "workflowStep": "Payment Timing Optimization"
+            },
+            {
+                "id": "SE",
+                "name": "Spend Evaluator",
+                "workflowStep": "Spend Analysis and Evaluation"
+            },
+            {
+                "id": "VM",
+                "name": "Vendor Master Maintainer",
+                "workflowStep": "Vendor Master Data Management"
+            },
+            {
+                "id": "TC",
+                "name": "Tax Compliance Checker",
+                "workflowStep": "Tax Compliance Verification"
+            },
+            {
+                "id": "FR",
+                "name": "Fraud Risk Assessor",
+                "workflowStep": "Fraud Risk Assessment"
+            },
+            {
+                "id": "BP",
+                "name": "Batch Processor",
+                "workflowStep": "Batch Payment Processing"
+            },
+            {
+                "id": "RC",
+                "name": "Remittance Creator",
+                "workflowStep": "Remittance Advice Creation"
+            },
+            {
+                "id": "SC",
+                "name": "Statement Curator",
+                "workflowStep": "Vendor Statement Management"
+            },
+            {
+                "id": "AC",
+                "name": "Accrual Calculator",
+                "workflowStep": "Accrual Calculation and Posting"
+            },
+            {
+                "id": "PM",
+                "name": "Performance Monitor",
+                "workflowStep": "Vendor Performance Monitoring"
+            },
+            {
+                "id": "WC",
+                "name": "Workflow Coordinator",
+                "workflowStep": "P2P Workflow Coordination"
+            }
+        ],
+        "orderToCash": [
+            {
+                "id": "OV",
+                "name": "Order Validator",
+                "workflowStep": "Receivable Management - Order Validation"
+            },
+            {
+                "id": "CA",
+                "name": "Credit Analyzer",
+                "workflowStep": "Credit Management"
+            },
+            {
+                "id": "IG",
+                "name": "Invoice Generator",
+                "workflowStep": "Customer Billing - Invoice Generation"
+            },
+            {
+                "id": "CM",
+                "name": "Collections Manager",
+                "workflowStep": "Collections & Disputes Management"
+            },
+            {
+                "id": "CR",
+                "name": "Cash Reconciler",
+                "workflowStep": "Cash Application"
+            },
+            {
+                "id": "PS",
+                "name": "Product & Service Coster",
+                "workflowStep": "Product & Service Costing"
+            },
+            {
+                "id": "IA",
+                "name": "Inventory Accountant",
+                "workflowStep": "Inventory Accounting"
+            },
+            {
+                "id": "DM",
+                "name": "Deductions Manager",
+                "workflowStep": "Deductions Management"
+            },
+            {
+                "id": "CQ",
+                "name": "Customer Query Handler",
+                "workflowStep": "Manage Customer Requests & Inquiries"
+            },
+            {
+                "id": "RV",
+                "name": "Revenue Validator",
+                "workflowStep": "Revenue Assurance Control Management"
+            },
+            {
+                "id": "OE",
+                "name": "Order Entry Assistant",
+                "workflowStep": "Order Entry and Management"
+            },
+            {
+                "id": "PC",
+                "name": "Pricing Calculator",
+                "workflowStep": "Pricing Management"
+            },
+            {
+                "id": "QM",
+                "name": "Quote Manager",
+                "workflowStep": "Quote to Order Processing"
+            },
+            {
+                "id": "CC",
+                "name": "Contract Creator",
+                "workflowStep": "Contract Creation and Management"
+            },
+            {
+                "id": "SM",
+                "name": "Shipment Monitor",
+                "workflowStep": "Shipment and Delivery Tracking"
+            },
+            {
+                "id": "RR",
+                "name": "Revenue Recognizer",
+                "workflowStep": "Revenue Recognition"
+            },
+            {
+                "id": "BA",
+                "name": "Billing Automator",
+                "workflowStep": "Automated Billing Processing"
+            },
+            {
+                "id": "DC",
+                "name": "Dispute Coordinator",
+                "workflowStep": "Dispute Resolution Management"
+            },
+            {
+                "id": "AG",
+                "name": "Aging Analyzer",
+                "workflowStep": "AR Aging Analysis"
+            },
+            {
+                "id": "PD",
+                "name": "Payment Distributor",
+                "workflowStep": "Payment Distribution and Allocation"
+            },
+            {
+                "id": "CS",
+                "name": "Customer Segmenter",
+                "workflowStep": "Customer Segmentation Analysis"
+            },
+            {
+                "id": "RL",
+                "name": "Risk Limiter",
+                "workflowStep": "Credit Risk Management"
+            },
+            {
+                "id": "DO",
+                "name": "Dunning Orchestrator",
+                "workflowStep": "Dunning Process Management"
+            },
+            {
+                "id": "ST",
+                "name": "Statement Transmitter",
+                "workflowStep": "Customer Statement Generation"
+            },
+            {
+                "id": "PM",
+                "name": "Promise Manager",
+                "workflowStep": "Promise to Pay Management"
+            },
+            {
+                "id": "WO",
+                "name": "Write-off Processor",
+                "workflowStep": "Bad Debt Write-off Processing"
+            },
+            {
+                "id": "CB",
+                "name": "Chargeback Handler",
+                "workflowStep": "Chargeback Management"
+            },
+            {
+                "id": "RE",
+                "name": "Rebate Engine",
+                "workflowStep": "Rebate Processing"
+            },
+            {
+                "id": "CM",
+                "name": "Commission Calculator",
+                "workflowStep": "Commission Calculation"
+            },
+            {
+                "id": "TT",
+                "name": "Terms Tracker",
+                "workflowStep": "Payment Terms Management"
+            },
+            {
+                "id": "LC",
+                "name": "Late Charge Calculator",
+                "workflowStep": "Late Fee Assessment"
+            },
+            {
+                "id": "PR",
+                "name": "Payment Reminder",
+                "workflowStep": "Payment Reminder Automation"
+            },
+            {
+                "id": "DP",
+                "name": "Down Payment Manager",
+                "workflowStep": "Down Payment Processing"
+            },
+            {
+                "id": "IN",
+                "name": "Installment Navigator",
+                "workflowStep": "Installment Billing Management"
+            },
+            {
+                "id": "RC",
+                "name": "Recurring Charger",
+                "workflowStep": "Recurring Revenue Management"
+            },
+            {
+                "id": "UP",
+                "name": "Unapplied Processor",
+                "workflowStep": "Unapplied Cash Management"
+            },
+            {
+                "id": "ED",
+                "name": "EDI Director",
+                "workflowStep": "EDI Transaction Processing"
+            },
+            {
+                "id": "LB",
+                "name": "Lockbox Processor",
+                "workflowStep": "Lockbox Processing"
+            },
+            {
+                "id": "PG",
+                "name": "Payment Gateway Manager",
+                "workflowStep": "Payment Gateway Integration"
+            },
+            {
+                "id": "FC",
+                "name": "Finance Charge Calculator",
+                "workflowStep": "Finance Charge Calculation"
+            },
+            {
+                "id": "CP",
+                "name": "Customer Portal Manager",
+                "workflowStep": "Customer Self-Service Portal"
+            },
+            {
+                "id": "AR",
+                "name": "AR Reporter",
+                "workflowStep": "AR Reporting and Analytics"
+            }
+        ],
+        "recordToReport": [
+            {
+                "id": "CC",
+                "name": "Close Calendar Agent",
+                "workflowStep": "Period Close - Calendar Management"
+            },
+            {
+                "id": "TB",
+                "name": "Trial Balance Analyzer",
+                "workflowStep": "General Accounting - Trial Balance"
+            },
+            {
+                "id": "AI",
+                "name": "Accrual Identifier",
+                "workflowStep": "General Accounting - Accruals"
+            },
+            {
+                "id": "JE",
+                "name": "Journal Entry Creator",
+                "workflowStep": "General Accounting - Journal Entries"
+            },
+            {
+                "id": "BR",
+                "name": "Balance Reconciler",
+                "workflowStep": "BS Reconciliation & Analytics"
+            },
+            {
+                "id": "IR",
+                "name": "Intercompany Reconciler",
+                "workflowStep": "Intercompany Accounting"
+            },
+            {
+                "id": "VA",
+                "name": "Variance Analyzer",
+                "workflowStep": "Perform Financial Reporting - Variance Analysis"
+            },
+            {
+                "id": "RG",
+                "name": "Report Generator",
+                "workflowStep": "Perform Financial Reporting"
+            },
+            {
+                "id": "IG",
+                "name": "Insight Generator",
+                "workflowStep": "Financial Statements & Disclosures"
+            },
+            {
+                "id": "FP",
+                "name": "Close Finalizer",
+                "workflowStep": "Period Close - Finalization"
+            },
+            {
+                "id": "FA",
+                "name": "Fixed Asset Accountant",
+                "workflowStep": "Asset Accounting"
+            },
+            {
+                "id": "LA",
+                "name": "Lease Accountant",
+                "workflowStep": "Lease Accounting"
+            },
+            {
+                "id": "GC",
+                "name": "GL Curator",
+                "workflowStep": "General Accounting - GL Maintenance"
+            },
+            {
+                "id": "CM",
+                "name": "Cash Manager",
+                "workflowStep": "Cash Management and Banking"
+            },
+            {
+                "id": "RV",
+                "name": "Revenue Accountant",
+                "workflowStep": "Partner and Revenue Accounting"
+            },
+            {
+                "id": "PA",
+                "name": "Project Accountant",
+                "workflowStep": "Project Accounting"
+            },
+            {
+                "id": "JV",
+                "name": "Joint Venture Manager",
+                "workflowStep": "Perform Joint Venture Accounting"
+            },
+            {
+                "id": "SR",
+                "name": "Statutory Reporter",
+                "workflowStep": "Statutory Reporting"
+            },
+            {
+                "id": "SC",
+                "name": "SOX Compliance Officer",
+                "workflowStep": "Group Reporting & Consolidations"
+            },
+            {
+                "id": "FS",
+                "name": "Financial Statement Preparer",
+                "workflowStep": "Financial Statements & Disclosures"
+            },
+            {
+                "id": "GR",
+                "name": "GAAP Reporter",
+                "workflowStep": "Statutory and GAAP Reporting Adjustments"
+            },
+            {
+                "id": "AL",
+                "name": "Allocation Engine",
+                "workflowStep": "Cost Allocations"
+            },
+            {
+                "id": "RJ",
+                "name": "Reclassification Judge",
+                "workflowStep": "Journal Entry Reclassifications"
+            },
+            {
+                "id": "SL",
+                "name": "Subledger Linker",
+                "workflowStep": "Subledger to GL Reconciliation"
+            },
+            {
+                "id": "PE",
+                "name": "Period End Processor",
+                "workflowStep": "Period End Processing"
+            },
+            {
+                "id": "CY",
+                "name": "Currency Translator",
+                "workflowStep": "Currency Translation"
+            },
+            {
+                "id": "CE",
+                "name": "Consolidation Engine",
+                "workflowStep": "Group Consolidations"
+            },
+            {
+                "id": "EJ",
+                "name": "Elimination Judge",
+                "workflowStep": "Elimination Entries"
+            },
+            {
+                "id": "MR",
+                "name": "Management Reporter",
+                "workflowStep": "Management Reporting"
+            },
+            {
+                "id": "XR",
+                "name": "XBRL Reporter",
+                "workflowStep": "XBRL Reporting"
+            },
+            {
+                "id": "BV",
+                "name": "Book Validator",
+                "workflowStep": "Multi-Book Accounting"
+            },
+            {
+                "id": "TD",
+                "name": "Tax Determiner",
+                "workflowStep": "Tax Accounting"
+            },
+            {
+                "id": "RR",
+                "name": "Regulatory Reporter",
+                "workflowStep": "Regulatory Reporting"
+            },
+            {
+                "id": "AD",
+                "name": "Audit Documenter",
+                "workflowStep": "Audit Documentation"
+            },
+            {
+                "id": "PB",
+                "name": "PBC List Manager",
+                "workflowStep": "Audit PBC List Management"
+            },
+            {
+                "id": "WP",
+                "name": "Working Paper Organizer",
+                "workflowStep": "Working Paper Management"
+            },
+            {
+                "id": "FC",
+                "name": "Flux Commentator",
+                "workflowStep": "Flux Analysis and Commentary"
+            },
+            {
+                "id": "RL",
+                "name": "Rollforward Ledger",
+                "workflowStep": "Account Rollforward Analysis"
+            },
+            {
+                "id": "BT",
+                "name": "Balance Tracker",
+                "workflowStep": "Balance Sheet Tracking"
+            },
+            {
+                "id": "PL",
+                "name": "P&L Processor",
+                "workflowStep": "P&L Statement Preparation"
+            },
+            {
+                "id": "CF",
+                "name": "Cash Flow Compiler",
+                "workflowStep": "Cash Flow Statement Preparation"
+            },
+            {
+                "id": "NP",
+                "name": "Note Preparer",
+                "workflowStep": "Financial Statement Notes"
+            },
+            {
+                "id": "MD",
+                "name": "Master Data Guardian",
+                "workflowStep": "Master Data Management"
+            }
+        ],
+        "costAccounting": [
+            {
+                "id": "CC",
+                "name": "Cost Calculator",
+                "workflowStep": "Product Costing - Calculation"
+            },
+            {
+                "id": "PA",
+                "name": "Profitability Analyzer",
+                "workflowStep": "Product & Service Costing - Analysis"
+            },
+            {
+                "id": "CO",
+                "name": "Cost Optimizer",
+                "workflowStep": "Product Costing - Optimization"
+            },
+            {
+                "id": "GA",
+                "name": "General Accountant",
+                "workflowStep": "General Accounting"
+            },
+            {
+                "id": "CM",
+                "name": "Cost Manager",
+                "workflowStep": "Cash Management and Banking"
+            },
+            {
+                "id": "IA",
+                "name": "Intercompany Analyst",
+                "workflowStep": "Intercompany Accounting"
+            },
+            {
+                "id": "AA",
+                "name": "Asset Analyst",
+                "workflowStep": "Asset Accounting"
+            },
+            {
+                "id": "LA",
+                "name": "Lease Analyst",
+                "workflowStep": "Lease Accounting"
+            },
+            {
+                "id": "PR",
+                "name": "Project Reporter",
+                "workflowStep": "Project Accounting"
+            },
+            {
+                "id": "SC",
+                "name": "Standard Cost Setter",
+                "workflowStep": "Standard Costing"
+            },
+            {
+                "id": "AB",
+                "name": "ABC Analyzer",
+                "workflowStep": "Activity-Based Costing"
+            },
+            {
+                "id": "CV",
+                "name": "Cost Variance Investigator",
+                "workflowStep": "Cost Variance Analysis"
+            },
+            {
+                "id": "OH",
+                "name": "Overhead Allocator",
+                "workflowStep": "Overhead Allocation"
+            },
+            {
+                "id": "MC",
+                "name": "Material Cost Tracker",
+                "workflowStep": "Material Cost Management"
+            },
+            {
+                "id": "LC",
+                "name": "Labor Cost Monitor",
+                "workflowStep": "Labor Cost Analysis"
+            },
+            {
+                "id": "PC",
+                "name": "Process Coster",
+                "workflowStep": "Process Costing"
+            },
+            {
+                "id": "JC",
+                "name": "Job Coster",
+                "workflowStep": "Job Order Costing"
+            },
+            {
+                "id": "TC",
+                "name": "Target Coster",
+                "workflowStep": "Target Costing"
+            },
+            {
+                "id": "BC",
+                "name": "Budget Controller",
+                "workflowStep": "Cost Budgeting"
+            },
+            {
+                "id": "IC",
+                "name": "Inventory Coster",
+                "workflowStep": "Inventory Valuation"
+            },
+            {
+                "id": "WC",
+                "name": "Waste Cost Tracker",
+                "workflowStep": "Waste and Scrap Management"
+            },
+            {
+                "id": "QC",
+                "name": "Quality Cost Analyzer",
+                "workflowStep": "Quality Cost Management"
+            },
+            {
+                "id": "EC",
+                "name": "Environmental Cost Tracker",
+                "workflowStep": "Environmental Cost Accounting"
+            },
+            {
+                "id": "CC",
+                "name": "Capacity Cost Manager",
+                "workflowStep": "Capacity Cost Analysis"
+            },
+            {
+                "id": "TC",
+                "name": "Transfer Price Setter",
+                "workflowStep": "Transfer Pricing"
+            },
+            {
+                "id": "RC",
+                "name": "Rework Cost Calculator",
+                "workflowStep": "Rework Cost Management"
+            },
+            {
+                "id": "DC",
+                "name": "Distribution Cost Analyzer",
+                "workflowStep": "Distribution Cost Analysis"
+            },
+            {
+                "id": "SC",
+                "name": "Service Cost Calculator",
+                "workflowStep": "Service Costing"
+            },
+            {
+                "id": "AC",
+                "name": "Allocation Auditor",
+                "workflowStep": "Cost Allocation Verification"
+            },
+            {
+                "id": "FC",
+                "name": "Fixed Cost Monitor",
+                "workflowStep": "Fixed Cost Management"
+            },
+            {
+                "id": "VC",
+                "name": "Variable Cost Tracker",
+                "workflowStep": "Variable Cost Analysis"
+            },
+            {
+                "id": "MC",
+                "name": "Mixed Cost Analyzer",
+                "workflowStep": "Mixed Cost Separation"
+            },
+            {
+                "id": "BP",
+                "name": "Break-even Processor",
+                "workflowStep": "Break-even Analysis"
+            },
+            {
+                "id": "CP",
+                "name": "Contribution Processor",
+                "workflowStep": "Contribution Margin Analysis"
+            },
+            {
+                "id": "RC",
+                "name": "Relevant Cost Identifier",
+                "workflowStep": "Relevant Cost Analysis"
+            },
+            {
+                "id": "OC",
+                "name": "Opportunity Cost Calculator",
+                "workflowStep": "Opportunity Cost Assessment"
+            },
+            {
+                "id": "SC",
+                "name": "Sunk Cost Identifier",
+                "workflowStep": "Sunk Cost Recognition"
+            },
+            {
+                "id": "DC",
+                "name": "Differential Cost Analyzer",
+                "workflowStep": "Differential Cost Analysis"
+            },
+            {
+                "id": "IC",
+                "name": "Incremental Cost Calculator",
+                "workflowStep": "Incremental Cost Analysis"
+            },
+            {
+                "id": "MC",
+                "name": "Marginal Cost Processor",
+                "workflowStep": "Marginal Cost Calculation"
+            },
+            {
+                "id": "LC",
+                "name": "Life Cycle Coster",
+                "workflowStep": "Life Cycle Costing"
+            },
+            {
+                "id": "KC",
+                "name": "Kaizen Cost Manager",
+                "workflowStep": "Kaizen Costing"
+            }
+        ],
+        "corporateFinance": [
+            {
+                "id": "CF",
+                "name": "Cash Flow Forecaster",
+                "workflowStep": "Treasury - Cash Flow Forecasting"
+            },
+            {
+                "id": "RA",
+                "name": "Risk Assessor",
+                "workflowStep": "Financial Risk Management"
+            },
+            {
+                "id": "VA",
+                "name": "Valuation Analyst",
+                "workflowStep": "Investment Management - Valuation"
+            },
+            {
+                "id": "TP",
+                "name": "Tax Planner",
+                "workflowStep": "Tax - Tax Planning"
+            },
+            {
+                "id": "TO",
+                "name": "Treasury Operator",
+                "workflowStep": "Treasury Operating Model & Governance"
+            },
+            {
+                "id": "BR",
+                "name": "Bank Relationship Manager",
+                "workflowStep": "Bank Relationship Management"
+            },
+            {
+                "id": "IE",
+                "name": "Integrated Enterprise Planner",
+                "workflowStep": "Integrated Enterprise Planning"
+            },
+            {
+                "id": "BM",
+                "name": "Budget Manager",
+                "workflowStep": "Budgeting"
+            },
+            {
+                "id": "DF",
+                "name": "Dynamic Forecaster",
+                "workflowStep": "Dynamic Forecasting"
+            },
+            {
+                "id": "DS",
+                "name": "Decision Supporter",
+                "workflowStep": "Decision Support & Modelling"
+            },
+            {
+                "id": "LC",
+                "name": "Liquidity Calculator",
+                "workflowStep": "Cash and Liquidity Management"
+            },
+            {
+                "id": "DM",
+                "name": "Debt Manager",
+                "workflowStep": "Debt Management"
+            },
+            {
+                "id": "IP",
+                "name": "Investment Portfolio Manager",
+                "workflowStep": "Investment Management"
+            },
+            {
+                "id": "SG",
+                "name": "Strategic Growth Planner",
+                "workflowStep": "Strategic or LR Planning"
+            },
+            {
+                "id": "FT",
+                "name": "Fund Transfer Pricer",
+                "workflowStep": "Manage Transfer Pricing"
+            },
+            {
+                "id": "MD",
+                "name": "M&A Deal Analyzer",
+                "workflowStep": "Marketing & Events - M&A Analysis"
+            },
+            {
+                "id": "TD",
+                "name": "Tax Digital Transformer",
+                "workflowStep": "Manage Digital Tax Compliance"
+            },
+            {
+                "id": "TI",
+                "name": "Tax Interaction Manager",
+                "workflowStep": "Manage Interactions with Authorities"
+            },
+            {
+                "id": "TG",
+                "name": "Tax Governance Manager",
+                "workflowStep": "Manage Tax Function Governance"
+            },
+            {
+                "id": "RP",
+                "name": "Reporting & Analytics Processor",
+                "workflowStep": "Reporting & Analysis"
+            },
+            {
+                "id": "TA",
+                "name": "Treasury Accountant",
+                "workflowStep": "Treasury Accounting"
+            },
+            {
+                "id": "SE",
+                "name": "System Effectiveness Analyzer",
+                "workflowStep": "Data / System Effectiveness & Governance"
+            },
+            {
+                "id": "FR",
+                "name": "Financial Risk Manager",
+                "workflowStep": "Financial Risk Management"
+            },
+            {
+                "id": "TK",
+                "name": "Treasury KPI Reporter",
+                "workflowStep": "Treasury KPI Reporting and Analytics"
+            },
+            {
+                "id": "CM",
+                "name": "Capital Manager",
+                "workflowStep": "Capital Structure Management"
+            },
+            {
+                "id": "WC",
+                "name": "Working Capital Optimizer",
+                "workflowStep": "Working Capital Management"
+            },
+            {
+                "id": "FH",
+                "name": "FX Hedger",
+                "workflowStep": "Foreign Exchange Management"
+            },
+            {
+                "id": "IH",
+                "name": "Interest Rate Hedger",
+                "workflowStep": "Interest Rate Management"
+            },
+            {
+                "id": "CH",
+                "name": "Commodity Hedger",
+                "workflowStep": "Commodity Risk Management"
+            },
+            {
+                "id": "CR",
+                "name": "Credit Risk Manager",
+                "workflowStep": "Credit Risk Management"
+            },
+            {
+                "id": "CP",
+                "name": "Cash Pooler",
+                "workflowStep": "Cash Pooling Management"
+            },
+            {
+                "id": "NM",
+                "name": "Netting Manager",
+                "workflowStep": "Netting and Settlement"
+            },
+            {
+                "id": "LC",
+                "name": "Letter of Credit Processor",
+                "workflowStep": "Trade Finance - LC Management"
+            },
+            {
+                "id": "BG",
+                "name": "Bank Guarantee Manager",
+                "workflowStep": "Bank Guarantee Management"
+            },
+            {
+                "id": "PE",
+                "name": "Pension Fund Manager",
+                "workflowStep": "Pension Fund Management"
+            },
+            {
+                "id": "IM",
+                "name": "Insurance Manager",
+                "workflowStep": "Insurance Management"
+            },
+            {
+                "id": "DR",
+                "name": "Dividend Recommender",
+                "workflowStep": "Dividend Policy Management"
+            },
+            {
+                "id": "SC",
+                "name": "Share Capital Manager",
+                "workflowStep": "Share Capital Management"
+            },
+            {
+                "id": "BC",
+                "name": "Bond Calculator",
+                "workflowStep": "Bond Issuance and Management"
+            },
+            {
+                "id": "LM",
+                "name": "Loan Manager",
+                "workflowStep": "Loan Management"
+            },
+            {
+                "id": "CC",
+                "name": "Covenant Compliance Monitor",
+                "workflowStep": "Covenant Compliance"
+            },
+            {
+                "id": "RR",
+                "name": "Rating Reporter",
+                "workflowStep": "Credit Rating Management"
+            }
+        ],
+        "fpAndA": [
+            {
+                "id": "DG",
+                "name": "Data Gatherer",
+                "workflowStep": "Financial Planning and Analysis - Data Collection"
+            },
+            {
+                "id": "PA",
+                "name": "Predictive Analyst",
+                "workflowStep": "Strategic or LR Planning - Predictive Analysis"
+            },
+            {
+                "id": "AM",
+                "name": "Assumption Manager",
+                "workflowStep": "Financial Planning and Analysis - Assumptions"
+            },
+            {
+                "id": "CA",
+                "name": "Consolidation Agent",
+                "workflowStep": "Management Reporting Platform - Consolidation"
+            },
+            {
+                "id": "VA",
+                "name": "Variance Analyzer",
+                "workflowStep": "Financial Planning and Analysis - Variance Analysis"
+            },
+            {
+                "id": "OA",
+                "name": "Optimization Agent",
+                "workflowStep": "Integrated Enterprise Planning - Optimization"
+            },
+            {
+                "id": "RS",
+                "name": "Review Support Agent",
+                "workflowStep": "Management Reporting Platform - Review"
+            },
+            {
+                "id": "SM",
+                "name": "Scenario Modeler",
+                "workflowStep": "Decision Support & Modelling"
+            },
+            {
+                "id": "AP",
+                "name": "Approval Manager",
+                "workflowStep": "Financial Planning and Analysis - Approvals"
+            },
+            {
+                "id": "BP",
+                "name": "Business Partner",
+                "workflowStep": "Business Partnership"
+            },
+            {
+                "id": "RF",
+                "name": "Rolling Forecaster",
+                "workflowStep": "Dynamic Forecasting"
+            },
+            {
+                "id": "DB",
+                "name": "Driver-Based Planner",
+                "workflowStep": "Driver-Based Planning"
+            },
+            {
+                "id": "PM",
+                "name": "Performance Monitor",
+                "workflowStep": "Performance Management"
+            },
+            {
+                "id": "KI",
+                "name": "KPI Tracker",
+                "workflowStep": "KPI Management"
+            },
+            {
+                "id": "DA",
+                "name": "Dashboard Automator",
+                "workflowStep": "Dashboard and Visualization"
+            },
+            {
+                "id": "SA",
+                "name": "Strategic Advisor",
+                "workflowStep": "Strategic Planning Support"
+            },
+            {
+                "id": "CA",
+                "name": "Cost Analyzer",
+                "workflowStep": "Cost Management"
+            },
+            {
+                "id": "PI",
+                "name": "Profitability Investigator",
+                "workflowStep": "Profitability Analysis"
+            },
+            {
+                "id": "WA",
+                "name": "What-If Analyzer",
+                "workflowStep": "What-If Analysis"
+            },
+            {
+                "id": "SG",
+                "name": "Sensitivity Gauge",
+                "workflowStep": "Sensitivity Analysis"
+            },
+            {
+                "id": "MC",
+                "name": "Monte Carlo Simulator",
+                "workflowStep": "Monte Carlo Simulation"
+            },
+            {
+                "id": "TB",
+                "name": "Target Builder",
+                "workflowStep": "Target Setting"
+            },
+            {
+                "id": "GP",
+                "name": "Gap Analyzer",
+                "workflowStep": "Gap Analysis"
+            },
+            {
+                "id": "BI",
+                "name": "Benchmarking Investigator",
+                "workflowStep": "Benchmarking Analysis"
+            },
+            {
+                "id": "TC",
+                "name": "Trend Catcher",
+                "workflowStep": "Trend Analysis"
+            },
+            {
+                "id": "MR",
+                "name": "Monthly Reporter",
+                "workflowStep": "Monthly Reporting"
+            },
+            {
+                "id": "QR",
+                "name": "Quarterly Reporter",
+                "workflowStep": "Quarterly Business Reviews"
+            },
+            {
+                "id": "AR",
+                "name": "Annual Reviewer",
+                "workflowStep": "Annual Planning"
+            },
+            {
+                "id": "CR",
+                "name": "Commentary Robot",
+                "workflowStep": "Commentary Generation"
+            },
+            {
+                "id": "IR",
+                "name": "Insight Reporter",
+                "workflowStep": "Insight Generation"
+            },
+            {
+                "id": "PC",
+                "name": "Plan Comparator",
+                "workflowStep": "Plan vs Actual Analysis"
+            },
+            {
+                "id": "RO",
+                "name": "Reforecast Optimizer",
+                "workflowStep": "Reforecasting"
+            },
+            {
+                "id": "ZB",
+                "name": "Zero-Based Budgeter",
+                "workflowStep": "Zero-Based Budgeting"
+            },
+            {
+                "id": "AB",
+                "name": "Activity-Based Budgeter",
+                "workflowStep": "Activity-Based Budgeting"
+            },
+            {
+                "id": "BB",
+                "name": "Beyond Budgeting Assistant",
+                "workflowStep": "Beyond Budgeting"
+            },
+            {
+                "id": "RM",
+                "name": "Resource Manager",
+                "workflowStep": "Resource Allocation"
+            },
+            {
+                "id": "CA",
+                "name": "Capacity Analyzer",
+                "workflowStep": "Capacity Planning"
+            },
+            {
+                "id": "HR",
+                "name": "Headcount Reporter",
+                "workflowStep": "Headcount Planning"
+            },
+            {
+                "id": "CE",
+                "name": "Capital Expenditure Planner",
+                "workflowStep": "CapEx Planning"
+            },
+            {
+                "id": "OE",
+                "name": "OpEx Controller",
+                "workflowStep": "OpEx Management"
+            },
+            {
+                "id": "PV",
+                "name": "Plan Versioner",
+                "workflowStep": "Version Control"
+            },
+            {
+                "id": "WM",
+                "name": "Workflow Manager",
+                "workflowStep": "Workflow Management"
+            },
+            {
+                "id": "CC",
+                "name": "Collaboration Coordinator",
+                "workflowStep": "Cross-functional Collaboration"
+            }
+        ],
+        "investorRelations": [
+            {
+                "id": "EC",
+                "name": "Earnings Compiler",
+                "workflowStep": "Quarterly Earnings - Compilation"
+            },
+            {
+                "id": "SG",
+                "name": "Script Generator",
+                "workflowStep": "Investor Relations - Script Generation"
+            },
+            {
+                "id": "SC",
+                "name": "Stock Surveillance Monitor",
+                "workflowStep": "Stock Surveillance"
+            },
+            {
+                "id": "IC",
+                "name": "Investment Community Manager",
+                "workflowStep": "Investment Community Relationship Mgmt"
+            },
+            {
+                "id": "ME",
+                "name": "Marketing Event Coordinator",
+                "workflowStep": "Marketing & Events"
+            },
+            {
+                "id": "CI",
+                "name": "Competitive Intelligence Gatherer",
+                "workflowStep": "Competitive Intelligence"
+            },
+            {
+                "id": "ER",
+                "name": "Earnings Reporter",
+                "workflowStep": "Earnings Release Preparation"
+            },
+            {
+                "id": "CC",
+                "name": "Conference Call Manager",
+                "workflowStep": "Earnings Call Management"
+            },
+            {
+                "id": "QP",
+                "name": "Q&A Preparer",
+                "workflowStep": "Q&A Preparation"
+            },
+            {
+                "id": "PM",
+                "name": "Presentation Manager",
+                "workflowStep": "Investor Presentation Creation"
+            },
+            {
+                "id": "WM",
+                "name": "Website Manager",
+                "workflowStep": "IR Website Management"
+            },
+            {
+                "id": "SA",
+                "name": "Shareholder Analyzer",
+                "workflowStep": "Shareholder Analysis"
+            },
+            {
+                "id": "PR",
+                "name": "Press Release Writer",
+                "workflowStep": "Press Release Creation"
+            },
+            {
+                "id": "AC",
+                "name": "Analyst Coverage Tracker",
+                "workflowStep": "Analyst Coverage Management"
+            },
+            {
+                "id": "CM",
+                "name": "Consensus Manager",
+                "workflowStep": "Consensus Estimates Management"
+            },
+            {
+                "id": "GC",
+                "name": "Guidance Calculator",
+                "workflowStep": "Guidance Development"
+            },
+            {
+                "id": "RC",
+                "name": "Roadshow Coordinator",
+                "workflowStep": "Investor Roadshow Management"
+            },
+            {
+                "id": "AM",
+                "name": "Annual Meeting Manager",
+                "workflowStep": "Annual Meeting Coordination"
+            },
+            {
+                "id": "PS",
+                "name": "Proxy Statement Preparer",
+                "workflowStep": "Proxy Statement Preparation"
+            },
+            {
+                "id": "RD",
+                "name": "Regulatory Disclosure Manager",
+                "workflowStep": "Regulatory Disclosure"
+            },
+            {
+                "id": "FD",
+                "name": "Fair Disclosure Monitor",
+                "workflowStep": "Reg FD Compliance"
+            },
+            {
+                "id": "IT",
+                "name": "Insider Trading Monitor",
+                "workflowStep": "Insider Trading Compliance"
+            },
+            {
+                "id": "SR",
+                "name": "Sustainability Reporter",
+                "workflowStep": "ESG Reporting"
+            },
+            {
+                "id": "BR",
+                "name": "Board Reporter",
+                "workflowStep": "Board Reporting"
+            },
+            {
+                "id": "PC",
+                "name": "Peer Comparator",
+                "workflowStep": "Peer Comparison Analysis"
+            },
+            {
+                "id": "MS",
+                "name": "Market Sentiment Analyzer",
+                "workflowStep": "Market Sentiment Analysis"
+            },
+            {
+                "id": "SV",
+                "name": "Share Value Tracker",
+                "workflowStep": "Share Price Monitoring"
+            },
+            {
+                "id": "TD",
+                "name": "Trading Data Analyzer",
+                "workflowStep": "Trading Volume Analysis"
+            },
+            {
+                "id": "IF",
+                "name": "Investor Feedback Collector",
+                "workflowStep": "Investor Feedback Management"
+            },
+            {
+                "id": "CG",
+                "name": "Corporate Governance Reporter",
+                "workflowStep": "Corporate Governance Reporting"
+            },
+            {
+                "id": "MA",
+                "name": "M&A Communicator",
+                "workflowStep": "M&A Communications"
+            },
+            {
+                "id": "CR",
+                "name": "Crisis Communicator",
+                "workflowStep": "Crisis Communications"
+            },
+            {
+                "id": "SM",
+                "name": "Social Media Manager",
+                "workflowStep": "Social Media Management"
+            },
+            {
+                "id": "NM",
+                "name": "News Monitor",
+                "workflowStep": "News and Media Monitoring"
+            },
+            {
+                "id": "IR",
+                "name": "Investor Registry Manager",
+                "workflowStep": "Shareholder Registry Management"
+            },
+            {
+                "id": "DC",
+                "name": "Dividend Communicator",
+                "workflowStep": "Dividend Communications"
+            },
+            {
+                "id": "RA",
+                "name": "Rating Agency Liaison",
+                "workflowStep": "Rating Agency Relations"
+            },
+            {
+                "id": "FC",
+                "name": "Financial Calendar Manager",
+                "workflowStep": "Financial Calendar Management"
+            },
+            {
+                "id": "BM",
+                "name": "Benchmark Manager",
+                "workflowStep": "Performance Benchmarking"
+            },
+            {
+                "id": "VI",
+                "name": "Virtual Investor Day Manager",
+                "workflowStep": "Virtual Event Management"
+            },
+            {
+                "id": "AT",
+                "name": "Acquisition Tracker",
+                "workflowStep": "Acquisition Integration Communications"
+            },
+            {
+                "id": "CS",
+                "name": "Competitive Strategy Analyst",
+                "workflowStep": "Competitive Strategy Analysis"
+            }
+        ]
+    }
+}

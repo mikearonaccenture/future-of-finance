@@ -1,0 +1,5455 @@
+{
+  "agent_mappings": {
+    "CTL-DAR": "Dynamic Agreement Reviewer",
+    "CTL-ACA": "Automated Cost Aggregator",
+    "CTL-ATE": "AI Term Extractor",
+    "CTL-SMT": "Smart Mapping Tool",
+    "CTL-ASG": "Automated Statement Generator",
+    "CTL-SIC": "Smart Invoice Creator",
+    "CTL-ADR": "AI Dispute Resolver",
+    "CTL-PTR": "Payment Tracker",
+    "CTL-AJR": "Automated JV Reporter",
+    "CTL-ACE": "AI Consolidation Engine",
+    "CTL-RTC2": "RegTech Compliance",
+    "CTL-DAT": "Digital Audit Trail",
+    "CTL-DSI": "Digital Statement Intake",
+    "CTL-APM": "Automated PO Matcher",
+    "CTL-ADD": "AI Disclosure Drafter",
+    "CTL-SDR": "Smart Dispute Router",
+    "CTL-ACL": "Automated Confirmation Letters",
+    "CTL-DVP": "Digital Vendor Portal",
+    "CTL-ART": "AI Response Tracker",
+    "CTL-PEH": "Predictive Exception Handler",
+    "CTL-AJG": "Auto-Journal Generator",
+    "CTL-RDD": "Real-time Dashboard",
+    "CTL-ATA": "AI Tax Analyzer",
+    "CTL-CIA": "Continuous Improvement AI",
+    "CTL-ACA3": "AI Contract Analyzer",
+    "CTL-ACL2": "Automated Classifier",
+    "CTL-STE": "Smart Term Extractor",
+    "CTL-MBT": "ML-Based Tester",
+    "CTL-APC": "Automated PV Calculator",
+    "CTL-ARO": "AI Rate Optimizer",
+    "CTL-RTM": "Real-Time Measurement",
+    "CTL-AJG2": "Auto-Journal Generator",
+    "CTL-APT": "Automated Payment Tracker",
+    "CTL-AMD": "AI Modification Detector",
+    "CTL-SRM": "Smart Remeasurement",
+    "CTL-PIA": "Predictive Impairment Analyzer",
+    "CTL-ADG": "Automated Disclosure Generator",
+    "CTL-DRF": "Dynamic Roll-Forward",
+    "CTL-AMA": "AI Maturity Analyzer",
+    "CTL-RTC3": "RegTech Compliance",
+    "CTL-SAT": "Smart Adjustment Tracker",
+    "CTL-RTC": "Real-Time Consolidator",
+    "CTL-AFT": "AI FX Translator",
+    "CTL-ALM": "AI Line Mapper",
+    "CTL-SVA": "Smart Variance Analyzer",
+    "CTL-ANG": "Automated Narrative Generator",
+    "CTL-ASC": "Automated Schedule Creator",
+    "CTL-PCD": "Policy Change Detector",
+    "CTL-DDL": "Digital Disclosure Library",
+    "CTL-PRW": "Parallel Review Workflow",
+    "CTL-SAR": "Smart Approval Router",
+    "CTL-AFP": "Auto-Filing Prep",
+    "CTL-SDP": "Secure Distribution Platform",
+    "CTL-CO": "Cash Optimizer",
+    "CTL-TG": "Task Generator",
+    "CTL-RA": "Risk Assessor",
+    "CTL-DM": "Dependency Manager",
+    "CTL-CP": "Cutoff Processor",
+    "CTL-SI": "Smart Investigator",
+    "CTL-RE": "Real-time Executor",
+    "CTL-ER": "Expense Router",
+    "CTL-JA": "JV Accountant",
+    "CTL-AE": "Auto Eliminator",
+    "CTL-DD": "Deficiency Detector",
+    "CTL-AA": "Auto Approver",
+    "CTL-MM": "Milestone Monitor",
+    "CTL-VA": "Version Automator",
+    "CTL-AT": "Assisted Tester",
+    "CTL-SG": "Statement Generator",
+    "CTL-EE": "Elimination Engine",
+    "CTL-FG": "Footnote Generator",
+    "CTL-RP": "Reporting Portal",
+    "CTL-FD": "Flux Detector",
+    "CTL-CG": "Commentary Generator",
+    "CTL-ID": "Integrated Distributor",
+    "CTL-CW": "Certification Workflow",
+    "CTL-CC": "Certification Cascade",
+    "CTL-BA": "Blockchain Auditor",
+    "CTL-SA": "Smart Accruals",
+    "CTL-TC": "Time Capturer",
+    "CTL-SV": "Smart Validator",
+    "CTL-AS": "Auto Submitter",
+    "CTL-HO": "Hierarchy Optimizer",
+    "CTL-ME": "Matching Engine",
+    "CTL-AR": "Auto Responder",
+    "CTL-SD": "Smart Documentation",
+    "CTL-DA": "Digital Approver",
+    "CTL-AO": "Allocation Optimizer",
+    "CTL-DU": "Driver Updater",
+    "CTL-PI": "Predictive Issues",
+    "CTL-DR": "Dispute Resolver",
+    "CTL-MD": "Master Data Manager",
+    "CTL-SM": "Structure Mapper",
+    "CTL-SC": "Smart Communicator",
+    "CTL-CA": "Contract Analyzer",
+    "CTL-ATC": "Automated Transaction Capture",
+    "CTL-ARM": "AI Receipt Matcher",
+    "CTL-SPC": "Smart Payment Categorizer",
+    "CTL-AJC": "Auto Journal Creator",
+    "CTL-APR": "AI-Powered Reconciler",
+    "CTL-RTB": "Real-Time Balancer",
+    "CTL-SIT": "Smart Item Tracker",
+    "CTL-IA": "Issue Aggregator",
+    "CTL-RPD": "Real-time Position Dashboard",
+    "CTL-AVA": "AI Variance Analyzer",
+    "CTL-AFS": "Auto-Filing System",
+    "CTL-CCM": "Continuous Control Monitor",
+    "CTL-AST": "Automated SOX Tester",
+    "CTL-PRA": "Predictive Risk Analytics",
+    "CTL-DAT2": "Digital Asset Tagger",
+    "CTL-ASS": "AI System Setup",
+    "CTL-ADC": "Auto Depreciation Configurator",
+    "CTL-IAT": "IoT Asset Tracker",
+    "CTL-RTL": "Real-Time Locator",
+    "CTL-ACM": "AI Condition Monitor",
+    "CTL-AVM": "AI Valuation Model",
+    "CTL-AIT": "Automated Impairment Tester",
+    "CTL-RMD": "Real-time Market Data",
+    "CTL-AA2": "Auto Adjuster",
+    "CTL-SDW": "Smart Disposal Workflow",
+    "CTL-AGL": "Auto Gain/Loss Calculator",
+    "CTL-RM": "Rate Manager",
+    "CTL-TM": "Task Manager",
+    "CTL-RD": "Real-time Dashboard",
+    "CTL-DI": "Dynamic Insights",
+    "CTL-FC": "Format Converter",
+    "CTL-RG": "Report Generator",
+    "CTL-AC": "Auto Compiler",
+    "CTL-NN": "Natural Narrator",
+    "CTL-SF": "Smart Formatter",
+    "CTL-CE": "Consistency Engine",
+    "CTL-PA": "Predictive Analytics",
+    "CTL-RW": "Review Workflow",
+    "CTL-RC": "Real-time Confirmer",
+    "CTL-AF": "Auto Formatter",
+    "CTL-PD": "POB Detector",
+    "CTL-SE": "SSP Engine",
+    "CTL-MO": "Method Optimizer",
+    "CTL-DC": "Digital Configurator",
+    "CTL-JG": "Journal Generator",
+    "CTL-LA": "Lease Analyzer",
+    "CTL-LC": "Lease Classifier",
+    "CTL-DS": "Digital Statements",
+    "CTL-IT": "Implementation Tracker",
+    "CTL-AV": "Auto Valuator",
+    "CTL-EA": "Exception Analyzer",
+    "CTL-IM": "Indicator Monitor",
+    "CTL-RF": "Roll-Forward generator",
+    "CTL-DG": "Disclosure Generator",
+    "CTL-RS": "Risk Scorer",
+    "CTL-FO": "Fee Optimizer",
+    "CTL-DT": "Digital Trainer",
+    "CTL-TS": "Template Selector",
+    "CTL-PE": "Predictive EAC",
+    "CTL-AI": "AI Insights",
+    "CTL-JC": "Journal Creator",
+    "CTL-AP": "Audit Planner",
+    "CTL-RR": "Real-time Reconciler",
+    "CTL-AB": "Auto Benchmarker",
+    "CTL-AD": "Auto Disclosures",
+    "CTL-SS": "Severity Scorer",
+    "CTL-PG": "PBC Generator",
+    "CTL-AG": "Auto Gatherer",
+    "CTL-RT": "Real-time Tracker",
+    "CTL-DW": "Digital Walkthrough",
+    "CTL-ST": "Submission Tracker",
+    "CTL-PM": "Payment Matcher",
+    "CTL-CI": "Continuous Improver",
+    "CTL-II": "IC Invoicer",
+    "CTL-EG": "Entry Generator",
+    "CTL-MP": "Multi-Poster",
+    "CTL-CM": "Continuous Monitor",
+    "CTL-TE": "Tax Engine",
+    "CTL-NO": "Netting Optimizer",
+    "CTL-PR": "Payment Router",
+    "CTL-DE": "Documentation Engine",
+    "CTL-CS": "Contract Setup",
+    "CTL-MH": "Modification Handler",
+    "CTL-BT": "Balance Tracker",
+    "CTL-PF": "Process Flows",
+    "CTL-ML": "Machine Learning",
+    "CTL-RU": "Real-time Updater",
+    "CTL-PO": "Payment Optimizer",
+    "CTL-AM": "Automated Metrics",
+    "CTL-AU": "Auto Updater",
+    "CTL-GA": "GAAP Analyzer",
+    "CTL-FM": "Format Mapper",
+    "CTL-NT": "Neural Translator",
+    "CTL-CR": "Cross Referencer",
+    "CTL-TI": "Tax Integrator",
+    "CTL-GC": "Governance Checker",
+    "CTL-QR": "Query Responder",
+    "CTL-SP": "Smart Publisher",
+    "CTL-AQ": "Auto Querier",
+    "CTL-CT": "Capital Tracker",
+    "CTL-HP": "High-Performance engine",
+    "CTL-NC": "Natural Commentary",
+    "CTL-KM": "KPI Manager",
+    "CTL-TD": "Trend Detector",
+    "CTL-EC": "Equity Calculator",
+    "CTL-BE": "Billing Engine",
+    "CTL-IC": "Interest Calculator",
+    "CTL-TA": "Tax Allocator",
+    "CTL-KG": "K-1 Generator",
+    "CTL-SW": "Smart Withholder",
+    "CTL-WE": "Waterfall Engine",
+    "CTL-PS": "Project Structurer",
+    "CTL-BM": "Budget Modeler",
+    "CTL-MT": "Material Tracker",
+    "CTL-PC": "POC Calculator",
+    "CTL-VD": "Variance Detector",
+    "CTL-TP": "Test Planner",
+    "CTL-EV": "Evidence Vault",
+    "CTL-SR": "Smart Remediator",
+    "CTL-WA": "Walkthrough Assistant",
+    "CF-LT": "Limit Tracker",
+    "CF-OS": "Opportunity Scanner",
+    "CF-PM": "Policy Monitor",
+    "CF-RA": "Real-time Aggregator",
+    "CF-SG": "Smart Generator",
+    "CF-TM": "Tax Modeler",
+    "CF-DS": "Digital Submission",
+    "CF-RO": "Real-time Optimizer",
+    "CF-SO": "Structure Optimizer",
+    "CF-AP": "Auto Payments",
+    "CF-DC": "Digital Communication",
+    "CF-SD": "Smart Designation",
+    "CF-AS": "Auto Schedules",
+    "CF-EM": "Exposure Monitor",
+    "CF-AG": "Agreement Generator",
+    "CF-SU": "Smart Updater",
+    "CF-CM": "Change Manager",
+    "CF-FA": "Fee Analytics",
+    "CF-DD": "Dynamic Dashboard",
+    "CF-PC": "Predictive Compliance",
+    "CF-TA": "Trend Analyzer",
+    "CF-ST": "Stress Tester",
+    "CF-AB": "Auto Benchmarker",
+    "CF-DA": "Data Access",
+    "CF-SC": "Smart Contingencies",
+    "CF-RR": "Real-time Refresh",
+    "CF-SE": "Sensitivity Engine",
+    "CF-AT": "Auto Tester",
+    "CF-PV": "Predictive Valuator",
+    "CF-RF": "Roll-Forward generator",
+    "CF-AA": "Automated Analysis",
+    "CF-FG": "File Generator",
+    "CF-SS": "Smart Settlements",
+    "CF-IF": "Income Forecaster",
+    "CF-SH": "Safe Harbor calculator",
+    "CF-PO": "Process Optimizer",
+    "CF-DV": "Digital Vouchers",
+    "CF-AM": "Auto Modeler",
+    "CF-DR": "Documentation Reviewer",
+    "CF-SR": "Smart Review",
+    "CF-FW": "Filing Workflow",
+    "CF-DM": "Deadline Manager",
+    "CF-PP": "Predictive Planning",
+    "CF-TD": "Test Designer",
+    "CF-RU": "Rate Updater",
+    "CF-AE": "Auto Exemptions",
+    "CF-NT": "Nexus Tracker",
+    "CF-CE": "Calculation Engine",
+    "CF-RT": "Real-time Tracker",
+    "CF-FS": "Form Selector",
+    "CF-RV": "Real-time VaR",
+    "CF-FP": "Filing Platform",
+    "CF-BI": "Banking Integration",
+    "CF-RC": "Real-time Compliance",
+    "CF-SA": "Smart Analysis",
+    "CF-AD": "Auto Distributor",
+    "CF-SN": "Smart Negotiator",
+    "CF-RD": "Risk Discoverer",
+    "CF-AR": "Auto RFP",
+    "CF-CO": "Collateral Optimizer",
+    "CF-MS": "Method Selector",
+    "CF-DT": "Digital Training",
+    "CF-RM": "Report Mapper",
+    "CF-VD": "Variance Detector",
+    "CF-EA": "Efficiency Analyzer",
+    "CF-DF": "Data Feeds",
+    "CF-NA": "Needs Analyzer",
+    "CF-AI": "Auto Improvements",
+    "CF-CT": "Control Tester",
+    "CF-IG": "Invoice Generator",
+    "CF-AV": "Auto Validator",
+    "CF-AF": "Auto Filing",
+    "CF-ER": "Error Resolver",
+    "CF-RP": "Request Processor",
+    "CF-AQ": "Auto Query handler",
+    "CF-PD": "Pattern Detector",
+    "CF-IA": "Issue Analyzer",
+    "CF-NP": "Notice Portal",
+    "CF-DP": "Dynamic Presentations",
+    "CF-EP": "Exam Preparer",
+    "CF-BG": "Brief Generator",
+    "CF-CI": "CRM Integrator",
+    "CF-CA": "Counterparty Analyzer",
+    "CF-AC": "Auto Collector",
+    "CF-IS": "Instrument Selector",
+    "CF-PG": "Policy Generator",
+    "CF-SI": "Smart Implementation",
+    "CF-VM": "Valuation Models",
+    "CF-PT": "Predictive Trends",
+    "CF-KT": "KPI Tracker",
+    "CF-PA": "Predictive Analysis",
+    "CF-DG": "Dashboard Generator",
+    "CF-DL": "Dynamic Limits",
+    "CF-CD": "Control Designer",
+    "CF-DK": "Dynamic KPIs",
+    "CF-DO": "Digital Onboarding",
+    "CF-ID": "Interactive Distribution",
+    "CF-RB": "Real-time Benchmarking",
+    "CF-NO": "Negotiation Optimizer",
+    "CF-AU": "Auto Updates",
+    "CF-IR": "Instant Retrieval",
+    "CF-IT": "Innovation Tracker",
+    "CF-BF": "Balance Feeder",
+    "CF-DI": "Data Integrator",
+    "CF-ML": "Maturity Ladder",
+    "CF-VA": "Variance Analyzer",
+    "CF-LO": "Liquidity Optimizer",
+    "CF-BM": "Buffer Manager",
+    "CF-PI": "Predictive Impacts",
+    "CF-MO": "Metric Optimizer",
+    "CF-DB": "Dynamic Benchmarking",
+    "CF-MI": "Market Intelligence",
+    "CF-CS": "Credit Scorer",
+    "CF-OE": "Optimization Engine",
+    "CF-OG": "Order Generator",
+    "CF-SP": "Smart Pricing",
+    "CF-RS": "Real-time Settlement",
+    "CF-CL": "Concentration Limiter",
+    "CF-VE": "Valuation Engine",
+    "CF-UR": "Unified Reporting",
+    "CF-PH": "Predictive Headroom",
+    "CF-SW": "Smart Waivers",
+    "CF-FO": "Fee Optimizer",
+    "CF-OD": "Opportunity Detector",
+    "CF-TO": "Timing Optimizer",
+    "CF-SV": "Smart Verification",
+    "CF-PR": "Predictive Remediation",
+    "CF-EG": "Entry Generator",
+    "CF-HC": "Hierarchy Classifier",
+    "CF-NG": "Natural Generation",
+    "CF-IM": "Issue Manager",
+    "CF-ET": "Exposure Tracker",
+    "CF-HO": "Hedge Optimizer",
+    "CF-DE": "Digital Execution",
+    "CF-PL": "Predictive Limits",
+    "CF-BP": "Breach Prevention",
+    "CF-RE": "Real-time Exposure",
+    "CF-RG": "Report Generator",
+    "CF-TS": "Target Setter",
+    "CF-NI": "Natural Insights",
+    "CF-CF": "Continuous Feedback",
+    "CA-MDA": "Multi-System Data Aggregator",
+    "CA-RCF": "Real-time Cost Feeder",
+    "CA-BV": "BOM Validator",
+    "CA-DCP": "Dynamic Cost Pooler",
+    "CA-ACM": "AI Cost Modeler",
+    "CA-ARC": "Automated Rollup Calculator",
+    "CA-DRO": "Dynamic Rate Optimizer",
+    "CA-RCV": "Real-time Cost Visualizer",
+    "CA-RVD": "Real-time Variance Detector",
+    "CA-RCA": "Root Cause Analyzer",
+    "CA-PVA": "Predictive Variance Alerter",
+    "CA-AR": "Auto Reporter",
+    "CA-AMO": "AI Margin Optimizer",
+    "CA-DPM": "Dynamic Profitability Modeler",
+    "CA-RMA": "Real-time Mix Analyzer",
+    "CA-PP": "Predictive Pricer",
+    "CA-AAE": "AI Allocation Engine",
+    "CA-AD": "Auto Distributor",
+    "CA-SR": "Smart Reconciler",
+    "CA-BAT": "Blockchain Audit Trail",
+    "CA-RTD": "Real-time Dashboard",
+    "CA-AIS": "AI-powered Insights",
+    "CA-PAN": "Predictive Analytics",
+    "CA-ADS": "Auto Distribution System",
+    "CA-ASC": "AI Service Classifier",
+    "CA-AAD": "Automated Activity Detector",
+    "CA-SRM": "Smart Resource Mapper",
+    "CA-RTT": "Real-time Time Tracker",
+    "CA-ACA": "AI Cost Assigner",
+    "CA-ATC": "Automated Time Capturer",
+    "CA-DAE": "Dynamic Allocation Engine",
+    "CA-RCT": "Real-time Cost Tracker",
+    "CA-ARM": "Automated Revenue Matcher",
+    "CA-ARE": "AI Recognition Engine",
+    "CA-RUT": "Real-time Unbilled Tracker",
+    "CA-SAJ": "Smart Adjustment System",
+    "CA-RPE": "Real-time Profitability Engine",
+    "CA-AMO2": "AI Margin Optimizer",
+    "CA-DPG": "Dynamic P&L Generator",
+    "CA-PAN2": "Predictive Analytics",
+    "CA-AOD": "AI Opportunity Detector",
+    "CA-ACO": "Automated Cost Optimizer",
+    "CA-DPE": "Dynamic Pricing Engine",
+    "CA-RMO": "Real-time Mix Optimizer",
+    "CA-ADD": "AI-powered Dynamic Dashboard",
+    "CA-AIG": "Automated Insights Generator",
+    "CA-RTB": "Real-time Benchmarker",
+    "CA-APR": "AI Predictive Reporter",
+    "FPA-DG": "Data Gatherer",
+    "FPA-DA": "Driver Analyzer",
+    "FPA-CA": "Causal Analyzer",
+    "FPA-DQ": "Data Quality",
+    "FPA-FX": "FX Manager",
+    "FPA-HM": "Hierarchy Manager",
+    "FPA-IE": "Intercompany Eliminator",
+    "FPA-VA": "Variance Analyzer",
+    "FPA-TD": "Trend Detector",
+    "FPA-IR": "Insight Reporter",
+    "FPA-CR": "Commentary Robot",
+    "FPA-NS": "Narrative Synthesizer",
+    "FPA-RA": "Risk Analyzer",
+    "FPA-MR": "Management Reporter",
+    "FPA-KT": "KPI Tracker",
+    "FPA-VD": "Visualization Designer",
+    "FPA-AL": "Alert Manager",
+    "FPA-RG": "Report Generator",
+    "FPA-PD": "Presentation Designer",
+    "FPA-DM": "Distribution Manager",
+    "FPA-FM": "Follow-up Manager",
+    "FPA-BP": "Business Partner",
+    "FPA-SM": "Scenario Modeler",
+    "FPA-PA": "Predictive Analyzer",
+    "FPA-AT": "Action Tracker",
+    "FPA-AME": "Automated Multi-source Extractor",
+    "FPA-DQV": "Data Quality Validator",
+    "FPA-RTC": "Real-Time Consolidator",
+    "FPA-SME": "Smart Mapping Engine",
+    "FPA-ARG": "Automated Report Generator",
+    "FPA-AVS": "AI Visualization Selector",
+    "FPA-NLG": "Natural Language Generator",
+    "FPA-VCA": "Version Control Automation",
+    "FPA-AVD": "AI Variance Detector",
+    "FPA-RCA": "Root Cause Analyzer",
+    "FPA-MTP": "ML Trend Predictor",
+    "FPA-SDI": "Smart Driver Identifier",
+    "FPA-RKM": "Real-time KPI Monitor",
+    "FPA-DSC": "Dynamic Scorecard",
+    "FPA-AIB": "AI Benchmarking",
+    "FPA-SAT": "Smart Action Tracker",
+    "FPA-ADT": "Automated Distribution Tool",
+    "FPA-SMS": "Smart Meeting Scheduler",
+    "FPA-AAA": "AI Action Assigner",
+    "FPA-FAU": "Feedback Automation",
+    "IR-APC": "AI-Powered CRM",
+    "IR-ROT": "Real-time Ownership Tracker",
+    "IR-SIP": "Smart Investor Profiler",
+    "IR-PLE": "Preference Learning Engine",
+    "IR-AMO": "AI Message Optimizer",
+    "IR-SCS": "Smart Channel Selector",
+    "IR-OTE": "Optimal Timing Engine",
+    "IR-RST": "Real-time Sentiment Tracker",
+    "IR-SSC": "Smart Scheduling Coordinator",
+    "IR-APB": "AI Presentation Builder",
+    "IR-PQE": "Predictive Q&A Engine",
+    "IR-RAE": "Relationship Analytics Engine",
+    "IR-APA": "AI Peer Analytics",
+    "IR-RIM": "Real-time Industry Monitor",
+    "IR-SAG": "Sentiment Aggregation",
+    "IR-PAI": "Perception AI",
+    "IR-RPF": "Real-time Price Feed",
+    "IR-AVA": "AI Volume Analytics",
+    "IR-PVM": "Predictive Volatility Model",
+    "IR-IAE": "Intelligent Alert Engine",
+    "IR-MTA": "ML Trade Analyzer",
+    "IR-AIT": "AI Institutional Tracker",
+    "IR-RSM": "Real-time Short Monitor",
+    "IR-PPE": "Pattern Prediction Engine",
+    "IR-AMP": "Automated MM Portal",
+    "IR-RLT": "Real-time Liquidity Tracker",
+    "IR-ASO": "AI Spread Optimizer",
+    "IR-SEP": "Smart Escalation Platform",
+    "IR-AGR": "Auto-Generated Reports",
+    "IR-SAF": "Smart Alert Filter",
+    "IR-AIR": "AI Recommender",
+    "IR-AFF": "Automated Filing Framework",
+    "O2C-BM": "Balance Monitor",
+    "O2C-AP": "Aging Predictor",
+    "O2C-EA": "Exposure Analyzer",
+    "O2C-RS": "Risk Scorer",
+    "O2C-CP": "Collection Prioritizer",
+    "O2C-DM": "Default Modeler",
+    "O2C-KA": "KPI Analyzer",
+    "O2C-TA": "Trend Analyzer",
+    "O2C-CF": "Cash Flow Modeler",
+    "O2C-SO": "Strategy Optimizer",
+    "O2C-CL": "Credit Limit Recommender",
+    "O2C-PT": "Payment Term Modeler",
+    "O2C-RG": "Report Generator",
+    "O2C-PM": "Provision Modeler",
+    "O2C-AT": "Audit Tracker",
+    "O2C-CAI": "Credit Application Intake",
+    "O2C-FAA": "Financial Analysis AI",
+    "O2C-RV": "Reference Validator",
+    "O2C-CLR": "Credit Limit Recommender",
+    "O2C-DRM": "Dynamic Risk Modeler",
+    "O2C-AA": "Automated Approver",
+    "O2C-SN": "Smart Notifier",
+    "O2C-BA": "Behavior Analytics",
+    "O2C-HM": "Health Monitor",
+    "O2C-NA": "News Aggregator",
+    "O2C-PA": "Predictive Analytics",
+    "O2C-PRD": "Predictive Risk Detector",
+    "O2C-MS": "Mitigation Strategist",
+    "O2C-IO": "Insurance Optimizer",
+    "O2C-EM": "Exposure Manager",
+    "O2C-DA01": "Data Aggregator",
+    "O2C-CV02": "Completion Verifier",
+    "O2C-PE03": "Pricing Engine",
+    "O2C-TE04": "Timing Engine",
+    "O2C-TS01": "Template Selector",
+    "O2C-LG02": "Line Generator",
+    "O2C-DE03": "Discount Engine",
+    "O2C-RC04": "Real-time Calculator",
+    "O2C-AV01": "Accuracy Validator",
+    "O2C-CC02": "Compliance Checker",
+    "O2C-AW03": "Approval Workflow",
+    "O2C-EA04": "Exception Automator",
+    "O2C-OD01": "Omnichannel Distributor",
+    "O2C-FC02": "Feedback Collector",
+    "O2C-DR03": "Document Retriever",
+    "O2C-RT04": "Real-time Tracker",
+    "O2C-PP01": "Portal Provisioner",
+    "O2C-IP02": "Invoice Poster",
+    "O2C-DM03": "Document Manager",
+    "O2C-SE04": "Self-service Enabler",
+    "O2C-IR01": "Inquiry Resolver",
+    "O2C-AI02": "Automated Investigator",
+    "O2C-AE03": "Adjustment Engine",
+    "O2C-SA04": "Self-service Adjustments",
+    "O2C-AP01": "Automated Poster",
+    "O2C-DS02": "Dynamic Segmenter",
+    "O2C-RS03": "Risk Scorer",
+    "O2C-WD04": "Work Distributor",
+    "O2C-OO01": "Omnichannel Orchestrator",
+    "O2C-CA02": "Conversation Assistant",
+    "O2C-PM03": "Predictive Matcher",
+    "O2C-PT01": "Promise Tracker",
+    "O2C-FO02": "Follow-up Optimizer",
+    "O2C-PS03": "Promise Scorer",
+    "O2C-PI04": "Proactive Intervener",
+    "O2C-CA01": "Content Analyzer",
+    "O2C-PG02": "Plan Generator",
+    "O2C-AR03": "Approval Router",
+    "O2C-AP04": "Agreement Processor",
+    "O2C-DC01": "Deduction Capturer",
+    "O2C-PR04": "Predictive Resolver",
+    "O2C-ER01": "Exception Resolver",
+    "O2C-LD02": "Legal Documenter",
+    "O2C-AM03": "Agency Matcher",
+    "O2C-RO04": "ROI Optimizer",
+    "O2C-PM01": "Payment Matcher",
+    "O2C-AA02": "Automated Allocator",
+    "O2C-ML03": "Machine Learning",
+    "O2C-AC02": "Automated Communicator",
+    "O2C-RP04": "Real-time Processor",
+    "O2C-AR01": "AI Researcher",
+    "O2C-AV02": "Automated Verifier",
+    "O2C-PR03": "Pattern Recognizer",
+    "O2C-PA04": "Predictive Analytics",
+    "O2C-VS03": "Validity Scorer",
+    "O2C-DA04": "Decision Automator",
+    "O2C-RR01": "Resolution Recommender",
+    "O2C-SE03": "Settlement Engine",
+    "O2C-DP04": "Digital Processor",
+    "O2C-RO01": "Recovery Optimizer",
+    "O2C-AF02": "Automated Follow-up",
+    "O2C-PC03": "Predictive Collector",
+    "O2C-WR04": "Write-off Recommender",
+    "O2C-RD01": "Real-time Dashboard",
+    "O2C-TA02": "Trend Analyzer",
+    "O2C-PP03": "Predictive Preventer",
+    "O2C-SU04": "Stakeholder Updater",
+    "O2C-BI01": "Bank Integrator",
+    "O2C-PC02": "Policy Checker",
+    "O2C-RP03": "Real-time Processor",
+    "O2C-FS04": "Format Standardizer",
+    "O2C-CM01": "Customer Matcher",
+    "O2C-FL02": "Fuzzy Logic",
+    "O2C-AE04": "Automated Enricher",
+    "O2C-IM01": "Invoice Matcher",
+    "O2C-AE02": "Allocation Engine",
+    "O2C-DH03": "Discount Handler",
+    "O2C-OA04": "Optimization Algorithm",
+    "O2C-CO02": "Customer Outreach",
+    "O2C-SL04": "Self-learner",
+    "O2C-RR02": "Real-time Reconciler",
+    "O2C-VA03": "Variance Analyzer",
+    "O2C-DR04": "Dynamic Reporter",
+    "O2C-AC01": "Automated Confirmer",
+    "O2C-RS02": "Real-time Statementer",
+    "O2C-QR03": "Query Resolver",
+    "O2C-SP04": "Self-service Portal",
+    "O2C-OI01": "Omnichannel Integrator",
+    "O2C-TC02": "Ticket Creator",
+    "O2C-SC03": "Smart Categorizer",
+    "O2C-AA04": "Auto Acknowledger",
+    "O2C-SR02": "Skill Router",
+    "O2C-LB03": "Load Balancer",
+    "O2C-PE04": "Predictive Escalator",
+    "O2C-UD01": "Unified Data",
+    "O2C-AR02": "AI Researcher",
+    "O2C-KB04": "Knowledge Base",
+    "O2C-SR01": "Solution Recommender",
+    "O2C-SA03": "Sentiment Analyzer",
+    "O2C-QA04": "Quality Automator",
+    "O2C-RG01": "Response Generator",
+    "O2C-DP02": "Dynamic Personalizer",
+    "O2C-CS03": "Channel Selector",
+    "O2C-AF04": "Automated Follow-up",
+    "O2C-CW01": "Closure Workflow",
+    "O2C-RI04": "Real-time Insights",
+    "O2C-AD": "Anomaly Detector",
+    "O2C-PV": "Pricing Validator",
+    "O2C-DA": "Discount Analyzer",
+    "O2C-CM": "Compliance Monitor",
+    "O2C-RCA": "Root Cause Analyzer",
+    "O2C-PD": "Pattern Detector",
+    "O2C-SD": "Smart Documenter",
+    "O2C-CR": "Control Recommender",
+    "O2C-PU": "Process Updater",
+    "O2C-SC": "Smart Configurator",
+    "O2C-CA": "Change Analytics",
+    "O2C-KD": "KPI Dashboard",
+    "O2C-RT": "Recovery Tracker",
+    "O2C-ES": "Effectiveness Scorer",
+    "O2C-PI": "Predictive Insights",
+    "PTP-CAPTURE-001": "Invoice Capture Agent",
+    "PTP-PARSE-001": "Invoice Parser",
+    "GEN-CLASSIFY-001": "Document Classifier",
+    "PTP-VALIDATE-001": "Invoice Validator",
+    "PTP-ENRICH-001": "Invoice Enricher",
+    "PTP-VENDOR-001": "Vendor Matcher",
+    "PTP-POMATCH-001": "PO Matcher",
+    "PTP-THREEWAY-001": "Three-Way Matcher",
+    "PTP-TOLERANCE-001": "Tolerance Manager",
+    "PTP-DISCREP-001": "Discrepancy Resolver",
+    "PTP-VENDCOM-001": "Vendor Communicator",
+    "GEN-PATTERN-001": "Pattern Recognizer",
+    "GEN-APPROVE-002": "Approval Validator",
+    "GEN-WORKFLOW-001": "Approval Manager",
+    "GEN-COMPLY-001": "Compliance Checker",
+    "PTP-APPREC-001": "Approval Recommender",
+    "PTP-PAYSCHED-001": "Payment Scheduler",
+    "PTP-DISCOUNT-001": "Discount Identifier",
+    "GEN-CASHFLOW-001": "Cash Flow Optimizer",
+    "GEN-CURRENCY-001": "FX Manager",
+    "PTP-PAYEXEC-001": "Payment Processor",
+    "PTP-PAYTRACK-001": "Payment Tracker",
+    "PTP-VENDNOT-001": "Vendor Notifier",
+    "GEN-BANKREC-001": "Bank Reconciler",
+    "GEN-EXCEPT-001": "Exception Resolver",
+    "GEN-ACCRUE-001": "Accrual Calculator",
+    "PTP-STMTCAP-001": "Vendor Statement Capturer",
+    "GEN-EXTRACT-001": "Data Extractor",
+    "GEN-FILE-001": "Smart Filer",
+    "PTP-TRANSMATCH-001": "Transaction Matcher",
+    "PTP-PRICEVER-001": "Price Verifier",
+    "GEN-ROOTCAUSE-001": "Root Cause Analyzer",
+    "GEN-DOCRETRIEVE-001": "Document Retriever",
+    "PTP-ADJUSTGEN-001": "Adjustment Generator",
+    "GEN-SYSUPDATE-001": "System Updater",
+    "GEN-RESTRACK-001": "Resolution Tracker",
+    "PTP-RECONANALYZE-001": "Reconciliation Analyzer",
+    "GEN-INSIGHT-001": "Insight Generator",
+    "GEN-PREDICT-001": "Predictive Analyzer",
+    "PTP-CARDREQ-001": "Card Request Manager",
+    "PTP-LIMITREC-001": "Spending Limit Recommender",
+    "PTP-VIRTUALCARD-001": "Virtual Card Issuer",
+    "PTP-TRANSMON-001": "Transaction Monitor",
+    "GEN-ANOMALY-001": "Anomaly Detector",
+    "PTP-POLICYENF-001": "Policy Engine",
+    "PTP-RECEIPTCAP-001": "Receipt Capturer",
+    "PTP-RECEIPTMATCH-001": "Receipt Matcher",
+    "GEN-STMTIMPORT-001": "Statement Importer",
+    "PTP-MATCHCODE-001": "Matcher & Coder",
+    "PTP-DISPUTE-001": "Dispute Detector",
+    "PTP-SPENDANALYZE-001": "Spend Analyzer",
+    "GEN-OPTIMIZE-001": "Optimization Recommender",
+    "PTP-VENDORCONS-001": "Vendor Consolidator",
+    "PTP-TRAVELREQ-001": "Travel Requestor",
+    "GEN-POLICYVAL-001": "Policy Validator",
+    "GEN-BUDGETCHECK-001": "Budget Checker",
+    "GEN-APPROVE-001": "Approval Router",
+    "PTP-BOOKREC-001": "Booking Recommender",
+    "PTP-PRICEOPT-001": "Price Optimizer",
+    "PTP-BOOKPLAT-001": "Booking Platform",
+    "PTP-ITINERARY-001": "Itinerary Manager",
+    "PTP-EXPENSECAT-001": "Expense Categorizer",
+    "PTP-MILEAGE-001": "Mileage Tracker",
+    "GEN-CARDCONNECT-001": "Card Connector",
+    "GEN-EXCEPTFLAG-001": "Exception Flagger",
+    "PTP-JUSTIFY-001": "Justification Assistant",
+    "GEN-COMPGUIDE-001": "Compliance Guide",
+    "GEN-DELEGATE-001": "Delegation Manager",
+    "GEN-ESCALATE-001": "Escalation Manager",
+    "GEN-PAYCALC-001": "Payment Calculator",
+    "GEN-STATUS-001": "Status Tracker",
+    "GEN-NOTIFY-001": "Confirmation Notifier",
+    "GEN-AUDITTARGET-001": "Audit Targeter",
+    "GEN-DASHBOARD-001": "Dashboard Intelligence",
+    "GEN-VALIDATE-001": "Data Validator",
+    "PTP-DATACONS-001": "Data Consolidator",
+    "PTP-KPICALC-001": "KPI Calculator",
+    "PTP-METRICANALYZE-001": "Metric Analyzer",
+    "GEN-TREND-001": "Trend Analyzer",
+    "PTP-SPENDCAT-001": "Spend Categorizer",
+    "PTP-COMPMON-001": "Compliance Monitor",
+    "GEN-REPORT-002": "Report Generator",
+    "PTP-EXECSUMM-001": "Executive Summarizer",
+    "GEN-VISUALIZE-001": "Visualization Generator",
+    "FPA-MONITOR-001": "Performance Monitor",
+    "GEN-IMPROVE-001": "Improvement Recommender",
+    "PTP-ACTIONTRACK-001": "Action Tracker"
+  },
+  "workflow_agents": {
+    "controllership": [
+      {
+        "code": "CTL-DAR",
+        "description": "Dynamic Agreement Reviewer"
+      },
+      {
+        "code": "CTL-ACA",
+        "description": "Automated Cost Aggregator"
+      },
+      {
+        "code": "CTL-ATE",
+        "description": "AI Term Extractor"
+      },
+      {
+        "code": "CTL-SMT",
+        "description": "Smart Mapping Tool"
+      },
+      {
+        "code": "CTL-ASG",
+        "description": "Automated Statement Generator"
+      },
+      {
+        "code": "CTL-SIC",
+        "description": "Smart Invoice Creator"
+      },
+      {
+        "code": "CTL-ADR",
+        "description": "AI Dispute Resolver"
+      },
+      {
+        "code": "CTL-PTR",
+        "description": "Payment Tracker"
+      },
+      {
+        "code": "CTL-AJR",
+        "description": "Automated JV Reporter"
+      },
+      {
+        "code": "CTL-ACE",
+        "description": "AI Consolidation Engine"
+      },
+      {
+        "code": "CTL-RTC2",
+        "description": "RegTech Compliance"
+      },
+      {
+        "code": "CTL-DAT",
+        "description": "Digital Audit Trail"
+      },
+      {
+        "code": "CTL-DSI",
+        "description": "Digital Statement Intake"
+      },
+      {
+        "code": "CTL-APM",
+        "description": "AI-Powered Matching"
+      },
+      {
+        "code": "CTL-ADD",
+        "description": "Auto-Discrepancy Detection"
+      },
+      {
+        "code": "CTL-SDR",
+        "description": "Smart Dispute Router"
+      },
+      {
+        "code": "CTL-ACL",
+        "description": "Automated Confirmation Letters"
+      },
+      {
+        "code": "CTL-DVP",
+        "description": "Digital Vendor Portal"
+      },
+      {
+        "code": "CTL-ART",
+        "description": "AI Response Tracker"
+      },
+      {
+        "code": "CTL-PEH",
+        "description": "Predictive Exception Handler"
+      },
+      {
+        "code": "CTL-AJG",
+        "description": "Auto-Journal Generator"
+      },
+      {
+        "code": "CTL-RDD",
+        "description": "Real-time Dashboard"
+      },
+      {
+        "code": "CTL-ATA",
+        "description": "AI Trend Analyzer"
+      },
+      {
+        "code": "CTL-CIA",
+        "description": "Continuous Improvement AI"
+      },
+      {
+        "code": "CTL-ACA3",
+        "description": "AI Contract Analyzer"
+      },
+      {
+        "code": "CTL-ACL2",
+        "description": "Automated Classifier"
+      },
+      {
+        "code": "CTL-STE",
+        "description": "Smart Term Extractor"
+      },
+      {
+        "code": "CTL-MBT",
+        "description": "ML-Based Tester"
+      },
+      {
+        "code": "CTL-APC",
+        "description": "Automated PV Calculator"
+      },
+      {
+        "code": "CTL-ARO",
+        "description": "AI Rate Optimizer"
+      },
+      {
+        "code": "CTL-RTM",
+        "description": "Real-Time Measurement"
+      },
+      {
+        "code": "CTL-AJG2",
+        "description": "Auto-Journal Generator"
+      },
+      {
+        "code": "CTL-APT",
+        "description": "Automated Payment Tracker"
+      },
+      {
+        "code": "CTL-AMD",
+        "description": "AI Modification Detector"
+      },
+      {
+        "code": "CTL-SRM",
+        "description": "Smart Remeasurement"
+      },
+      {
+        "code": "CTL-PIA",
+        "description": "Predictive Impairment Analyzer"
+      },
+      {
+        "code": "CTL-ADG",
+        "description": "Automated Disclosure Generator"
+      },
+      {
+        "code": "CTL-DRF",
+        "description": "Dynamic Roll-Forward"
+      },
+      {
+        "code": "CTL-AMA",
+        "description": "AI Maturity Analyzer"
+      },
+      {
+        "code": "CTL-RTC3",
+        "description": "RegTech Compliance"
+      },
+      {
+        "code": "CTL-ATA",
+        "description": "Automated TB Aggregator"
+      },
+      {
+        "code": "CTL-SAT",
+        "description": "Smart Adjustment Tracker"
+      },
+      {
+        "code": "CTL-RTC",
+        "description": "Real-Time Consolidator"
+      },
+      {
+        "code": "CTL-AFT",
+        "description": "AI FX Translator"
+      },
+      {
+        "code": "CTL-ASG",
+        "description": "Auto-Statement Generator"
+      },
+      {
+        "code": "CTL-ALM",
+        "description": "AI Line Mapper"
+      },
+      {
+        "code": "CTL-SVA",
+        "description": "Smart Variance Analyzer"
+      },
+      {
+        "code": "CTL-ANG",
+        "description": "Automated Narrative Generator"
+      },
+      {
+        "code": "CTL-ADD",
+        "description": "AI Disclosure Drafter"
+      },
+      {
+        "code": "CTL-ASC",
+        "description": "Automated Schedule Creator"
+      },
+      {
+        "code": "CTL-PCD",
+        "description": "Policy Change Detector"
+      },
+      {
+        "code": "CTL-DDL",
+        "description": "Digital Disclosure Library"
+      },
+      {
+        "code": "CTL-PRW",
+        "description": "Parallel Review Workflow"
+      },
+      {
+        "code": "CTL-SAR",
+        "description": "Smart Approval Router"
+      },
+      {
+        "code": "CTL-AFP",
+        "description": "Auto-Filing Prep"
+      },
+      {
+        "code": "CTL-SDP",
+        "description": "Secure Distribution Platform"
+      },
+      {
+        "code": "CTL-CO",
+        "description": "Close Orchestrator"
+      },
+      {
+        "code": "CTL-TG",
+        "description": "Task Generator"
+      },
+      {
+        "code": "CTL-RA",
+        "description": "Resource Allocator"
+      },
+      {
+        "code": "CTL-DM",
+        "description": "Dependency Manager"
+      },
+      {
+        "code": "CTL-CP",
+        "description": "Cutoff Processor"
+      },
+      {
+        "code": "CTL-SI",
+        "description": "System Integrator"
+      },
+      {
+        "code": "CTL-RE",
+        "description": "Reconciliation Engine"
+      },
+      {
+        "code": "CTL-ER",
+        "description": "Exception Reviewer"
+      },
+      {
+        "code": "CTL-JA",
+        "description": "Journal Automator"
+      },
+      {
+        "code": "CTL-AE",
+        "description": "Accrual Engine"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Document Digitizer"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Approval Accelerator"
+      },
+      {
+        "code": "CTL-MM",
+        "description": "Match Master"
+      },
+      {
+        "code": "CTL-ER",
+        "description": "Exception Resolver"
+      },
+      {
+        "code": "CTL-VA",
+        "description": "Variance Analyzer"
+      },
+      {
+        "code": "CTL-AT",
+        "description": "Audit Tracker"
+      },
+      {
+        "code": "CTL-SG",
+        "description": "Statement Generator"
+      },
+      {
+        "code": "CTL-EE",
+        "description": "Elimination Engine"
+      },
+      {
+        "code": "CTL-FG",
+        "description": "Footnote Generator"
+      },
+      {
+        "code": "CTL-RP",
+        "description": "Review Platform"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Advanced Analytics"
+      },
+      {
+        "code": "CTL-FD",
+        "description": "Flux Detector"
+      },
+      {
+        "code": "CTL-CG",
+        "description": "Commentary Generator"
+      },
+      {
+        "code": "CTL-ID",
+        "description": "Interactive Dashboard"
+      },
+      {
+        "code": "CTL-CW",
+        "description": "Certification Workflow"
+      },
+      {
+        "code": "CTL-CC",
+        "description": "Compliance Checker"
+      },
+      {
+        "code": "CTL-BA",
+        "description": "Blockchain Auditor"
+      },
+      {
+        "code": "CTL-SA",
+        "description": "Smart Archiver"
+      },
+      {
+        "code": "CTL-TC",
+        "description": "Transaction Coder"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Allocation Automator"
+      },
+      {
+        "code": "CTL-RP",
+        "description": "Real-time Poster"
+      },
+      {
+        "code": "CTL-SV",
+        "description": "Smart Validator"
+      },
+      {
+        "code": "CTL-AS",
+        "description": "Account Structurer"
+      },
+      {
+        "code": "CTL-HO",
+        "description": "Hierarchy Optimizer"
+      },
+      {
+        "code": "CTL-ME",
+        "description": "Mapping Engine"
+      },
+      {
+        "code": "CTL-CC",
+        "description": "Change Controller"
+      },
+      {
+        "code": "CTL-AE",
+        "description": "Accrual Engine"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "Auto Reverser"
+      },
+      {
+        "code": "CTL-SD",
+        "description": "Smart Documenter"
+      },
+      {
+        "code": "CTL-DA",
+        "description": "Digital Approver"
+      },
+      {
+        "code": "CTL-AO",
+        "description": "Allocation Optimizer"
+      },
+      {
+        "code": "CTL-DU",
+        "description": "Driver Updater"
+      },
+      {
+        "code": "CTL-RE",
+        "description": "Real-time Executor"
+      },
+      {
+        "code": "CTL-AT",
+        "description": "Audit Tracker"
+      },
+      {
+        "code": "CTL-BA",
+        "description": "Balance Analyzer"
+      },
+      {
+        "code": "CTL-AS",
+        "description": "Auto Scheduler"
+      },
+      {
+        "code": "CTL-PI",
+        "description": "Predictive Insights"
+      },
+      {
+        "code": "CTL-DR",
+        "description": "Dynamic Reporter"
+      },
+      {
+        "code": "CTL-MD",
+        "description": "Master Data Manager"
+      },
+      {
+        "code": "CTL-SM",
+        "description": "Security Monitor"
+      },
+      {
+        "code": "CTL-SC",
+        "description": "Smart Configurator"
+      },
+      {
+        "code": "CTL-CA",
+        "description": "Cloud Archiver"
+      },
+      {
+        "code": "CTL-ATC",
+        "description": "Automated Transaction Capture"
+      },
+      {
+        "code": "CTL-ARM",
+        "description": "AI Receipt Matcher"
+      },
+      {
+        "code": "CTL-SPC",
+        "description": "Smart Payment Categorizer"
+      },
+      {
+        "code": "CTL-AJC",
+        "description": "Auto Journal Creator"
+      },
+      {
+        "code": "CTL-APR",
+        "description": "AI-Powered Reconciler"
+      },
+      {
+        "code": "CTL-RTB",
+        "description": "Real-Time Balancer"
+      },
+      {
+        "code": "CTL-SIT",
+        "description": "Smart Item Tracker"
+      },
+      {
+        "code": "CTL-IA",
+        "description": "Intelligent Adjuster"
+      },
+      {
+        "code": "CTL-ASG",
+        "description": "Automated Statement Generator"
+      },
+      {
+        "code": "CTL-RPD",
+        "description": "Real-time Position Dashboard"
+      },
+      {
+        "code": "CTL-AVA",
+        "description": "AI Variance Analyzer"
+      },
+      {
+        "code": "CTL-AFS",
+        "description": "Auto-Filing System"
+      },
+      {
+        "code": "CTL-CCM",
+        "description": "Continuous Control Monitor"
+      },
+      {
+        "code": "CTL-AST",
+        "description": "Automated SOX Tester"
+      },
+      {
+        "code": "CTL-DAT",
+        "description": "Digital Audit Trail"
+      },
+      {
+        "code": "CTL-PRA",
+        "description": "Predictive Risk Analytics"
+      },
+      {
+        "code": "CTL-APM",
+        "description": "Automated PO Matcher"
+      },
+      {
+        "code": "CTL-DAT2",
+        "description": "Digital Asset Tagger"
+      },
+      {
+        "code": "CTL-ASS",
+        "description": "AI System Setup"
+      },
+      {
+        "code": "CTL-ADC",
+        "description": "Auto Depreciation Configurator"
+      },
+      {
+        "code": "CTL-IAT",
+        "description": "IoT Asset Tracker"
+      },
+      {
+        "code": "CTL-AT",
+        "description": "Automated Transfer"
+      },
+      {
+        "code": "CTL-RTL",
+        "description": "Real-Time Locator"
+      },
+      {
+        "code": "CTL-ACM",
+        "description": "AI Condition Monitor"
+      },
+      {
+        "code": "CTL-AVM",
+        "description": "AI Valuation Model"
+      },
+      {
+        "code": "CTL-AIT",
+        "description": "Automated Impairment Tester"
+      },
+      {
+        "code": "CTL-RMD",
+        "description": "Real-time Market Data"
+      },
+      {
+        "code": "CTL-AA2",
+        "description": "Auto Adjuster"
+      },
+      {
+        "code": "CTL-SDW",
+        "description": "Smart Disposal Workflow"
+      },
+      {
+        "code": "CTL-AGL",
+        "description": "Auto Gain/Loss Calculator"
+      },
+      {
+        "code": "CTL-ID",
+        "description": "Instant Derecognizer"
+      },
+      {
+        "code": "CTL-ATA",
+        "description": "AI Tax Analyzer"
+      },
+      {
+        "code": "CTL-RM",
+        "description": "Regulatory Monitor"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Automated Alerter"
+      },
+      {
+        "code": "CTL-TM",
+        "description": "Task Manager"
+      },
+      {
+        "code": "CTL-RD",
+        "description": "Real-time Dashboard"
+      },
+      {
+        "code": "CTL-DI",
+        "description": "Data Integrator"
+      },
+      {
+        "code": "CTL-FC",
+        "description": "Format Converter"
+      },
+      {
+        "code": "CTL-SV",
+        "description": "Smart Validator"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Digital Documenter"
+      },
+      {
+        "code": "CTL-RG",
+        "description": "Report Generator"
+      },
+      {
+        "code": "CTL-AC",
+        "description": "Auto Calculator"
+      },
+      {
+        "code": "CTL-NN",
+        "description": "Natural Narrator"
+      },
+      {
+        "code": "CTL-SF",
+        "description": "Smart Formatter"
+      },
+      {
+        "code": "CTL-CE",
+        "description": "Compliance Engine"
+      },
+      {
+        "code": "CTL-AT",
+        "description": "Automated Tester"
+      },
+      {
+        "code": "CTL-RM",
+        "description": "Real-time Monitor"
+      },
+      {
+        "code": "CTL-PA",
+        "description": "Predictive Alerter"
+      },
+      {
+        "code": "CTL-RW",
+        "description": "Review Workflow"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "AI Reviewer"
+      },
+      {
+        "code": "CTL-DA",
+        "description": "Digital Approver"
+      },
+      {
+        "code": "CTL-RC",
+        "description": "Real-time Collaborator"
+      },
+      {
+        "code": "CTL-AF",
+        "description": "Auto Filer"
+      },
+      {
+        "code": "CTL-AS",
+        "description": "API Submitter"
+      },
+      {
+        "code": "CTL-RC",
+        "description": "Real-time Confirmer"
+      },
+      {
+        "code": "CTL-DA",
+        "description": "Digital Archiver"
+      },
+      {
+        "code": "CTL-AC",
+        "description": "Asset Classifier"
+      },
+      {
+        "code": "CTL-CC",
+        "description": "Cost Capturer"
+      },
+      {
+        "code": "CTL-PD",
+        "description": "Policy Decisioner"
+      },
+      {
+        "code": "CTL-SE",
+        "description": "System Entry"
+      },
+      {
+        "code": "CTL-MO",
+        "description": "Method Optimizer"
+      },
+      {
+        "code": "CTL-DC",
+        "description": "Depreciation Calculator"
+      },
+      {
+        "code": "CTL-SA",
+        "description": "Smart Allocator"
+      },
+      {
+        "code": "CTL-JG",
+        "description": "Journal Generator"
+      },
+      {
+        "code": "CTL-LA",
+        "description": "Lease Analyzer"
+      },
+      {
+        "code": "CTL-LC",
+        "description": "Lease Classifier"
+      },
+      {
+        "code": "CTL-RC",
+        "description": "Real-time Calculator"
+      },
+      {
+        "code": "CTL-DS",
+        "description": "Dynamic Scheduler"
+      },
+      {
+        "code": "CTL-IT",
+        "description": "IoT Tracker"
+      },
+      {
+        "code": "CTL-AV",
+        "description": "Auto Verifier"
+      },
+      {
+        "code": "CTL-EA",
+        "description": "Exception Analyzer"
+      },
+      {
+        "code": "CTL-SA",
+        "description": "Smart Adjuster"
+      },
+      {
+        "code": "CTL-IM",
+        "description": "Indicator Monitor"
+      },
+      {
+        "code": "CTL-AV",
+        "description": "Auto Valuator"
+      },
+      {
+        "code": "CTL-IT",
+        "description": "Impairment Tester"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Digital Documenter"
+      },
+      {
+        "code": "CTL-RF",
+        "description": "Roll-Forward generator"
+      },
+      {
+        "code": "CTL-DG",
+        "description": "Disclosure Generator"
+      },
+      {
+        "code": "CTL-RA",
+        "description": "Real-time Analytics"
+      },
+      {
+        "code": "CTL-DR",
+        "description": "Dynamic Reporter"
+      },
+      {
+        "code": "CTL-RS",
+        "description": "Risk Scorer"
+      },
+      {
+        "code": "CTL-SA",
+        "description": "Smart Assigner"
+      },
+      {
+        "code": "CTL-FO",
+        "description": "Frequency Optimizer"
+      },
+      {
+        "code": "CTL-DT",
+        "description": "Digital Trainer"
+      },
+      {
+        "code": "CTL-DA",
+        "description": "Data Aggregator"
+      },
+      {
+        "code": "CTL-DG",
+        "description": "Document Gatherer"
+      },
+      {
+        "code": "CTL-TS",
+        "description": "Template Selector"
+      },
+      {
+        "code": "CTL-PE",
+        "description": "Pre-population Engine"
+      },
+      {
+        "code": "CTL-MM",
+        "description": "Match Master"
+      },
+      {
+        "code": "CTL-AI",
+        "description": "Auto Investigator"
+      },
+      {
+        "code": "CTL-RC",
+        "description": "Root Cause analyzer"
+      },
+      {
+        "code": "CTL-SD",
+        "description": "Smart Documenter"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "Adjustment Recommender"
+      },
+      {
+        "code": "CTL-JC",
+        "description": "Journal Creator"
+      },
+      {
+        "code": "CTL-SA",
+        "description": "Smart Approver"
+      },
+      {
+        "code": "CTL-AP",
+        "description": "Auto Poster"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Advanced Analytics"
+      },
+      {
+        "code": "CTL-RR",
+        "description": "Real-time Ratios"
+      },
+      {
+        "code": "CTL-AB",
+        "description": "Auto Benchmarker"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Dynamic Dashboard"
+      },
+      {
+        "code": "CTL-CW",
+        "description": "Certification Workflow"
+      },
+      {
+        "code": "CTL-AE",
+        "description": "Auto Escalator"
+      },
+      {
+        "code": "CTL-RR",
+        "description": "Real-time Reporter"
+      },
+      {
+        "code": "CTL-AD",
+        "description": "Audit Documenter"
+      },
+      {
+        "code": "CTL-AP",
+        "description": "Audit Planner"
+      },
+      {
+        "code": "CTL-RA",
+        "description": "Risk Assessor"
+      },
+      {
+        "code": "CTL-SS",
+        "description": "Smart Scoper"
+      },
+      {
+        "code": "CTL-PG",
+        "description": "PBC Generator"
+      },
+      {
+        "code": "CTL-RP",
+        "description": "Request Portal"
+      },
+      {
+        "code": "CTL-AE",
+        "description": "Assignment Engine"
+      },
+      {
+        "code": "CTL-AG",
+        "description": "Auto Gatherer"
+      },
+      {
+        "code": "CTL-RT",
+        "description": "Real-time Tracker"
+      },
+      {
+        "code": "CTL-SS",
+        "description": "Sample Selector"
+      },
+      {
+        "code": "CTL-AD",
+        "description": "Auto Documenter"
+      },
+      {
+        "code": "CTL-DW",
+        "description": "Digital Walkthrough"
+      },
+      {
+        "code": "CTL-RG",
+        "description": "Response Generator"
+      },
+      {
+        "code": "CTL-RC",
+        "description": "Root Cause analyzer"
+      },
+      {
+        "code": "CTL-RP",
+        "description": "Remediation Planner"
+      },
+      {
+        "code": "CTL-ST",
+        "description": "Smart Tracker"
+      },
+      {
+        "code": "CTL-RD",
+        "description": "Real-time Dashboard"
+      },
+      {
+        "code": "CTL-RD",
+        "description": "Response Drafter"
+      },
+      {
+        "code": "CTL-RW",
+        "description": "Review Workflow"
+      },
+      {
+        "code": "CTL-VA",
+        "description": "Version Automator"
+      },
+      {
+        "code": "CTL-CE",
+        "description": "Consistency Engine"
+      },
+      {
+        "code": "CTL-IT",
+        "description": "Implementation Tracker"
+      },
+      {
+        "code": "CTL-PM",
+        "description": "Progress Monitor"
+      },
+      {
+        "code": "CTL-DA",
+        "description": "Digital Archiver"
+      },
+      {
+        "code": "CTL-CI",
+        "description": "Continuous Improver"
+      },
+      {
+        "code": "CTL-II",
+        "description": "IC Invoicer"
+      },
+      {
+        "code": "CTL-PE",
+        "description": "Pricing Engine"
+      },
+      {
+        "code": "CTL-SC",
+        "description": "Smart Calculator"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Digital Documenter"
+      },
+      {
+        "code": "CTL-EG",
+        "description": "Entry Generator"
+      },
+      {
+        "code": "CTL-MP",
+        "description": "Multi-Poster"
+      },
+      {
+        "code": "CTL-CM",
+        "description": "Currency Manager"
+      },
+      {
+        "code": "CTL-TE",
+        "description": "Tax Engine"
+      },
+      {
+        "code": "CTL-MM",
+        "description": "Match Master"
+      },
+      {
+        "code": "CTL-RC",
+        "description": "Real-time Confirmer"
+      },
+      {
+        "code": "CTL-DR",
+        "description": "Dispute Resolver"
+      },
+      {
+        "code": "CTL-PA",
+        "description": "Predictive Analytics"
+      },
+      {
+        "code": "CTL-NO",
+        "description": "Netting Optimizer"
+      },
+      {
+        "code": "CTL-AS",
+        "description": "Auto Settler"
+      },
+      {
+        "code": "CTL-PR",
+        "description": "Payment Router"
+      },
+      {
+        "code": "CTL-CO",
+        "description": "Cash Optimizer"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "Auto Reporter"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Advanced Analytics"
+      },
+      {
+        "code": "CTL-RD",
+        "description": "Real-time Dashboard"
+      },
+      {
+        "code": "CTL-DI",
+        "description": "Dynamic Insights"
+      },
+      {
+        "code": "CTL-DE",
+        "description": "Documentation Engine"
+      },
+      {
+        "code": "CTL-CM",
+        "description": "Compliance Monitor"
+      },
+      {
+        "code": "CTL-BA",
+        "description": "Blockchain Auditor"
+      },
+      {
+        "code": "CTL-PM",
+        "description": "Policy Manager"
+      },
+      {
+        "code": "CTL-CA",
+        "description": "Contract Analyzer"
+      },
+      {
+        "code": "CTL-PD",
+        "description": "POB Detector"
+      },
+      {
+        "code": "CTL-SE",
+        "description": "SSP Engine"
+      },
+      {
+        "code": "CTL-CS",
+        "description": "Contract Setup"
+      },
+      {
+        "code": "CTL-CM",
+        "description": "Consideration Modeler"
+      },
+      {
+        "code": "CTL-AC",
+        "description": "Auto Constrainer"
+      },
+      {
+        "code": "CTL-AE",
+        "description": "Allocation Engine"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Digital Documenter"
+      },
+      {
+        "code": "CTL-SM",
+        "description": "Satisfaction Monitor"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "Auto Recognizer"
+      },
+      {
+        "code": "CTL-MH",
+        "description": "Modification Handler"
+      },
+      {
+        "code": "CTL-RT",
+        "description": "Real-time Tracker"
+      },
+      {
+        "code": "CTL-BT",
+        "description": "Balance Tracker"
+      },
+      {
+        "code": "CTL-ID",
+        "description": "Impairment Detector"
+      },
+      {
+        "code": "CTL-SA",
+        "description": "Smart Ager"
+      },
+      {
+        "code": "CTL-RF",
+        "description": "Roll-Forward generator"
+      },
+      {
+        "code": "CTL-DG",
+        "description": "Disclosure Generator"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Auto Aggregator"
+      },
+      {
+        "code": "CTL-CE",
+        "description": "Consistency Engine"
+      },
+      {
+        "code": "CTL-SF",
+        "description": "Smart Formatter"
+      },
+      {
+        "code": "CTL-RA",
+        "description": "Revenue Analytics"
+      },
+      {
+        "code": "CTL-RP",
+        "description": "Real-time Profitability"
+      },
+      {
+        "code": "CTL-PM",
+        "description": "Predictive Metrics"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Dynamic Dashboard"
+      },
+      {
+        "code": "CTL-PF",
+        "description": "Predictive Forecaster"
+      },
+      {
+        "code": "CTL-ML",
+        "description": "Machine Learning"
+      },
+      {
+        "code": "CTL-DS",
+        "description": "Dynamic Scenarios"
+      },
+      {
+        "code": "CTL-RU",
+        "description": "Real-time Updater"
+      },
+      {
+        "code": "CTL-PO",
+        "description": "Payment Optimizer"
+      },
+      {
+        "code": "CTL-DA",
+        "description": "Digital Approver"
+      },
+      {
+        "code": "CTL-AS",
+        "description": "Auto Submitter"
+      },
+      {
+        "code": "CTL-RT",
+        "description": "Real-time Tracker"
+      },
+      {
+        "code": "CTL-AI",
+        "description": "Auto Importer"
+      },
+      {
+        "code": "CTL-ME",
+        "description": "Matching Engine"
+      },
+      {
+        "code": "CTL-SI",
+        "description": "Smart Investigator"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Auto Adjuster"
+      },
+      {
+        "code": "CTL-AM",
+        "description": "Account Manager"
+      },
+      {
+        "code": "CTL-AU",
+        "description": "Auto Updater"
+      },
+      {
+        "code": "CTL-FO",
+        "description": "Fee Optimizer"
+      },
+      {
+        "code": "CTL-SD",
+        "description": "Smart Documenter"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "Auto Reporter"
+      },
+      {
+        "code": "CTL-CM",
+        "description": "Compliance Monitor"
+      },
+      {
+        "code": "CTL-RA",
+        "description": "Real-time Analytics"
+      },
+      {
+        "code": "CTL-AT",
+        "description": "Audit Trail"
+      },
+      {
+        "code": "CTL-GA",
+        "description": "GAAP Analyzer"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Auto Adjuster"
+      },
+      {
+        "code": "CTL-JG",
+        "description": "Journal Generator"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Digital Documenter"
+      },
+      {
+        "code": "CTL-FM",
+        "description": "Format Mapper"
+      },
+      {
+        "code": "CTL-AC",
+        "description": "Auto Compiler"
+      },
+      {
+        "code": "CTL-NT",
+        "description": "Neural Translator"
+      },
+      {
+        "code": "CTL-CR",
+        "description": "Cross Referencer"
+      },
+      {
+        "code": "CTL-TI",
+        "description": "Tax Integrator"
+      },
+      {
+        "code": "CTL-PE",
+        "description": "Provision Engine"
+      },
+      {
+        "code": "CTL-SD",
+        "description": "Smart Deferrals"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "Auto Reconciler"
+      },
+      {
+        "code": "CTL-RG",
+        "description": "Report Generator"
+      },
+      {
+        "code": "CTL-GC",
+        "description": "Governance Checker"
+      },
+      {
+        "code": "CTL-DA",
+        "description": "Digital Approver"
+      },
+      {
+        "code": "CTL-SC",
+        "description": "Smart Compliance"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "Audit Room"
+      },
+      {
+        "code": "CTL-QR",
+        "description": "Query Responder"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Auto Adjuster"
+      },
+      {
+        "code": "CTL-SC",
+        "description": "Smart Coordinator"
+      },
+      {
+        "code": "CTL-AF",
+        "description": "Auto Formatter"
+      },
+      {
+        "code": "CTL-DS",
+        "description": "Digital Submitter"
+      },
+      {
+        "code": "CTL-SP",
+        "description": "Smart Publisher"
+      },
+      {
+        "code": "CTL-ID",
+        "description": "Integrated Distributor"
+      },
+      {
+        "code": "CTL-RP",
+        "description": "Reporting Portal"
+      },
+      {
+        "code": "CTL-ST",
+        "description": "Submission Tracker"
+      },
+      {
+        "code": "CTL-SV",
+        "description": "Smart Validator"
+      },
+      {
+        "code": "CTL-AQ",
+        "description": "Auto Querier"
+      },
+      {
+        "code": "CTL-RM",
+        "description": "Rate Manager"
+      },
+      {
+        "code": "CTL-AT",
+        "description": "Auto Translator"
+      },
+      {
+        "code": "CTL-CT",
+        "description": "CTA Tracker"
+      },
+      {
+        "code": "CTL-RP",
+        "description": "Real-time Processor"
+      },
+      {
+        "code": "CTL-SM",
+        "description": "Structure Mapper"
+      },
+      {
+        "code": "CTL-AE",
+        "description": "Auto Eliminator"
+      },
+      {
+        "code": "CTL-SC",
+        "description": "Smart Calculator"
+      },
+      {
+        "code": "CTL-HP",
+        "description": "High-Performance engine"
+      },
+      {
+        "code": "CTL-RG",
+        "description": "Report Generator"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Advanced Analytics"
+      },
+      {
+        "code": "CTL-NC",
+        "description": "Natural Commentary"
+      },
+      {
+        "code": "CTL-SD",
+        "description": "Smart Distributor"
+      },
+      {
+        "code": "CTL-SA",
+        "description": "Segment Analyzer"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Auto Allocator"
+      },
+      {
+        "code": "CTL-CE",
+        "description": "Consistency Engine"
+      },
+      {
+        "code": "CTL-SD",
+        "description": "Smart Disclosures"
+      },
+      {
+        "code": "CTL-KM",
+        "description": "KPI Manager"
+      },
+      {
+        "code": "CTL-TD",
+        "description": "Trend Detector"
+      },
+      {
+        "code": "CTL-AB",
+        "description": "Auto Benchmarker"
+      },
+      {
+        "code": "CTL-DI",
+        "description": "Dynamic Insights"
+      },
+      {
+        "code": "CTL-JA",
+        "description": "JV Accountant"
+      },
+      {
+        "code": "CTL-EC",
+        "description": "Equity Calculator"
+      },
+      {
+        "code": "CTL-SC",
+        "description": "Smart Consolidator"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Dynamic Disclosures"
+      },
+      {
+        "code": "CTL-BE",
+        "description": "Billing Engine"
+      },
+      {
+        "code": "CTL-AI",
+        "description": "Auto Invoicer"
+      },
+      {
+        "code": "CTL-PM",
+        "description": "Payment Matcher"
+      },
+      {
+        "code": "CTL-DR",
+        "description": "Dispute Resolver"
+      },
+      {
+        "code": "CTL-CT",
+        "description": "Capital Tracker"
+      },
+      {
+        "code": "CTL-IC",
+        "description": "Interest Calculator"
+      },
+      {
+        "code": "CTL-SD",
+        "description": "Smart Distributor"
+      },
+      {
+        "code": "CTL-DS",
+        "description": "Digital Statements"
+      },
+      {
+        "code": "CTL-TA",
+        "description": "Tax Allocator"
+      },
+      {
+        "code": "CTL-KG",
+        "description": "K-1 Generator"
+      },
+      {
+        "code": "CTL-SW",
+        "description": "Smart Withholder"
+      },
+      {
+        "code": "CTL-DC",
+        "description": "Digital Compliance"
+      },
+      {
+        "code": "CTL-RP",
+        "description": "Reporting Portal"
+      },
+      {
+        "code": "CTL-WE",
+        "description": "Waterfall Engine"
+      },
+      {
+        "code": "CTL-AM",
+        "description": "Automated Metrics"
+      },
+      {
+        "code": "CTL-SD",
+        "description": "Smart Distribution"
+      },
+      {
+        "code": "CTL-PS",
+        "description": "Project Structurer"
+      },
+      {
+        "code": "CTL-BM",
+        "description": "Budget Modeler"
+      },
+      {
+        "code": "CTL-RA",
+        "description": "Resource Allocator"
+      },
+      {
+        "code": "CTL-DC",
+        "description": "Digital Configurator"
+      },
+      {
+        "code": "CTL-TC",
+        "description": "Time Capturer"
+      },
+      {
+        "code": "CTL-ER",
+        "description": "Expense Router"
+      },
+      {
+        "code": "CTL-MT",
+        "description": "Material Tracker"
+      },
+      {
+        "code": "CTL-DA",
+        "description": "Digital Approver"
+      },
+      {
+        "code": "CTL-MM",
+        "description": "Milestone Monitor"
+      },
+      {
+        "code": "CTL-PC",
+        "description": "POC Calculator"
+      },
+      {
+        "code": "CTL-SA",
+        "description": "Smart Accruals"
+      },
+      {
+        "code": "CTL-RR",
+        "description": "Real-time Reconciler"
+      },
+      {
+        "code": "CTL-RA",
+        "description": "Real-time Analytics"
+      },
+      {
+        "code": "CTL-VD",
+        "description": "Variance Detector"
+      },
+      {
+        "code": "CTL-PE",
+        "description": "Predictive EAC"
+      },
+      {
+        "code": "CTL-RS",
+        "description": "Risk Scorer"
+      },
+      {
+        "code": "CTL-CM",
+        "description": "Change Manager"
+      },
+      {
+        "code": "CTL-IA",
+        "description": "Impact Analyzer"
+      },
+      {
+        "code": "CTL-AA",
+        "description": "Auto Approver"
+      },
+      {
+        "code": "CTL-SC",
+        "description": "Smart Communicator"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "Auto Reporter"
+      },
+      {
+        "code": "CTL-RD",
+        "description": "Real-time Dashboard"
+      },
+      {
+        "code": "CTL-AI",
+        "description": "AI Insights"
+      },
+      {
+        "code": "CTL-PF",
+        "description": "Predictive Forecaster"
+      },
+      {
+        "code": "CTL-RA",
+        "description": "Risk Assessor"
+      },
+      {
+        "code": "CTL-CM",
+        "description": "Control Mapper"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Digital Documenter"
+      },
+      {
+        "code": "CTL-PF",
+        "description": "Process Flows"
+      },
+      {
+        "code": "CTL-TP",
+        "description": "Test Planner"
+      },
+      {
+        "code": "CTL-SS",
+        "description": "Statistical Sampler"
+      },
+      {
+        "code": "CTL-AT",
+        "description": "Automated Tester"
+      },
+      {
+        "code": "CTL-EV",
+        "description": "Evidence Vault"
+      },
+      {
+        "code": "CTL-DD",
+        "description": "Deficiency Detector"
+      },
+      {
+        "code": "CTL-SS",
+        "description": "Severity Scorer"
+      },
+      {
+        "code": "CTL-SR",
+        "description": "Smart Remediator"
+      },
+      {
+        "code": "CTL-RT",
+        "description": "Real-time Tracker"
+      },
+      {
+        "code": "CTL-CM",
+        "description": "Continuous Monitor"
+      },
+      {
+        "code": "CTL-AT",
+        "description": "Assisted Tester"
+      },
+      {
+        "code": "CTL-AC",
+        "description": "Auto Compiler"
+      },
+      {
+        "code": "CTL-PI",
+        "description": "Predictive Issues"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "Audit Room"
+      },
+      {
+        "code": "CTL-WA",
+        "description": "Walkthrough Assistant"
+      },
+      {
+        "code": "CTL-AR",
+        "description": "Auto Responder"
+      },
+      {
+        "code": "CTL-SD",
+        "description": "Smart Documentation"
+      },
+      {
+        "code": "CTL-CC",
+        "description": "Certification Cascade"
+      },
+      {
+        "code": "CTL-IA",
+        "description": "Issue Aggregator"
+      },
+      {
+        "code": "CTL-AD",
+        "description": "Auto Disclosures"
+      },
+      {
+        "code": "CTL-RD",
+        "description": "Real-time Dashboard"
+      }
+    ],
+    "corporate-finance": [
+      {
+        "code": "CF-LT",
+        "description": "Legislative Tracker"
+      },
+      {
+        "code": "CF-OS",
+        "description": "Opportunity Scanner"
+      },
+      {
+        "code": "CF-PM",
+        "description": "Predictive Modeler"
+      },
+      {
+        "code": "CF-RA",
+        "description": "Real-time Alerter"
+      },
+      {
+        "code": "CF-SG",
+        "description": "Scenario Generator"
+      },
+      {
+        "code": "CF-TM",
+        "description": "Tax Modeler"
+      },
+      {
+        "code": "CF-DS",
+        "description": "Dynamic Simulator"
+      },
+      {
+        "code": "CF-RO",
+        "description": "Real-time Optimizer"
+      },
+      {
+        "code": "CF-SO",
+        "description": "Strategy Optimizer"
+      },
+      {
+        "code": "CF-AP",
+        "description": "Automated Planner"
+      },
+      {
+        "code": "CF-DC",
+        "description": "Digital Collaborator"
+      },
+      {
+        "code": "CF-SD",
+        "description": "Smart Documenter"
+      },
+      {
+        "code": "CF-AS",
+        "description": "Auto Structurer"
+      },
+      {
+        "code": "CF-EM",
+        "description": "Entity Manager"
+      },
+      {
+        "code": "CF-AG",
+        "description": "Agreement Generator"
+      },
+      {
+        "code": "CF-SU",
+        "description": "System Updater"
+      },
+      {
+        "code": "CF-CM",
+        "description": "Compliance Monitor"
+      },
+      {
+        "code": "CF-FA",
+        "description": "Filing Alerter"
+      },
+      {
+        "code": "CF-DD",
+        "description": "Digital Documentation"
+      },
+      {
+        "code": "CF-PC",
+        "description": "Predictive Compliance"
+      },
+      {
+        "code": "CF-TA",
+        "description": "Tax Analytics"
+      },
+      {
+        "code": "CF-ST",
+        "description": "Savings Tracker"
+      },
+      {
+        "code": "CF-AB",
+        "description": "AI Benchmarker"
+      },
+      {
+        "code": "CF-DD",
+        "description": "Dynamic Dashboard"
+      },
+      {
+        "code": "CF-DA",
+        "description": "Data Aggregator"
+      },
+      {
+        "code": "CF-DD",
+        "description": "Difference Detector"
+      },
+      {
+        "code": "CF-SC",
+        "description": "Smart Calculator"
+      },
+      {
+        "code": "CF-RR",
+        "description": "Real-time Reconciler"
+      },
+      {
+        "code": "CF-SE",
+        "description": "Scheduling Engine"
+      },
+      {
+        "code": "CF-AT",
+        "description": "Auto Tracker"
+      },
+      {
+        "code": "CF-PV",
+        "description": "Predictive Valuator"
+      },
+      {
+        "code": "CF-RF",
+        "description": "Roll-Forward generator"
+      },
+      {
+        "code": "CF-AA",
+        "description": "Auto Adjuster"
+      },
+      {
+        "code": "CF-FG",
+        "description": "Form Generator"
+      },
+      {
+        "code": "CF-SS",
+        "description": "Smart Scheduler"
+      },
+      {
+        "code": "CF-DD",
+        "description": "Digital Documentation"
+      },
+      {
+        "code": "CF-IF",
+        "description": "Income Forecaster"
+      },
+      {
+        "code": "CF-SH",
+        "description": "Safe Harbor calculator"
+      },
+      {
+        "code": "CF-PO",
+        "description": "Payment Optimizer"
+      },
+      {
+        "code": "CF-DV",
+        "description": "Digital Vouchers"
+      },
+      {
+        "code": "CF-AM",
+        "description": "Audit Manager"
+      },
+      {
+        "code": "CF-DR",
+        "description": "Document Retriever"
+      },
+      {
+        "code": "CF-PO",
+        "description": "Position Optimizer"
+      },
+      {
+        "code": "CF-SR",
+        "description": "Smart Responder"
+      },
+      {
+        "code": "CF-FW",
+        "description": "Filing Workflow"
+      },
+      {
+        "code": "CF-DM",
+        "description": "Deadline Manager"
+      },
+      {
+        "code": "CF-PP",
+        "description": "Payment Processor"
+      },
+      {
+        "code": "CF-DA",
+        "description": "Digital Archiver"
+      },
+      {
+        "code": "CF-TD",
+        "description": "Tax Determiner"
+      },
+      {
+        "code": "CF-RU",
+        "description": "Rate Updater"
+      },
+      {
+        "code": "CF-AE",
+        "description": "Auto Exemptions"
+      },
+      {
+        "code": "CF-NT",
+        "description": "Nexus Tracker"
+      },
+      {
+        "code": "CF-AA",
+        "description": "Auto Aggregator"
+      },
+      {
+        "code": "CF-CE",
+        "description": "Calculation Engine"
+      },
+      {
+        "code": "CF-RT",
+        "description": "Real-time Tracker"
+      },
+      {
+        "code": "CF-SR",
+        "description": "Smart Reconciler"
+      },
+      {
+        "code": "CF-FS",
+        "description": "Form Selector"
+      },
+      {
+        "code": "CF-AM",
+        "description": "Auto Mapper"
+      },
+      {
+        "code": "CF-SC",
+        "description": "Smart Completer"
+      },
+      {
+        "code": "CF-RV",
+        "description": "Real-time Validator"
+      },
+      {
+        "code": "CF-FP",
+        "description": "Filing Platform"
+      },
+      {
+        "code": "CF-AP",
+        "description": "Auto Payments"
+      },
+      {
+        "code": "CF-BI",
+        "description": "Banking Integration"
+      },
+      {
+        "code": "CF-RC",
+        "description": "Real-time Confirmations"
+      },
+      {
+        "code": "CF-AP",
+        "description": "Audit Portal"
+      },
+      {
+        "code": "CF-SA",
+        "description": "Sample Analyzer"
+      },
+      {
+        "code": "CF-AD",
+        "description": "Auto Documentation"
+      },
+      {
+        "code": "CF-SN",
+        "description": "Smart Negotiator"
+      },
+      {
+        "code": "CF-RD",
+        "description": "Real-time Dashboard"
+      },
+      {
+        "code": "CF-TD",
+        "description": "Trend Detector"
+      },
+      {
+        "code": "CF-AR",
+        "description": "Auto Recovery"
+      },
+      {
+        "code": "CF-CO",
+        "description": "Continuous Optimizer"
+      },
+      {
+        "code": "CF-FA",
+        "description": "Functional Analyzer"
+      },
+      {
+        "code": "CF-AB",
+        "description": "Auto Benchmarker"
+      },
+      {
+        "code": "CF-MS",
+        "description": "Method Selector"
+      },
+      {
+        "code": "CF-DD",
+        "description": "Digital Documenter"
+      },
+      {
+        "code": "CF-PO",
+        "description": "Price Optimizer"
+      },
+      {
+        "code": "CF-AA",
+        "description": "Auto Agreements"
+      },
+      {
+        "code": "CF-SC",
+        "description": "Smart Configuration"
+      },
+      {
+        "code": "CF-DT",
+        "description": "Digital Training"
+      },
+      {
+        "code": "CF-RM",
+        "description": "Real-time Monitor"
+      },
+      {
+        "code": "CF-VD",
+        "description": "Variance Detector"
+      },
+      {
+        "code": "CF-AT",
+        "description": "Auto True-up"
+      },
+      {
+        "code": "CF-SD",
+        "description": "Smart Documentation"
+      },
+      {
+        "code": "CF-FG",
+        "description": "File Generator"
+      },
+      {
+        "code": "CF-EA",
+        "description": "Economic Analyzer"
+      },
+      {
+        "code": "CF-RC",
+        "description": "Report Creator"
+      },
+      {
+        "code": "CF-DF",
+        "description": "Defense Files"
+      },
+      {
+        "code": "CF-PO",
+        "description": "Position Optimizer"
+      },
+      {
+        "code": "CF-AD",
+        "description": "Auto Documentation"
+      },
+      {
+        "code": "CF-NA",
+        "description": "Negotiation Analytics"
+      },
+      {
+        "code": "CF-SS",
+        "description": "Smart Settlements"
+      },
+      {
+        "code": "CF-SO",
+        "description": "Structure Optimizer"
+      },
+      {
+        "code": "CF-PO",
+        "description": "Predictive Opportunities"
+      },
+      {
+        "code": "CF-DM",
+        "description": "Dynamic Modeling"
+      },
+      {
+        "code": "CF-AT",
+        "description": "Automated Tracking"
+      },
+      {
+        "code": "CF-SA",
+        "description": "System Analyzer"
+      },
+      {
+        "code": "CF-AI",
+        "description": "Auto Integrator"
+      },
+      {
+        "code": "CF-DM",
+        "description": "Data Mapper"
+      },
+      {
+        "code": "CF-CT",
+        "description": "Continuous Tester"
+      },
+      {
+        "code": "CF-IG",
+        "description": "Invoice Generator"
+      },
+      {
+        "code": "CF-AV",
+        "description": "Auto Validator"
+      },
+      {
+        "code": "CF-SS",
+        "description": "Smart Signatures"
+      },
+      {
+        "code": "CF-RT",
+        "description": "Real-time Transmitter"
+      },
+      {
+        "code": "CF-DS",
+        "description": "Data Streamer"
+      },
+      {
+        "code": "CF-AF",
+        "description": "Auto Formatter"
+      },
+      {
+        "code": "CF-RV",
+        "description": "Real-time Validator"
+      },
+      {
+        "code": "CF-ER",
+        "description": "Error Resolver"
+      },
+      {
+        "code": "CF-CT",
+        "description": "Compliance Tracker"
+      },
+      {
+        "code": "CF-RP",
+        "description": "Rejection Preventer"
+      },
+      {
+        "code": "CF-AQ",
+        "description": "Auto Query handler"
+      },
+      {
+        "code": "CF-SR",
+        "description": "Smart Resolver"
+      },
+      {
+        "code": "CF-RA",
+        "description": "Real-time Analytics"
+      },
+      {
+        "code": "CF-PD",
+        "description": "Pattern Detector"
+      },
+      {
+        "code": "CF-PC",
+        "description": "Predictive Compliance"
+      },
+      {
+        "code": "CF-DD",
+        "description": "Dynamic Dashboard"
+      },
+      {
+        "code": "CF-RM",
+        "description": "Regulatory Monitor"
+      },
+      {
+        "code": "CF-IA",
+        "description": "Impact Analyzer"
+      },
+      {
+        "code": "CF-SU",
+        "description": "Smart Updater"
+      },
+      {
+        "code": "CF-DT",
+        "description": "Digital Training"
+      },
+      {
+        "code": "CF-NP",
+        "description": "Notice Portal"
+      },
+      {
+        "code": "CF-DM",
+        "description": "Deadline Manager"
+      },
+      {
+        "code": "CF-SA",
+        "description": "Smart Assigner"
+      },
+      {
+        "code": "CF-AD",
+        "description": "Auto Documentation"
+      },
+      {
+        "code": "CF-RA",
+        "description": "Request Analyzer"
+      },
+      {
+        "code": "CF-DC",
+        "description": "Data Compiler"
+      },
+      {
+        "code": "CF-DP",
+        "description": "Document Preparer"
+      },
+      {
+        "code": "CF-DS",
+        "description": "Digital Submitter"
+      },
+      {
+        "code": "CF-EP",
+        "description": "Exam Preparer"
+      },
+      {
+        "code": "CF-IA",
+        "description": "Issue Analyzer"
+      },
+      {
+        "code": "CF-PO",
+        "description": "Position Optimizer"
+      },
+      {
+        "code": "CF-DC",
+        "description": "Digital Coordinator"
+      },
+      {
+        "code": "CF-AS",
+        "description": "Appeal Strategist"
+      },
+      {
+        "code": "CF-BG",
+        "description": "Brief Generator"
+      },
+      {
+        "code": "CF-EM",
+        "description": "Evidence Manager"
+      },
+      {
+        "code": "CF-NA",
+        "description": "Negotiation Analytics"
+      },
+      {
+        "code": "CF-CI",
+        "description": "CRM Integrator"
+      },
+      {
+        "code": "CF-AS",
+        "description": "AI Scheduler"
+      },
+      {
+        "code": "CF-CA",
+        "description": "Communication Analytics"
+      },
+      {
+        "code": "CF-SE",
+        "description": "Smart Escalator"
+      },
+      {
+        "code": "CF-AC",
+        "description": "Auto Certifier"
+      },
+      {
+        "code": "CF-AD",
+        "description": "AI Documentation"
+      },
+      {
+        "code": "CF-SR",
+        "description": "Smart Reviewer"
+      },
+      {
+        "code": "CF-DS",
+        "description": "Digital Submitter"
+      },
+      {
+        "code": "CF-RD",
+        "description": "Risk Detector"
+      },
+      {
+        "code": "CF-IS",
+        "description": "Impact Scorer"
+      },
+      {
+        "code": "CF-CM",
+        "description": "Control Monitor"
+      },
+      {
+        "code": "CF-PM",
+        "description": "Predictive Mitigator"
+      },
+      {
+        "code": "CF-PG",
+        "description": "Policy Generator"
+      },
+      {
+        "code": "CF-DA",
+        "description": "Digital Approvals"
+      },
+      {
+        "code": "CF-AT",
+        "description": "Auto Training"
+      },
+      {
+        "code": "CF-RC",
+        "description": "Real-time Compliance"
+      },
+      {
+        "code": "CF-PM",
+        "description": "Process Miner"
+      },
+      {
+        "code": "CF-EA",
+        "description": "Efficiency Analyzer"
+      },
+      {
+        "code": "CF-SI",
+        "description": "Smart Improvements"
+      },
+      {
+        "code": "CF-CM",
+        "description": "Change Manager"
+      },
+      {
+        "code": "CF-SO",
+        "description": "System Optimizer"
+      },
+      {
+        "code": "CF-AA",
+        "description": "Auto Assessor"
+      },
+      {
+        "code": "CF-VM",
+        "description": "Vendor Manager"
+      },
+      {
+        "code": "CF-RM",
+        "description": "Real-time Monitor"
+      },
+      {
+        "code": "CF-SA",
+        "description": "Skill Analyzer"
+      },
+      {
+        "code": "CF-PT",
+        "description": "Personalized Training"
+      },
+      {
+        "code": "CF-CO",
+        "description": "Career Optimizer"
+      },
+      {
+        "code": "CF-RP",
+        "description": "Resource Planner"
+      },
+      {
+        "code": "CF-KT",
+        "description": "KPI Tracker"
+      },
+      {
+        "code": "CF-AD",
+        "description": "AI Dashboard"
+      },
+      {
+        "code": "CF-PA",
+        "description": "Predictive Analytics"
+      },
+      {
+        "code": "CF-AA",
+        "description": "Automated Actions"
+      },
+      {
+        "code": "CF-SO",
+        "description": "Structure Optimizer"
+      },
+      {
+        "code": "CF-RD",
+        "description": "Role Designer"
+      },
+      {
+        "code": "CF-PA",
+        "description": "Process Automator"
+      },
+      {
+        "code": "CF-DG",
+        "description": "Digital Governance"
+      },
+      {
+        "code": "CF-PG",
+        "description": "Policy Generator"
+      },
+      {
+        "code": "CF-DL",
+        "description": "Dynamic Limits"
+      },
+      {
+        "code": "CF-SA",
+        "description": "Smart Approvals"
+      },
+      {
+        "code": "CF-RC",
+        "description": "Real-time Compliance"
+      },
+      {
+        "code": "CF-CD",
+        "description": "Control Designer"
+      },
+      {
+        "code": "CF-AT",
+        "description": "Auto Tester"
+      },
+      {
+        "code": "CF-SI",
+        "description": "Smart Implementation"
+      },
+      {
+        "code": "CF-DT",
+        "description": "Digital Training"
+      },
+      {
+        "code": "CF-DK",
+        "description": "Dynamic KPIs"
+      },
+      {
+        "code": "CF-AC",
+        "description": "Auto Collector"
+      },
+      {
+        "code": "CF-AA",
+        "description": "AI Analytics"
+      },
+      {
+        "code": "CF-RR",
+        "description": "Real-time Reporter"
+      },
+      {
+        "code": "CF-RD",
+        "description": "Risk Detector"
+      },
+      {
+        "code": "CF-CA",
+        "description": "Continuous Assessor"
+      },
+      {
+        "code": "CF-PM",
+        "description": "Predictive Mitigator"
+      },
+      {
+        "code": "CF-SE",
+        "description": "Smart Escalator"
+      },
+      {
+        "code": "CF-CO",
+        "description": "Communication Optimizer"
+      },
+      {
+        "code": "CF-AD",
+        "description": "Auto Distributor"
+      },
+      {
+        "code": "CF-SS",
+        "description": "Smart Scheduler"
+      },
+      {
+        "code": "CF-DR",
+        "description": "Digital Relationships"
+      },
+      {
+        "code": "CF-NA",
+        "description": "Needs Analyzer"
+      },
+      {
+        "code": "CF-AR",
+        "description": "Auto RFP"
+      },
+      {
+        "code": "CF-DD",
+        "description": "Due Diligence"
+      },
+      {
+        "code": "CF-DO",
+        "description": "Digital Onboarding"
+      },
+      {
+        "code": "CF-RM",
+        "description": "Real-time Monitor"
+      },
+      {
+        "code": "CF-ID",
+        "description": "Issue Detector"
+      },
+      {
+        "code": "CF-PA",
+        "description": "Performance Analytics"
+      },
+      {
+        "code": "CF-VM",
+        "description": "Virtual Meetings"
+      },
+      {
+        "code": "CF-FA",
+        "description": "Fee Analytics"
+      },
+      {
+        "code": "CF-RB",
+        "description": "Real-time Benchmarking"
+      },
+      {
+        "code": "CF-NO",
+        "description": "Negotiation Optimizer"
+      },
+      {
+        "code": "CF-AT",
+        "description": "Auto Tracker"
+      },
+      {
+        "code": "CF-DA",
+        "description": "Digital Agreements"
+      },
+      {
+        "code": "CF-AU",
+        "description": "Auto Updates"
+      },
+      {
+        "code": "CF-SC",
+        "description": "Smart Compliance"
+      },
+      {
+        "code": "CF-IR",
+        "description": "Instant Retrieval"
+      },
+      {
+        "code": "CF-CA",
+        "description": "Counterparty Analyzer"
+      },
+      {
+        "code": "CF-RM",
+        "description": "Real-time Monitor"
+      },
+      {
+        "code": "CF-DL",
+        "description": "Dynamic Limits"
+      },
+      {
+        "code": "CF-PP",
+        "description": "Predictive Planning"
+      },
+      {
+        "code": "CF-SO",
+        "description": "Service Optimizer"
+      },
+      {
+        "code": "CF-TA",
+        "description": "Trend Analyzer"
+      },
+      {
+        "code": "CF-AI",
+        "description": "Auto Improvements"
+      },
+      {
+        "code": "CF-IT",
+        "description": "Innovation Tracker"
+      },
+      {
+        "code": "CF-BF",
+        "description": "Balance Feeder"
+      },
+      {
+        "code": "CF-AC",
+        "description": "Auto Categorizer"
+      },
+      {
+        "code": "CF-RP",
+        "description": "Real-time Positioning"
+      },
+      {
+        "code": "CF-SC",
+        "description": "Smart Consolidator"
+      },
+      {
+        "code": "CF-DI",
+        "description": "Data Integrator"
+      },
+      {
+        "code": "CF-ML",
+        "description": "Machine Learning"
+      },
+      {
+        "code": "CF-VA",
+        "description": "Variance Analyzer"
+      },
+      {
+        "code": "CF-DS",
+        "description": "Dynamic Scenarios"
+      },
+      {
+        "code": "CF-LO",
+        "description": "Liquidity Optimizer"
+      },
+      {
+        "code": "CF-BM",
+        "description": "Buffer Manager"
+      },
+      {
+        "code": "CF-ST",
+        "description": "Stress Tester"
+      },
+      {
+        "code": "CF-SC",
+        "description": "Smart Contingencies"
+      },
+      {
+        "code": "CF-SO",
+        "description": "Structure Optimizer"
+      },
+      {
+        "code": "CF-SE",
+        "description": "Sweep Engine"
+      },
+      {
+        "code": "CF-AT",
+        "description": "Auto Transfers"
+      },
+      {
+        "code": "CF-RO",
+        "description": "Real-time Optimizer"
+      },
+      {
+        "code": "CF-CO",
+        "description": "Cycle Optimizer"
+      },
+      {
+        "code": "CF-CT",
+        "description": "Component Tracker"
+      },
+      {
+        "code": "CF-PI",
+        "description": "Predictive Improvements"
+      },
+      {
+        "code": "CF-AM",
+        "description": "Auto Monitor"
+      },
+      {
+        "code": "CF-RD",
+        "description": "Real-time Dashboard"
+      },
+      {
+        "code": "CF-MO",
+        "description": "Metric Optimizer"
+      },
+      {
+        "code": "CF-PA",
+        "description": "Predictive Analytics"
+      },
+      {
+        "code": "CF-AA",
+        "description": "Automated Actions"
+      },
+      {
+        "code": "CF-PM",
+        "description": "Policy Monitor"
+      },
+      {
+        "code": "CF-LT",
+        "description": "Limit Tracker"
+      },
+      {
+        "code": "CF-AC",
+        "description": "Auto Compliance"
+      },
+      {
+        "code": "CF-SE",
+        "description": "Smart Exceptions"
+      },
+      {
+        "code": "CF-PA",
+        "description": "Performance Analytics"
+      },
+      {
+        "code": "CF-RM",
+        "description": "Risk Monitor"
+      },
+      {
+        "code": "CF-DB",
+        "description": "Dynamic Benchmarking"
+      },
+      {
+        "code": "CF-AA",
+        "description": "Advanced Attribution"
+      },
+      {
+        "code": "CF-MI",
+        "description": "Market Intelligence"
+      },
+      {
+        "code": "CF-CS",
+        "description": "Credit Scorer"
+      },
+      {
+        "code": "CF-OE",
+        "description": "Optimization Engine"
+      },
+      {
+        "code": "CF-SE",
+        "description": "Smart Execution"
+      },
+      {
+        "code": "CF-OG",
+        "description": "Order Generator"
+      },
+      {
+        "code": "CF-CS",
+        "description": "Counterparty Selector"
+      },
+      {
+        "code": "CF-SP",
+        "description": "Smart Pricing"
+      },
+      {
+        "code": "CF-RS",
+        "description": "Real-time Settlement"
+      },
+      {
+        "code": "CF-EM",
+        "description": "Exposure Monitor"
+      },
+      {
+        "code": "CF-CL",
+        "description": "Concentration Limiter"
+      },
+      {
+        "code": "CF-ML",
+        "description": "Maturity Ladder"
+      },
+      {
+        "code": "CF-PA",
+        "description": "Predictive Alerts"
+      },
+      {
+        "code": "CF-VE",
+        "description": "Valuation Engine"
+      },
+      {
+        "code": "CF-AA",
+        "description": "Auto Accruals"
+      },
+      {
+        "code": "CF-UR",
+        "description": "Unified Reporting"
+      },
+      {
+        "code": "CF-RD",
+        "description": "Real-time Dashboard"
+      },
+      {
+        "code": "CF-SO",
+        "description": "Structure Optimizer"
+      },
+      {
+        "code": "CF-MI",
+        "description": "Market Intelligence"
+      },
+      {
+        "code": "CF-RP",
+        "description": "Rating Predictor"
+      },
+      {
+        "code": "CF-AM",
+        "description": "Auto Modeler"
+      },
+      {
+        "code": "CF-DG",
+        "description": "Document Generator"
+      },
+      {
+        "code": "CF-DS",
+        "description": "Digital Syndication"
+      },
+      {
+        "code": "CF-SP",
+        "description": "Smart Pricing"
+      },
+      {
+        "code": "CF-AF",
+        "description": "Auto Filing"
+      },
+      {
+        "code": "CF-CT",
+        "description": "Covenant Tracker"
+      },
+      {
+        "code": "CF-AT",
+        "description": "Auto Tester"
+      },
+      {
+        "code": "CF-PH",
+        "description": "Predictive Headroom"
+      },
+      {
+        "code": "CF-SW",
+        "description": "Smart Waivers"
+      },
+      {
+        "code": "CF-RT",
+        "description": "Rate Tracker"
+      },
+      {
+        "code": "CF-AP",
+        "description": "Auto Payments"
+      },
+      {
+        "code": "CF-FO",
+        "description": "Fee Optimizer"
+      },
+      {
+        "code": "CF-SS",
+        "description": "Smart Settlements"
+      },
+      {
+        "code": "CF-OD",
+        "description": "Opportunity Detector"
+      },
+      {
+        "code": "CF-AM",
+        "description": "Auto Modeler"
+      },
+      {
+        "code": "CF-TO",
+        "description": "Timing Optimizer"
+      },
+      {
+        "code": "CF-DC",
+        "description": "Digital Communication"
+      },
+      {
+        "code": "CF-AS",
+        "description": "Auto Scheduler"
+      },
+      {
+        "code": "CF-AV",
+        "description": "AI Valuations"
+      },
+      {
+        "code": "CF-SD",
+        "description": "Smart Disclosures"
+      },
+      {
+        "code": "CF-UR",
+        "description": "Unified Reporting"
+      },
+      {
+        "code": "CF-DF",
+        "description": "Data Feeds"
+      },
+      {
+        "code": "CF-VM",
+        "description": "Valuation Models"
+      },
+      {
+        "code": "CF-SV",
+        "description": "Smart Verification"
+      },
+      {
+        "code": "CF-DD",
+        "description": "Digital Documentation"
+      },
+      {
+        "code": "CF-DG",
+        "description": "Documentation Generator"
+      },
+      {
+        "code": "CF-TD",
+        "description": "Test Designer"
+      },
+      {
+        "code": "CF-SD",
+        "description": "Smart Designation"
+      },
+      {
+        "code": "CF-DA",
+        "description": "Digital Approvals"
+      },
+      {
+        "code": "CF-DP",
+        "description": "Data Prep"
+      },
+      {
+        "code": "CF-SA",
+        "description": "Statistical Analysis"
+      },
+      {
+        "code": "CF-SA",
+        "description": "Smart Assessment"
+      },
+      {
+        "code": "CF-PR",
+        "description": "Predictive Remediation"
+      },
+      {
+        "code": "CF-EG",
+        "description": "Entry Generator"
+      },
+      {
+        "code": "CF-AS",
+        "description": "Auto Schedules"
+      },
+      {
+        "code": "CF-SR",
+        "description": "Smart Review"
+      },
+      {
+        "code": "CF-RR",
+        "description": "Real-time Reconciliation"
+      },
+      {
+        "code": "CF-AI",
+        "description": "Auto Inventory"
+      },
+      {
+        "code": "CF-HC",
+        "description": "Hierarchy Classifier"
+      },
+      {
+        "code": "CF-DS",
+        "description": "Dynamic Sensitivity"
+      },
+      {
+        "code": "CF-NG",
+        "description": "Natural Generation"
+      },
+      {
+        "code": "CF-CT",
+        "description": "Control Tester"
+      },
+      {
+        "code": "CF-DR",
+        "description": "Documentation Reviewer"
+      },
+      {
+        "code": "CF-IM",
+        "description": "Issue Manager"
+      },
+      {
+        "code": "CF-DT",
+        "description": "Digital Training"
+      },
+      {
+        "code": "CF-RD",
+        "description": "Risk Discoverer"
+      },
+      {
+        "code": "CF-ET",
+        "description": "Exposure Tracker"
+      },
+      {
+        "code": "CF-DS",
+        "description": "Dynamic Scenarios"
+      },
+      {
+        "code": "CF-PI",
+        "description": "Predictive Impacts"
+      },
+      {
+        "code": "CF-HO",
+        "description": "Hedge Optimizer"
+      },
+      {
+        "code": "CF-IS",
+        "description": "Instrument Selector"
+      },
+      {
+        "code": "CF-AA",
+        "description": "Automated Analysis"
+      },
+      {
+        "code": "CF-DE",
+        "description": "Digital Execution"
+      },
+      {
+        "code": "CF-RV",
+        "description": "Real-time VaR"
+      },
+      {
+        "code": "CF-SE",
+        "description": "Sensitivity Engine"
+      },
+      {
+        "code": "CF-PL",
+        "description": "Predictive Limits"
+      },
+      {
+        "code": "CF-BP",
+        "description": "Breach Prevention"
+      },
+      {
+        "code": "CF-CS",
+        "description": "Credit Scorer"
+      },
+      {
+        "code": "CF-DL",
+        "description": "Dynamic Limits"
+      },
+      {
+        "code": "CF-RE",
+        "description": "Real-time Exposure"
+      },
+      {
+        "code": "CF-CO",
+        "description": "Collateral Optimizer"
+      },
+      {
+        "code": "CF-SG",
+        "description": "Scenario Generator"
+      },
+      {
+        "code": "CF-AM",
+        "description": "Auto Modeler"
+      },
+      {
+        "code": "CF-PA",
+        "description": "Predictive Analysis"
+      },
+      {
+        "code": "CF-SA",
+        "description": "Smart Actions"
+      },
+      {
+        "code": "CF-RA",
+        "description": "Real-time Aggregator"
+      },
+      {
+        "code": "CF-RG",
+        "description": "Report Generator"
+      },
+      {
+        "code": "CF-DD",
+        "description": "Dynamic Dashboard"
+      },
+      {
+        "code": "CF-AF",
+        "description": "Auto Filing"
+      },
+      {
+        "code": "CF-MO",
+        "description": "Metric Optimizer"
+      },
+      {
+        "code": "CF-TS",
+        "description": "Target Setter"
+      },
+      {
+        "code": "CF-DI",
+        "description": "Data Integrator"
+      },
+      {
+        "code": "CF-RT",
+        "description": "Real-time Tracker"
+      },
+      {
+        "code": "CF-AC",
+        "description": "Auto Collector"
+      },
+      {
+        "code": "CF-VD",
+        "description": "Variance Detector"
+      },
+      {
+        "code": "CF-PT",
+        "description": "Predictive Trends"
+      },
+      {
+        "code": "CF-DB",
+        "description": "Dynamic Benchmarking"
+      },
+      {
+        "code": "CF-DG",
+        "description": "Dashboard Generator"
+      },
+      {
+        "code": "CF-RR",
+        "description": "Real-time Refresh"
+      },
+      {
+        "code": "CF-NI",
+        "description": "Natural Insights"
+      },
+      {
+        "code": "CF-ID",
+        "description": "Interactive Distribution"
+      },
+      {
+        "code": "CF-RM",
+        "description": "Report Mapper"
+      },
+      {
+        "code": "CF-AV",
+        "description": "Auto Validator"
+      },
+      {
+        "code": "CF-SG",
+        "description": "Smart Generator"
+      },
+      {
+        "code": "CF-DS",
+        "description": "Digital Submission"
+      },
+      {
+        "code": "CF-RP",
+        "description": "Request Processor"
+      },
+      {
+        "code": "CF-DA",
+        "description": "Data Access"
+      },
+      {
+        "code": "CF-SA",
+        "description": "Smart Analysis"
+      },
+      {
+        "code": "CF-DP",
+        "description": "Dynamic Presentations"
+      },
+      {
+        "code": "CF-PO",
+        "description": "Process Optimizer"
+      },
+      {
+        "code": "CF-CF",
+        "description": "Continuous Feedback"
+      },
+      {
+        "code": "CF-AI",
+        "description": "Auto Improvements"
+      },
+      {
+        "code": "CF-CM",
+        "description": "Change Manager"
+      }
+    ],
+    "cost-accounting": [
+      {
+        "code": "CA-MDA",
+        "description": "Multi-System Data Aggregator"
+      },
+      {
+        "code": "CA-RCF",
+        "description": "Real-time Cost Feeder"
+      },
+      {
+        "code": "CA-BV",
+        "description": "BOM Validator"
+      },
+      {
+        "code": "CA-DCP",
+        "description": "Dynamic Cost Pooler"
+      },
+      {
+        "code": "CA-ACM",
+        "description": "AI Cost Modeler"
+      },
+      {
+        "code": "CA-ARC",
+        "description": "Automated Rollup Calculator"
+      },
+      {
+        "code": "CA-DRO",
+        "description": "Dynamic Rate Optimizer"
+      },
+      {
+        "code": "CA-RCV",
+        "description": "Real-time Cost Visualizer"
+      },
+      {
+        "code": "CA-RVD",
+        "description": "Real-time Variance Detector"
+      },
+      {
+        "code": "CA-RCA",
+        "description": "Root Cause Analyzer"
+      },
+      {
+        "code": "CA-PVA",
+        "description": "Predictive Variance Alerter"
+      },
+      {
+        "code": "CA-AR",
+        "description": "Auto Reporter"
+      },
+      {
+        "code": "CA-AMO",
+        "description": "AI Margin Optimizer"
+      },
+      {
+        "code": "CA-DPM",
+        "description": "Dynamic Profitability Modeler"
+      },
+      {
+        "code": "CA-RMA",
+        "description": "Real-time Mix Analyzer"
+      },
+      {
+        "code": "CA-PP",
+        "description": "Predictive Pricer"
+      },
+      {
+        "code": "CA-AAE",
+        "description": "AI Allocation Engine"
+      },
+      {
+        "code": "CA-AD",
+        "description": "Auto Distributor"
+      },
+      {
+        "code": "CA-SR",
+        "description": "Smart Reconciler"
+      },
+      {
+        "code": "CA-BAT",
+        "description": "Blockchain Audit Trail"
+      },
+      {
+        "code": "CA-RTD",
+        "description": "Real-time Dashboard"
+      },
+      {
+        "code": "CA-AIS",
+        "description": "AI-powered Insights"
+      },
+      {
+        "code": "CA-PAN",
+        "description": "Predictive Analytics"
+      },
+      {
+        "code": "CA-ADS",
+        "description": "Auto Distribution System"
+      },
+      {
+        "code": "CA-ASC",
+        "description": "AI Service Classifier"
+      },
+      {
+        "code": "CA-AAD",
+        "description": "Automated Activity Detector"
+      },
+      {
+        "code": "CA-SRM",
+        "description": "Smart Resource Mapper"
+      },
+      {
+        "code": "CA-RTT",
+        "description": "Real-time Time Tracker"
+      },
+      {
+        "code": "CA-ACA",
+        "description": "AI Cost Assigner"
+      },
+      {
+        "code": "CA-ATC",
+        "description": "Automated Time Capturer"
+      },
+      {
+        "code": "CA-DAE",
+        "description": "Dynamic Allocation Engine"
+      },
+      {
+        "code": "CA-RCT",
+        "description": "Real-time Cost Tracker"
+      },
+      {
+        "code": "CA-ARM",
+        "description": "Automated Revenue Matcher"
+      },
+      {
+        "code": "CA-ARE",
+        "description": "AI Recognition Engine"
+      },
+      {
+        "code": "CA-RUT",
+        "description": "Real-time Unbilled Tracker"
+      },
+      {
+        "code": "CA-SAJ",
+        "description": "Smart Adjustment System"
+      },
+      {
+        "code": "CA-RPE",
+        "description": "Real-time Profitability Engine"
+      },
+      {
+        "code": "CA-AMO2",
+        "description": "AI Margin Optimizer"
+      },
+      {
+        "code": "CA-DPG",
+        "description": "Dynamic P&L Generator"
+      },
+      {
+        "code": "CA-PAN2",
+        "description": "Predictive Analytics"
+      },
+      {
+        "code": "CA-AOD",
+        "description": "AI Opportunity Detector"
+      },
+      {
+        "code": "CA-ACO",
+        "description": "Automated Cost Optimizer"
+      },
+      {
+        "code": "CA-DPE",
+        "description": "Dynamic Pricing Engine"
+      },
+      {
+        "code": "CA-RMO",
+        "description": "Real-time Mix Optimizer"
+      },
+      {
+        "code": "CA-ADD",
+        "description": "AI-powered Dynamic Dashboard"
+      },
+      {
+        "code": "CA-AIG",
+        "description": "Automated Insights Generator"
+      },
+      {
+        "code": "CA-RTB",
+        "description": "Real-time Benchmarker"
+      },
+      {
+        "code": "CA-APR",
+        "description": "AI Predictive Reporter"
+      }
+    ],
+    "fpa": [
+      {
+        "code": "FPA-DG",
+        "description": "Data Gatherer"
+      },
+      {
+        "code": "FPA-DA",
+        "description": "Data Analyzer"
+      },
+      {
+        "code": "FPA-CA",
+        "description": "Consolidation Agent"
+      },
+      {
+        "code": "FPA-DQ",
+        "description": "Data Quality Agent"
+      },
+      {
+        "code": "FPA-DQ",
+        "description": "Data Quality"
+      },
+      {
+        "code": "FPA-FX",
+        "description": "FX Manager"
+      },
+      {
+        "code": "FPA-HM",
+        "description": "Hierarchy Manager"
+      },
+      {
+        "code": "FPA-IE",
+        "description": "Intercompany Eliminator"
+      },
+      {
+        "code": "FPA-VA",
+        "description": "Variance Analyzer"
+      },
+      {
+        "code": "FPA-CA",
+        "description": "Causal Analyzer"
+      },
+      {
+        "code": "FPA-DA",
+        "description": "Driver Analyzer"
+      },
+      {
+        "code": "FPA-TD",
+        "description": "Trend Detector"
+      },
+      {
+        "code": "FPA-IR",
+        "description": "Insight Reporter"
+      },
+      {
+        "code": "FPA-CR",
+        "description": "Commentary Robot"
+      },
+      {
+        "code": "FPA-NS",
+        "description": "Narrative Synthesizer"
+      },
+      {
+        "code": "FPA-RA",
+        "description": "Risk Analyzer"
+      },
+      {
+        "code": "FPA-MR",
+        "description": "Management Reporter"
+      },
+      {
+        "code": "FPA-KT",
+        "description": "KPI Tracker"
+      },
+      {
+        "code": "FPA-VD",
+        "description": "Visualization Designer"
+      },
+      {
+        "code": "FPA-AL",
+        "description": "Alert Manager"
+      },
+      {
+        "code": "FPA-RG",
+        "description": "Report Generator"
+      },
+      {
+        "code": "FPA-PD",
+        "description": "Presentation Designer"
+      },
+      {
+        "code": "FPA-DM",
+        "description": "Distribution Manager"
+      },
+      {
+        "code": "FPA-FM",
+        "description": "Follow-up Manager"
+      },
+      {
+        "code": "FPA-BP",
+        "description": "Business Partner"
+      },
+      {
+        "code": "FPA-SM",
+        "description": "Scenario Modeler"
+      },
+      {
+        "code": "FPA-PA",
+        "description": "Predictive Analyzer"
+      },
+      {
+        "code": "FPA-AT",
+        "description": "Action Tracker"
+      },
+      {
+        "code": "FPA-AME",
+        "description": "Automated Multi-source Extractor"
+      },
+      {
+        "code": "FPA-DQV",
+        "description": "Data Quality Validator"
+      },
+      {
+        "code": "FPA-RTC",
+        "description": "Real-Time Consolidator"
+      },
+      {
+        "code": "FPA-SME",
+        "description": "Smart Mapping Engine"
+      },
+      {
+        "code": "FPA-ARG",
+        "description": "Automated Report Generator"
+      },
+      {
+        "code": "FPA-AVS",
+        "description": "AI Visualization Selector"
+      },
+      {
+        "code": "FPA-NLG",
+        "description": "Natural Language Generator"
+      },
+      {
+        "code": "FPA-VCA",
+        "description": "Version Control Automation"
+      },
+      {
+        "code": "FPA-AVD",
+        "description": "AI Variance Detector"
+      },
+      {
+        "code": "FPA-RCA",
+        "description": "Root Cause Analyzer"
+      },
+      {
+        "code": "FPA-MTP",
+        "description": "ML Trend Predictor"
+      },
+      {
+        "code": "FPA-SDI",
+        "description": "Smart Driver Identifier"
+      },
+      {
+        "code": "FPA-RKM",
+        "description": "Real-time KPI Monitor"
+      },
+      {
+        "code": "FPA-DSC",
+        "description": "Dynamic Scorecard"
+      },
+      {
+        "code": "FPA-AIB",
+        "description": "AI Benchmarking"
+      },
+      {
+        "code": "FPA-SAT",
+        "description": "Smart Action Tracker"
+      },
+      {
+        "code": "FPA-ADT",
+        "description": "Automated Distribution Tool"
+      },
+      {
+        "code": "FPA-SMS",
+        "description": "Smart Meeting Scheduler"
+      },
+      {
+        "code": "FPA-AAA",
+        "description": "AI Action Assigner"
+      },
+      {
+        "code": "FPA-FAU",
+        "description": "Feedback Automation"
+      }
+    ],
+    "investor-relations": [
+      {
+        "code": "IR-APC",
+        "description": "AI-Powered CRM"
+      },
+      {
+        "code": "IR-ROT",
+        "description": "Real-time Ownership Tracker"
+      },
+      {
+        "code": "IR-SIP",
+        "description": "Smart Investor Profiler"
+      },
+      {
+        "code": "IR-PLE",
+        "description": "Preference Learning Engine"
+      },
+      {
+        "code": "IR-AMO",
+        "description": "AI Message Optimizer"
+      },
+      {
+        "code": "IR-SCS",
+        "description": "Smart Channel Selector"
+      },
+      {
+        "code": "IR-OTE",
+        "description": "Optimal Timing Engine"
+      },
+      {
+        "code": "IR-RST",
+        "description": "Real-time Sentiment Tracker"
+      },
+      {
+        "code": "IR-SSC",
+        "description": "Smart Scheduling Coordinator"
+      },
+      {
+        "code": "IR-APB",
+        "description": "AI Presentation Builder"
+      },
+      {
+        "code": "IR-PQE",
+        "description": "Predictive Q&A Engine"
+      },
+      {
+        "code": "IR-RAE",
+        "description": "Relationship Analytics Engine"
+      },
+      {
+        "code": "IR-APA",
+        "description": "AI Peer Analytics"
+      },
+      {
+        "code": "IR-RIM",
+        "description": "Real-time Industry Monitor"
+      },
+      {
+        "code": "IR-SAG",
+        "description": "Sentiment Aggregation"
+      },
+      {
+        "code": "IR-PAI",
+        "description": "Perception AI"
+      },
+      {
+        "code": "IR-RPF",
+        "description": "Real-time Price Feed"
+      },
+      {
+        "code": "IR-AVA",
+        "description": "AI Volume Analytics"
+      },
+      {
+        "code": "IR-PVM",
+        "description": "Predictive Volatility Model"
+      },
+      {
+        "code": "IR-IAE",
+        "description": "Intelligent Alert Engine"
+      },
+      {
+        "code": "IR-MTA",
+        "description": "ML Trade Analyzer"
+      },
+      {
+        "code": "IR-AIT",
+        "description": "AI Institutional Tracker"
+      },
+      {
+        "code": "IR-RSM",
+        "description": "Real-time Short Monitor"
+      },
+      {
+        "code": "IR-PPE",
+        "description": "Pattern Prediction Engine"
+      },
+      {
+        "code": "IR-AMP",
+        "description": "Automated MM Portal"
+      },
+      {
+        "code": "IR-RLT",
+        "description": "Real-time Liquidity Tracker"
+      },
+      {
+        "code": "IR-ASO",
+        "description": "AI Spread Optimizer"
+      },
+      {
+        "code": "IR-SEP",
+        "description": "Smart Escalation Platform"
+      },
+      {
+        "code": "IR-AGR",
+        "description": "Auto-Generated Reports"
+      },
+      {
+        "code": "IR-SAF",
+        "description": "Smart Alert Filter"
+      },
+      {
+        "code": "IR-AIR",
+        "description": "AI Recommender"
+      },
+      {
+        "code": "IR-AFF",
+        "description": "Automated Filing Framework"
+      }
+    ],
+    "order-to-cash": [
+      {
+        "code": "O2C-BM",
+        "description": "Balance Monitor"
+      },
+      {
+        "code": "O2C-AP",
+        "description": "Aging Predictor"
+      },
+      {
+        "code": "O2C-EA",
+        "description": "Exposure Analyzer"
+      },
+      {
+        "code": "O2C-RS",
+        "description": "Risk Scorer"
+      },
+      {
+        "code": "O2C-CP",
+        "description": "Collection Prioritizer"
+      },
+      {
+        "code": "O2C-DM",
+        "description": "Default Modeler"
+      },
+      {
+        "code": "O2C-KA",
+        "description": "KPI Analyzer"
+      },
+      {
+        "code": "O2C-TA",
+        "description": "Trend Analyzer"
+      },
+      {
+        "code": "O2C-CF",
+        "description": "Cash Flow Modeler"
+      },
+      {
+        "code": "O2C-SO",
+        "description": "Strategy Optimizer"
+      },
+      {
+        "code": "O2C-CL",
+        "description": "Credit Limit Recommender"
+      },
+      {
+        "code": "O2C-PT",
+        "description": "Payment Term Modeler"
+      },
+      {
+        "code": "O2C-RG",
+        "description": "Report Generator"
+      },
+      {
+        "code": "O2C-PM",
+        "description": "Provision Modeler"
+      },
+      {
+        "code": "O2C-AT",
+        "description": "Audit Tracker"
+      },
+      {
+        "code": "O2C-CAI",
+        "description": "Credit Application Intake"
+      },
+      {
+        "code": "O2C-FAA",
+        "description": "Financial Analysis AI"
+      },
+      {
+        "code": "O2C-RV",
+        "description": "Reference Validator"
+      },
+      {
+        "code": "O2C-RS",
+        "description": "Risk Scorer"
+      },
+      {
+        "code": "O2C-CLR",
+        "description": "Credit Limit Recommender"
+      },
+      {
+        "code": "O2C-DRM",
+        "description": "Dynamic Risk Modeler"
+      },
+      {
+        "code": "O2C-AA",
+        "description": "Automated Approver"
+      },
+      {
+        "code": "O2C-SN",
+        "description": "Smart Notifier"
+      },
+      {
+        "code": "O2C-BA",
+        "description": "Behavior Analytics"
+      },
+      {
+        "code": "O2C-HM",
+        "description": "Health Monitor"
+      },
+      {
+        "code": "O2C-NA",
+        "description": "News Aggregator"
+      },
+      {
+        "code": "O2C-PA",
+        "description": "Predictive Alerter"
+      },
+      {
+        "code": "O2C-PRD",
+        "description": "Predictive Risk Detector"
+      },
+      {
+        "code": "O2C-MS",
+        "description": "Mitigation Strategist"
+      },
+      {
+        "code": "O2C-IO",
+        "description": "Insurance Optimizer"
+      },
+      {
+        "code": "O2C-EM",
+        "description": "Exposure Manager"
+      },
+      {
+        "code": "O2C-DA01",
+        "description": "Data Aggregator"
+      },
+      {
+        "code": "O2C-CV02",
+        "description": "Completion Verifier"
+      },
+      {
+        "code": "O2C-PE03",
+        "description": "Pricing Engine"
+      },
+      {
+        "code": "O2C-TE04",
+        "description": "Tax Engine"
+      },
+      {
+        "code": "O2C-TS01",
+        "description": "Template Selector"
+      },
+      {
+        "code": "O2C-LG02",
+        "description": "Line Generator"
+      },
+      {
+        "code": "O2C-DE03",
+        "description": "Discount Engine"
+      },
+      {
+        "code": "O2C-RC04",
+        "description": "Real-time Calculator"
+      },
+      {
+        "code": "O2C-AV01",
+        "description": "Accuracy Validator"
+      },
+      {
+        "code": "O2C-CC02",
+        "description": "Compliance Checker"
+      },
+      {
+        "code": "O2C-AW03",
+        "description": "Approval Workflow"
+      },
+      {
+        "code": "O2C-EA04",
+        "description": "Exception Automator"
+      },
+      {
+        "code": "O2C-OD01",
+        "description": "Omnichannel Distributor"
+      },
+      {
+        "code": "O2C-FC02",
+        "description": "Format Converter"
+      },
+      {
+        "code": "O2C-DR03",
+        "description": "Delivery Router"
+      },
+      {
+        "code": "O2C-RT04",
+        "description": "Real-time Tracker"
+      },
+      {
+        "code": "O2C-PP01",
+        "description": "Portal Provisioner"
+      },
+      {
+        "code": "O2C-IP02",
+        "description": "Invoice Poster"
+      },
+      {
+        "code": "O2C-DM03",
+        "description": "Document Manager"
+      },
+      {
+        "code": "O2C-SE04",
+        "description": "Self-service Enabler"
+      },
+      {
+        "code": "O2C-IR01",
+        "description": "Inquiry Resolver"
+      },
+      {
+        "code": "O2C-AI02",
+        "description": "Automated Investigator"
+      },
+      {
+        "code": "O2C-AE03",
+        "description": "Adjustment Engine"
+      },
+      {
+        "code": "O2C-SA04",
+        "description": "Self-service Adjustments"
+      },
+      {
+        "code": "O2C-AP01",
+        "description": "Account Prioritizer"
+      },
+      {
+        "code": "O2C-DS02",
+        "description": "Dynamic Segmenter"
+      },
+      {
+        "code": "O2C-RS03",
+        "description": "Risk Scorer"
+      },
+      {
+        "code": "O2C-WD04",
+        "description": "Work Distributor"
+      },
+      {
+        "code": "O2C-OO01",
+        "description": "Omnichannel Orchestrator"
+      },
+      {
+        "code": "O2C-CA02",
+        "description": "Conversation Assistant"
+      },
+      {
+        "code": "O2C-PM03",
+        "description": "Personalized Messenger"
+      },
+      {
+        "code": "O2C-TE04",
+        "description": "Timing Engine"
+      },
+      {
+        "code": "O2C-PT01",
+        "description": "Promise Tracker"
+      },
+      {
+        "code": "O2C-FO02",
+        "description": "Follow-up Optimizer"
+      },
+      {
+        "code": "O2C-PS03",
+        "description": "Promise Scorer"
+      },
+      {
+        "code": "O2C-PI04",
+        "description": "Proactive Intervener"
+      },
+      {
+        "code": "O2C-CA01",
+        "description": "Capacity Analyzer"
+      },
+      {
+        "code": "O2C-PG02",
+        "description": "Plan Generator"
+      },
+      {
+        "code": "O2C-AR03",
+        "description": "Approval Router"
+      },
+      {
+        "code": "O2C-AP04",
+        "description": "Agreement Processor"
+      },
+      {
+        "code": "O2C-DC01",
+        "description": "Dispute Categorizer"
+      },
+      {
+        "code": "O2C-AI02",
+        "description": "Automated Investigator"
+      },
+      {
+        "code": "O2C-DR03",
+        "description": "Document Retriever"
+      },
+      {
+        "code": "O2C-PR04",
+        "description": "Predictive Resolver"
+      },
+      {
+        "code": "O2C-ER01",
+        "description": "Escalation Recommender"
+      },
+      {
+        "code": "O2C-LD02",
+        "description": "Legal Documenter"
+      },
+      {
+        "code": "O2C-AM03",
+        "description": "Agency Matcher"
+      },
+      {
+        "code": "O2C-RO04",
+        "description": "ROI Optimizer"
+      },
+      {
+        "code": "O2C-PM01",
+        "description": "Payment Matcher"
+      },
+      {
+        "code": "O2C-AA02",
+        "description": "Automated Allocator"
+      },
+      {
+        "code": "O2C-ML03",
+        "description": "Machine Learning"
+      },
+      {
+        "code": "O2C-EA04",
+        "description": "Exception Automator"
+      },
+      {
+        "code": "O2C-DC01",
+        "description": "Deduction Capturer"
+      },
+      {
+        "code": "O2C-AC02",
+        "description": "AI Categorizer"
+      },
+      {
+        "code": "O2C-DR03",
+        "description": "Document Retriever"
+      },
+      {
+        "code": "O2C-RP04",
+        "description": "Real-time Processor"
+      },
+      {
+        "code": "O2C-AR01",
+        "description": "AI Researcher"
+      },
+      {
+        "code": "O2C-AV02",
+        "description": "Automated Verifier"
+      },
+      {
+        "code": "O2C-PR03",
+        "description": "Pattern Recognizer"
+      },
+      {
+        "code": "O2C-PA04",
+        "description": "Predictive Analytics"
+      },
+      {
+        "code": "O2C-CA01",
+        "description": "Contract Analyzer"
+      },
+      {
+        "code": "O2C-CC02",
+        "description": "Compliance Checker"
+      },
+      {
+        "code": "O2C-VS03",
+        "description": "Validity Scorer"
+      },
+      {
+        "code": "O2C-DA04",
+        "description": "Decision Automator"
+      },
+      {
+        "code": "O2C-RR01",
+        "description": "Resolution Recommender"
+      },
+      {
+        "code": "O2C-AC02",
+        "description": "Automated Communicator"
+      },
+      {
+        "code": "O2C-SE03",
+        "description": "Settlement Engine"
+      },
+      {
+        "code": "O2C-DP04",
+        "description": "Digital Processor"
+      },
+      {
+        "code": "O2C-RO01",
+        "description": "Recovery Optimizer"
+      },
+      {
+        "code": "O2C-AF02",
+        "description": "Automated Follow-up"
+      },
+      {
+        "code": "O2C-PC03",
+        "description": "Predictive Collector"
+      },
+      {
+        "code": "O2C-WR04",
+        "description": "Write-off Recommender"
+      },
+      {
+        "code": "O2C-RD01",
+        "description": "Real-time Dashboard"
+      },
+      {
+        "code": "O2C-TA02",
+        "description": "Trend Analyzer"
+      },
+      {
+        "code": "O2C-PP03",
+        "description": "Predictive Preventer"
+      },
+      {
+        "code": "O2C-SU04",
+        "description": "Stakeholder Updater"
+      },
+      {
+        "code": "O2C-BI01",
+        "description": "Bank Integrator"
+      },
+      {
+        "code": "O2C-PC02",
+        "description": "Payment Capturer"
+      },
+      {
+        "code": "O2C-RP03",
+        "description": "Real-time Processor"
+      },
+      {
+        "code": "O2C-FS04",
+        "description": "Format Standardizer"
+      },
+      {
+        "code": "O2C-CM01",
+        "description": "Customer Matcher"
+      },
+      {
+        "code": "O2C-FL02",
+        "description": "Fuzzy Logic"
+      },
+      {
+        "code": "O2C-ML03",
+        "description": "Machine Learning"
+      },
+      {
+        "code": "O2C-AE04",
+        "description": "Automated Enricher"
+      },
+      {
+        "code": "O2C-IM01",
+        "description": "Invoice Matcher"
+      },
+      {
+        "code": "O2C-AE02",
+        "description": "Allocation Engine"
+      },
+      {
+        "code": "O2C-DH03",
+        "description": "Discount Handler"
+      },
+      {
+        "code": "O2C-OA04",
+        "description": "Optimization Algorithm"
+      },
+      {
+        "code": "O2C-ER01",
+        "description": "Exception Resolver"
+      },
+      {
+        "code": "O2C-CO02",
+        "description": "Customer Outreach"
+      },
+      {
+        "code": "O2C-PM03",
+        "description": "Predictive Matcher"
+      },
+      {
+        "code": "O2C-SL04",
+        "description": "Self-learner"
+      },
+      {
+        "code": "O2C-AP01",
+        "description": "Automated Poster"
+      },
+      {
+        "code": "O2C-RR02",
+        "description": "Real-time Reconciler"
+      },
+      {
+        "code": "O2C-VA03",
+        "description": "Variance Analyzer"
+      },
+      {
+        "code": "O2C-DR04",
+        "description": "Dynamic Reporter"
+      },
+      {
+        "code": "O2C-AC01",
+        "description": "Automated Confirmer"
+      },
+      {
+        "code": "O2C-RS02",
+        "description": "Real-time Statementer"
+      },
+      {
+        "code": "O2C-QR03",
+        "description": "Query Resolver"
+      },
+      {
+        "code": "O2C-SP04",
+        "description": "Self-service Portal"
+      },
+      {
+        "code": "O2C-OI01",
+        "description": "Omnichannel Integrator"
+      },
+      {
+        "code": "O2C-TC02",
+        "description": "Ticket Creator"
+      },
+      {
+        "code": "O2C-SC03",
+        "description": "Smart Categorizer"
+      },
+      {
+        "code": "O2C-AA04",
+        "description": "Auto Acknowledger"
+      },
+      {
+        "code": "O2C-CA01",
+        "description": "Content Analyzer"
+      },
+      {
+        "code": "O2C-SR02",
+        "description": "Skill Router"
+      },
+      {
+        "code": "O2C-LB03",
+        "description": "Load Balancer"
+      },
+      {
+        "code": "O2C-PE04",
+        "description": "Predictive Escalator"
+      },
+      {
+        "code": "O2C-UD01",
+        "description": "Unified Data"
+      },
+      {
+        "code": "O2C-AR02",
+        "description": "AI Researcher"
+      },
+      {
+        "code": "O2C-DR03",
+        "description": "Document Retriever"
+      },
+      {
+        "code": "O2C-KB04",
+        "description": "Knowledge Base"
+      },
+      {
+        "code": "O2C-SR01",
+        "description": "Solution Recommender"
+      },
+      {
+        "code": "O2C-PC02",
+        "description": "Policy Checker"
+      },
+      {
+        "code": "O2C-SA03",
+        "description": "Smart Approver"
+      },
+      {
+        "code": "O2C-QA04",
+        "description": "Quality Automator"
+      },
+      {
+        "code": "O2C-RG01",
+        "description": "Response Generator"
+      },
+      {
+        "code": "O2C-DP02",
+        "description": "Dynamic Personalizer"
+      },
+      {
+        "code": "O2C-CS03",
+        "description": "Channel Selector"
+      },
+      {
+        "code": "O2C-AF04",
+        "description": "Automated Follow-up"
+      },
+      {
+        "code": "O2C-CW01",
+        "description": "Closure Workflow"
+      },
+      {
+        "code": "O2C-FC02",
+        "description": "Feedback Collector"
+      },
+      {
+        "code": "O2C-SA03",
+        "description": "Sentiment Analyzer"
+      },
+      {
+        "code": "O2C-RI04",
+        "description": "Real-time Insights"
+      },
+      {
+        "code": "O2C-AD",
+        "description": "Anomaly Detector"
+      },
+      {
+        "code": "O2C-PV",
+        "description": "Pricing Validator"
+      },
+      {
+        "code": "O2C-DA",
+        "description": "Discount Analyzer"
+      },
+      {
+        "code": "O2C-CM",
+        "description": "Compliance Monitor"
+      },
+      {
+        "code": "O2C-RCA",
+        "description": "Root Cause Analyzer"
+      },
+      {
+        "code": "O2C-PD",
+        "description": "Pattern Detector"
+      },
+      {
+        "code": "O2C-PA",
+        "description": "Predictive Analytics"
+      },
+      {
+        "code": "O2C-SD",
+        "description": "Smart Documenter"
+      },
+      {
+        "code": "O2C-CR",
+        "description": "Control Recommender"
+      },
+      {
+        "code": "O2C-PU",
+        "description": "Process Updater"
+      },
+      {
+        "code": "O2C-SC",
+        "description": "Smart Configurator"
+      },
+      {
+        "code": "O2C-CA",
+        "description": "Change Analytics"
+      },
+      {
+        "code": "O2C-KD",
+        "description": "KPI Dashboard"
+      },
+      {
+        "code": "O2C-RT",
+        "description": "Recovery Tracker"
+      },
+      {
+        "code": "O2C-ES",
+        "description": "Effectiveness Scorer"
+      },
+      {
+        "code": "O2C-PI",
+        "description": "Predictive Insights"
+      }
+    ],
+    "procure-to-pay": [
+      {
+        "code": "PTP-CAPTURE-001",
+        "description": "Invoice Capture Agent"
+      },
+      {
+        "code": "PTP-PARSE-001",
+        "description": "Invoice Parser"
+      },
+      {
+        "code": "GEN-CLASSIFY-001",
+        "description": "Document Classifier"
+      },
+      {
+        "code": "PTP-PARSE-001",
+        "description": "Invoice Parser"
+      },
+      {
+        "code": "PTP-VALIDATE-001",
+        "description": "Invoice Validator"
+      },
+      {
+        "code": "PTP-ENRICH-001",
+        "description": "Invoice Enricher"
+      },
+      {
+        "code": "PTP-VENDOR-001",
+        "description": "Vendor Matcher"
+      },
+      {
+        "code": "PTP-POMATCH-001",
+        "description": "PO Matcher"
+      },
+      {
+        "code": "PTP-THREEWAY-001",
+        "description": "Three-Way Matcher"
+      },
+      {
+        "code": "PTP-TOLERANCE-001",
+        "description": "Tolerance Manager"
+      },
+      {
+        "code": "PTP-DISCREP-001",
+        "description": "Discrepancy Resolver"
+      },
+      {
+        "code": "PTP-VENDCOM-001",
+        "description": "Vendor Communicator"
+      },
+      {
+        "code": "GEN-PATTERN-001",
+        "description": "Pattern Analyzer"
+      },
+      {
+        "code": "GEN-APPROVE-002",
+        "description": "Approval Validator"
+      },
+      {
+        "code": "GEN-WORKFLOW-001",
+        "description": "Workflow Facilitator"
+      },
+      {
+        "code": "GEN-COMPLY-001",
+        "description": "Compliance Checker"
+      },
+      {
+        "code": "PTP-APPREC-001",
+        "description": "Approval Recommender"
+      },
+      {
+        "code": "PTP-PAYSCHED-001",
+        "description": "Payment Scheduler"
+      },
+      {
+        "code": "PTP-DISCOUNT-001",
+        "description": "Discount Identifier"
+      },
+      {
+        "code": "GEN-CASHFLOW-001",
+        "description": "Cash Flow Optimizer"
+      },
+      {
+        "code": "GEN-CURRENCY-001",
+        "description": "FX Manager"
+      },
+      {
+        "code": "PTP-PAYEXEC-001",
+        "description": "Payment Executor"
+      },
+      {
+        "code": "PTP-PAYTRACK-001",
+        "description": "Payment Tracker"
+      },
+      {
+        "code": "PTP-VENDNOT-001",
+        "description": "Vendor Notifier"
+      },
+      {
+        "code": "GEN-BANKREC-001",
+        "description": "Bank Reconciler"
+      },
+      {
+        "code": "GEN-EXCEPT-001",
+        "description": "Exception Resolver"
+      },
+      {
+        "code": "GEN-ACCRUE-001",
+        "description": "Accrual Calculator"
+      },
+      {
+        "code": "PTP-STMTCAP-001",
+        "description": "Vendor Statement Capturer"
+      },
+      {
+        "code": "GEN-EXTRACT-001",
+        "description": "Data Extractor"
+      },
+      {
+        "code": "GEN-FILE-001",
+        "description": "Smart Filer"
+      },
+      {
+        "code": "PTP-TRANSMATCH-001",
+        "description": "Transaction Matcher"
+      },
+      {
+        "code": "GEN-PATTERN-001",
+        "description": "Pattern Recognizer"
+      },
+      {
+        "code": "PTP-PRICEVER-001",
+        "description": "Price Verifier"
+      },
+      {
+        "code": "GEN-ROOTCAUSE-001",
+        "description": "Root Cause Analyzer"
+      },
+      {
+        "code": "GEN-DOCRETRIEVE-001",
+        "description": "Document Retriever"
+      },
+      {
+        "code": "PTP-VENDCOM-001",
+        "description": "Vendor Communicator"
+      },
+      {
+        "code": "PTP-ADJUSTGEN-001",
+        "description": "Adjustment Generator"
+      },
+      {
+        "code": "GEN-SYSUPDATE-001",
+        "description": "System Updater"
+      },
+      {
+        "code": "GEN-RESTRACK-001",
+        "description": "Resolution Tracker"
+      },
+      {
+        "code": "PTP-RECONANALYZE-001",
+        "description": "Reconciliation Analyzer"
+      },
+      {
+        "code": "GEN-INSIGHT-001",
+        "description": "Insight Generator"
+      },
+      {
+        "code": "GEN-PREDICT-001",
+        "description": "Predictive Analyzer"
+      },
+      {
+        "code": "PTP-CARDREQ-001",
+        "description": "Card Request Manager"
+      },
+      {
+        "code": "PTP-LIMITREC-001",
+        "description": "Spending Limit Recommender"
+      },
+      {
+        "code": "PTP-VIRTUALCARD-001",
+        "description": "Virtual Card Issuer"
+      },
+      {
+        "code": "PTP-TRANSMON-001",
+        "description": "Transaction Monitor"
+      },
+      {
+        "code": "GEN-ANOMALY-001",
+        "description": "Anomaly Detector"
+      },
+      {
+        "code": "PTP-POLICYENF-001",
+        "description": "Policy Enforcer"
+      },
+      {
+        "code": "PTP-RECEIPTCAP-001",
+        "description": "Receipt Capturer"
+      },
+      {
+        "code": "PTP-RECEIPTMATCH-001",
+        "description": "Receipt Matcher"
+      },
+      {
+        "code": "GEN-COMPLY-001",
+        "description": "Compliance Checker"
+      },
+      {
+        "code": "GEN-STMTIMPORT-001",
+        "description": "Statement Importer"
+      },
+      {
+        "code": "PTP-MATCHCODE-001",
+        "description": "Matcher & Coder"
+      },
+      {
+        "code": "PTP-DISPUTE-001",
+        "description": "Dispute Detector"
+      },
+      {
+        "code": "PTP-SPENDANALYZE-001",
+        "description": "Spend Analyzer"
+      },
+      {
+        "code": "GEN-OPTIMIZE-001",
+        "description": "Optimization Recommender"
+      },
+      {
+        "code": "PTP-VENDORCONS-001",
+        "description": "Vendor Consolidator"
+      },
+      {
+        "code": "PTP-TRAVELREQ-001",
+        "description": "Travel Requestor"
+      },
+      {
+        "code": "GEN-POLICYVAL-001",
+        "description": "Policy Validator"
+      },
+      {
+        "code": "GEN-BUDGETCHECK-001",
+        "description": "Budget Checker"
+      },
+      {
+        "code": "GEN-APPROVE-001",
+        "description": "Approval Router"
+      },
+      {
+        "code": "PTP-BOOKREC-001",
+        "description": "Booking Recommender"
+      },
+      {
+        "code": "PTP-PRICEOPT-001",
+        "description": "Price Optimizer"
+      },
+      {
+        "code": "PTP-BOOKPLAT-001",
+        "description": "Booking Platform"
+      },
+      {
+        "code": "PTP-ITINERARY-001",
+        "description": "Itinerary Manager"
+      },
+      {
+        "code": "PTP-RECEIPTCAP-001",
+        "description": "Receipt Capturer"
+      },
+      {
+        "code": "PTP-EXPENSECAT-001",
+        "description": "Expense Categorizer"
+      },
+      {
+        "code": "PTP-MILEAGE-001",
+        "description": "Mileage Tracker"
+      },
+      {
+        "code": "GEN-CARDCONNECT-001",
+        "description": "Card Connector"
+      },
+      {
+        "code": "PTP-POLICYENF-001",
+        "description": "Policy Engine"
+      },
+      {
+        "code": "GEN-EXCEPTFLAG-001",
+        "description": "Exception Flagger"
+      },
+      {
+        "code": "PTP-JUSTIFY-001",
+        "description": "Justification Assistant"
+      },
+      {
+        "code": "GEN-COMPGUIDE-001",
+        "description": "Compliance Guide"
+      },
+      {
+        "code": "GEN-WORKFLOW-001",
+        "description": "Approval Manager"
+      },
+      {
+        "code": "PTP-APPREC-001",
+        "description": "Approval Recommender"
+      },
+      {
+        "code": "GEN-DELEGATE-001",
+        "description": "Delegation Manager"
+      },
+      {
+        "code": "GEN-ESCALATE-001",
+        "description": "Escalation Manager"
+      },
+      {
+        "code": "GEN-PAYCALC-001",
+        "description": "Payment Calculator"
+      },
+      {
+        "code": "PTP-PAYEXEC-001",
+        "description": "Payment Processor"
+      },
+      {
+        "code": "GEN-STATUS-001",
+        "description": "Status Tracker"
+      },
+      {
+        "code": "GEN-NOTIFY-001",
+        "description": "Confirmation Notifier"
+      },
+      {
+        "code": "GEN-AUDITTARGET-001",
+        "description": "Audit Targeter"
+      },
+      {
+        "code": "GEN-ANOMALY-001",
+        "description": "Anomaly Detector"
+      },
+      {
+        "code": "PTP-SPENDANALYZE-001",
+        "description": "Spend Analyzer"
+      },
+      {
+        "code": "GEN-DASHBOARD-001",
+        "description": "Dashboard Intelligence"
+      },
+      {
+        "code": "GEN-EXTRACT-001",
+        "description": "Data Extractor"
+      },
+      {
+        "code": "GEN-VALIDATE-001",
+        "description": "Data Validator"
+      },
+      {
+        "code": "PTP-DATACONS-001",
+        "description": "Data Consolidator"
+      },
+      {
+        "code": "PTP-KPICALC-001",
+        "description": "KPI Calculator"
+      },
+      {
+        "code": "PTP-METRICANALYZE-001",
+        "description": "Metric Analyzer"
+      },
+      {
+        "code": "GEN-TREND-001",
+        "description": "Trend Analyzer"
+      },
+      {
+        "code": "PTP-SPENDCAT-001",
+        "description": "Spend Categorizer"
+      },
+      {
+        "code": "PTP-SPENDANALYZE-001",
+        "description": "Spend Analyzer"
+      },
+      {
+        "code": "PTP-COMPMON-001",
+        "description": "Compliance Monitor"
+      },
+      {
+        "code": "GEN-REPORT-002",
+        "description": "Report Generator"
+      },
+      {
+        "code": "PTP-EXECSUMM-001",
+        "description": "Executive Summarizer"
+      },
+      {
+        "code": "GEN-VISUALIZE-001",
+        "description": "Visualization Generator"
+      },
+      {
+        "code": "FPA-MONITOR-001",
+        "description": "Performance Monitor"
+      },
+      {
+        "code": "GEN-IMPROVE-001",
+        "description": "Improvement Recommender"
+      },
+      {
+        "code": "PTP-ACTIONTRACK-001",
+        "description": "Action Tracker"
+      }
+    ]
+  }
+}

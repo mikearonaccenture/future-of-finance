@@ -1,0 +1,10 @@
+Backup created on: Sun Jul 27 00:20:16 EDT 2025
+Description: Complete site backup with enhanced workflows (8-step detailed workflows with platform mapping)
+Key features at this point:
+- Visual workflow display with left-to-right process flow
+- Detailed modal view showing all agents and activities
+- Platform mapping for each workflow
+- Enhanced P2P and FP&A workflows with 6-8 detailed steps
+- Working hamburger menu navigation
+- All 44 finance activities mapped to 21 platforms
+- 300+ AI agents in the ecosystem

@@ -1,0 +1,5974 @@
+{
+  "total_agents": 851,
+  "domain_counts": {
+    "CTL": 220,
+    "CTRL": 31,
+    "CF": 145,
+    "P2P": 1,
+    "CA": 48,
+    "FPA": 74,
+    "IR": 73,
+    "O2C": 151,
+    "PTP": 63,
+    "GEN": 45
+  },
+  "agents": {
+    "CA-AAD": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Automated Activity Detector"
+    },
+    "CA-AAE": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI Allocation Engine"
+    },
+    "CA-ACA": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI Cost Assigner"
+    },
+    "CA-ACM": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI Cost Modeler"
+    },
+    "CA-ACO": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Automated Cost Optimizer"
+    },
+    "CA-AD": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Auto Distributor"
+    },
+    "CA-ADD": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI-powered Dynamic Dashboard"
+    },
+    "CA-ADS": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Auto Distribution System"
+    },
+    "CA-AIG": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Automated Insights Generator"
+    },
+    "CA-AIS": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI-powered Insights"
+    },
+    "CA-AMO": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI Margin Optimizer"
+    },
+    "CA-AMO2": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI Margin Optimizer"
+    },
+    "CA-AOD": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI Opportunity Detector"
+    },
+    "CA-APR": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI Predictive Reporter"
+    },
+    "CA-AR": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Auto Reporter"
+    },
+    "CA-ARC": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Automated Rollup Calculator"
+    },
+    "CA-ARE": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI Recognition Engine"
+    },
+    "CA-ARM": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Automated Revenue Matcher"
+    },
+    "CA-ASC": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "AI Service Classifier"
+    },
+    "CA-ATC": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Automated Time Capturer"
+    },
+    "CA-BAT": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Blockchain Audit Trail"
+    },
+    "CA-BV": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "BOM Validator"
+    },
+    "CA-DAE": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Allocation Engine"
+    },
+    "CA-DCP": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Cost Pooler"
+    },
+    "CA-DPE": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Pricing Engine"
+    },
+    "CA-DPG": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic P&L Generator"
+    },
+    "CA-DPM": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Profitability Modeler"
+    },
+    "CA-DRO": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Rate Optimizer"
+    },
+    "CA-MDA": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Multi-System Data Aggregator"
+    },
+    "CA-PAN": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Analytics"
+    },
+    "CA-PAN2": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Analytics"
+    },
+    "CA-PP": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Pricer"
+    },
+    "CA-PVA": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Variance Alerter"
+    },
+    "CA-RCA": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Root Cause Analyzer"
+    },
+    "CA-RCF": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Cost Feeder"
+    },
+    "CA-RCT": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Cost Tracker"
+    },
+    "CA-RCV": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Cost Visualizer"
+    },
+    "CA-RMA": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Mix Analyzer"
+    },
+    "CA-RMO": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Mix Optimizer"
+    },
+    "CA-RPE": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Profitability Engine"
+    },
+    "CA-RTB": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Benchmarker"
+    },
+    "CA-RTD": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Dashboard"
+    },
+    "CA-RTT": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Time Tracker"
+    },
+    "CA-RUT": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Unbilled Tracker"
+    },
+    "CA-RVD": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Variance Detector"
+    },
+    "CA-SAJ": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Smart Adjustment System"
+    },
+    "CA-SR": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Smart Reconciler"
+    },
+    "CA-SRM": {
+      "workflows": [
+        "Cost Accounting"
+      ],
+      "reference_count": 1,
+      "description": "Smart Resource Mapper"
+    },
+    "CF-AA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 18,
+      "description": "Automated Analysis"
+    },
+    "CF-AB": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Auto Benchmarker"
+    },
+    "CF-AC": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 10,
+      "description": "Auto Collector"
+    },
+    "CF-AD": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 11,
+      "description": "Auto Distributor"
+    },
+    "CF-AE": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Auto Exemptions"
+    },
+    "CF-AF": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Auto Filing"
+    },
+    "CF-AG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Agreement Generator"
+    },
+    "CF-AI": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 8,
+      "description": "Auto Improvements"
+    },
+    "CF-AM": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 11,
+      "description": "Auto Modeler"
+    },
+    "CF-AP": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 7,
+      "description": "Auto Payments"
+    },
+    "CF-AQ": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Auto Query handler"
+    },
+    "CF-AR": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Auto RFP"
+    },
+    "CF-AS": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 9,
+      "description": "Auto Schedules"
+    },
+    "CF-AT": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 15,
+      "description": "Auto Tester"
+    },
+    "CF-AU": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Auto Updates"
+    },
+    "CF-AV": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Auto Validator"
+    },
+    "CF-BF": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Balance Feeder"
+    },
+    "CF-BG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Brief Generator"
+    },
+    "CF-BI": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Banking Integration"
+    },
+    "CF-BM": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Buffer Manager"
+    },
+    "CF-BP": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Breach Prevention"
+    },
+    "CF-CA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Counterparty Analyzer"
+    },
+    "CF-CD": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Control Designer"
+    },
+    "CF-CE": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Calculation Engine"
+    },
+    "CF-CF": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Continuous Feedback"
+    },
+    "CF-CI": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "CRM Integrator"
+    },
+    "CF-CL": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Concentration Limiter"
+    },
+    "CF-CM": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 7,
+      "description": "Change Manager"
+    },
+    "CF-CO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 10,
+      "description": "Collateral Optimizer"
+    },
+    "CF-CS": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 5,
+      "description": "Credit Scorer"
+    },
+    "CF-CT": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 9,
+      "description": "Control Tester"
+    },
+    "CF-DA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 11,
+      "description": "Data Access"
+    },
+    "CF-DB": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Dynamic Benchmarking"
+    },
+    "CF-DC": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 7,
+      "description": "Digital Communication"
+    },
+    "CF-DD": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 16,
+      "description": "Dynamic Dashboard"
+    },
+    "CF-DE": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Digital Execution"
+    },
+    "CF-DF": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Data Feeds"
+    },
+    "CF-DG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 8,
+      "description": "Dashboard Generator"
+    },
+    "CF-DI": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Data Integrator"
+    },
+    "CF-DK": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Dynamic KPIs"
+    },
+    "CF-DL": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Dynamic Limits"
+    },
+    "CF-DM": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 8,
+      "description": "Deadline Manager"
+    },
+    "CF-DO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Digital Onboarding"
+    },
+    "CF-DP": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Dynamic Presentations"
+    },
+    "CF-DR": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Documentation Reviewer"
+    },
+    "CF-DS": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 17,
+      "description": "Digital Submission"
+    },
+    "CF-DT": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 8,
+      "description": "Digital Training"
+    },
+    "CF-DV": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Digital Vouchers"
+    },
+    "CF-EA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Efficiency Analyzer"
+    },
+    "CF-EG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Entry Generator"
+    },
+    "CF-EM": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Exposure Monitor"
+    },
+    "CF-EP": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Exam Preparer"
+    },
+    "CF-ER": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Error Resolver"
+    },
+    "CF-ET": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Exposure Tracker"
+    },
+    "CF-FA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Fee Analytics"
+    },
+    "CF-FG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "File Generator"
+    },
+    "CF-FO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Fee Optimizer"
+    },
+    "CF-FP": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Filing Platform"
+    },
+    "CF-FS": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Form Selector"
+    },
+    "CF-FW": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Filing Workflow"
+    },
+    "CF-HC": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Hierarchy Classifier"
+    },
+    "CF-HO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Hedge Optimizer"
+    },
+    "CF-IA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Issue Analyzer"
+    },
+    "CF-ID": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Interactive Distribution"
+    },
+    "CF-IF": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Income Forecaster"
+    },
+    "CF-IG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Invoice Generator"
+    },
+    "CF-IM": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Issue Manager"
+    },
+    "CF-IR": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Instant Retrieval"
+    },
+    "CF-IS": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Instrument Selector"
+    },
+    "CF-IT": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Innovation Tracker"
+    },
+    "CF-KT": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "KPI Tracker"
+    },
+    "CF-LO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Liquidity Optimizer"
+    },
+    "CF-LT": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Limit Tracker"
+    },
+    "CF-MI": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Market Intelligence"
+    },
+    "CF-ML": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Maturity Ladder"
+    },
+    "CF-MO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Metric Optimizer"
+    },
+    "CF-MS": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Method Selector"
+    },
+    "CF-NA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Needs Analyzer"
+    },
+    "CF-NG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Natural Generation"
+    },
+    "CF-NI": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Natural Insights"
+    },
+    "CF-NO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Negotiation Optimizer"
+    },
+    "CF-NP": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Notice Portal"
+    },
+    "CF-NT": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Nexus Tracker"
+    },
+    "CF-OD": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Opportunity Detector"
+    },
+    "CF-OE": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Optimization Engine"
+    },
+    "CF-OG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Order Generator"
+    },
+    "CF-OS": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Opportunity Scanner"
+    },
+    "CF-PA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 13,
+      "description": "Predictive Analysis"
+    },
+    "CF-PC": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Predictive Compliance"
+    },
+    "CF-PD": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Pattern Detector"
+    },
+    "CF-PG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Policy Generator"
+    },
+    "CF-PH": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Predictive Headroom"
+    },
+    "CF-PI": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Predictive Impacts"
+    },
+    "CF-PL": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Predictive Limits"
+    },
+    "CF-PM": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 9,
+      "description": "Policy Monitor"
+    },
+    "CF-PO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 11,
+      "description": "Process Optimizer"
+    },
+    "CF-PP": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Predictive Planning"
+    },
+    "CF-PR": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Predictive Remediation"
+    },
+    "CF-PT": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Predictive Trends"
+    },
+    "CF-PV": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Predictive Valuator"
+    },
+    "CF-RA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 8,
+      "description": "Real-time Aggregator"
+    },
+    "CF-RB": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Real-time Benchmarking"
+    },
+    "CF-RC": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 8,
+      "description": "Real-time Compliance"
+    },
+    "CF-RCC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CF-RD": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 13,
+      "description": "Risk Discoverer"
+    },
+    "CF-RE": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Real-time Exposure"
+    },
+    "CF-RF": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Roll-Forward generator"
+    },
+    "CF-RG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Report Generator"
+    },
+    "CF-RKM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CF-RM": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 13,
+      "description": "Report Mapper"
+    },
+    "CF-RO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Real-time Optimizer"
+    },
+    "CF-RP": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 10,
+      "description": "Request Processor"
+    },
+    "CF-RR": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 8,
+      "description": "Real-time Refresh"
+    },
+    "CF-RS": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Real-time Settlement"
+    },
+    "CF-RT": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 8,
+      "description": "Real-time Tracker"
+    },
+    "CF-RU": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Rate Updater"
+    },
+    "CF-RUM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CF-RV": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Real-time VaR"
+    },
+    "CF-SA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 17,
+      "description": "Smart Analysis"
+    },
+    "CF-SC": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 11,
+      "description": "Smart Contingencies"
+    },
+    "CF-SD": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 8,
+      "description": "Smart Designation"
+    },
+    "CF-SE": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 13,
+      "description": "Sensitivity Engine"
+    },
+    "CF-SG": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Smart Generator"
+    },
+    "CF-SH": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Safe Harbor calculator"
+    },
+    "CF-SI": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Smart Implementation"
+    },
+    "CF-SN": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Smart Negotiator"
+    },
+    "CF-SO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 14,
+      "description": "Structure Optimizer"
+    },
+    "CF-SP": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Smart Pricing"
+    },
+    "CF-SR": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 10,
+      "description": "Smart Review"
+    },
+    "CF-SS": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 10,
+      "description": "Smart Settlements"
+    },
+    "CF-ST": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Stress Tester"
+    },
+    "CF-SU": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Smart Updater"
+    },
+    "CF-SV": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Smart Verification"
+    },
+    "CF-SW": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Smart Waivers"
+    },
+    "CF-TA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Trend Analyzer"
+    },
+    "CF-TD": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 5,
+      "description": "Test Designer"
+    },
+    "CF-TIA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CF-TM": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Tax Modeler"
+    },
+    "CF-TO": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Timing Optimizer"
+    },
+    "CF-TS": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Target Setter"
+    },
+    "CF-UR": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Unified Reporting"
+    },
+    "CF-VA": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Variance Analyzer"
+    },
+    "CF-VD": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 4,
+      "description": "Variance Detector"
+    },
+    "CF-VE": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 2,
+      "description": "Valuation Engine"
+    },
+    "CF-VM": {
+      "workflows": [
+        "Corporate Finance"
+      ],
+      "reference_count": 6,
+      "description": "Valuation Models"
+    },
+    "CTL-AA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 23,
+      "description": "Auto Approver"
+    },
+    "CTL-AA2": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Auto Adjuster"
+    },
+    "CTL-AAA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTL-AB": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Auto Benchmarker"
+    },
+    "CTL-AC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 12,
+      "description": "Auto Compiler"
+    },
+    "CTL-ACA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Automated Cost Aggregator"
+    },
+    "CTL-ACA3": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Contract Analyzer"
+    },
+    "CTL-ACE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Consolidation Engine"
+    },
+    "CTL-ACL": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Automated Confirmation Letters"
+    },
+    "CTL-ACL2": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Automated Classifier"
+    },
+    "CTL-ACM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Condition Monitor"
+    },
+    "CTL-AD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 6,
+      "description": "Auto Disclosures"
+    },
+    "CTL-ADC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Auto Depreciation Configurator"
+    },
+    "CTL-ADD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "AI Disclosure Drafter"
+    },
+    "CTL-ADE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTL-ADG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Automated Disclosure Generator"
+    },
+    "CTL-ADR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Dispute Resolver"
+    },
+    "CTL-AE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 12,
+      "description": "Auto Eliminator"
+    },
+    "CTL-AF": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Auto Formatter"
+    },
+    "CTL-AFP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Auto-Filing Prep"
+    },
+    "CTL-AFS": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Auto-Filing System"
+    },
+    "CTL-AFT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "AI FX Translator"
+    },
+    "CTL-AG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Auto Gatherer"
+    },
+    "CTL-AGL": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Auto Gain/Loss Calculator"
+    },
+    "CTL-AI": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 8,
+      "description": "AI Insights"
+    },
+    "CTL-AIT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Automated Impairment Tester"
+    },
+    "CTL-AJC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Auto Journal Creator"
+    },
+    "CTL-AJG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Auto-Journal Generator"
+    },
+    "CTL-AJG2": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Auto-Journal Generator"
+    },
+    "CTL-AJR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Automated JV Reporter"
+    },
+    "CTL-ALM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "AI Line Mapper"
+    },
+    "CTL-AM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Automated Metrics"
+    },
+    "CTL-AMA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Maturity Analyzer"
+    },
+    "CTL-AMD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Modification Detector"
+    },
+    "CTL-ANG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Automated Narrative Generator"
+    },
+    "CTL-AO": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Allocation Optimizer"
+    },
+    "CTL-AP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Audit Planner"
+    },
+    "CTL-APC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Automated PV Calculator"
+    },
+    "CTL-APM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 3,
+      "description": "Automated PO Matcher"
+    },
+    "CTL-APR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI-Powered Reconciler"
+    },
+    "CTL-APT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Automated Payment Tracker"
+    },
+    "CTL-AQ": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Auto Querier"
+    },
+    "CTL-AR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 20,
+      "description": "Auto Responder"
+    },
+    "CTL-ARM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Receipt Matcher"
+    },
+    "CTL-ARO": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Rate Optimizer"
+    },
+    "CTL-ART": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "AI Response Tracker"
+    },
+    "CTL-AS": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 9,
+      "description": "Auto Submitter"
+    },
+    "CTL-ASC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Automated Schedule Creator"
+    },
+    "CTL-ASG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Automated Statement Generator"
+    },
+    "CTL-ASS": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI System Setup"
+    },
+    "CTL-AST": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Automated SOX Tester"
+    },
+    "CTL-AT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 14,
+      "description": "Assisted Tester"
+    },
+    "CTL-ATA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 5,
+      "description": "AI Tax Analyzer"
+    },
+    "CTL-ATC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Automated Transaction Capture"
+    },
+    "CTL-ATE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Term Extractor"
+    },
+    "CTL-AU": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Auto Updater"
+    },
+    "CTL-AV": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 3,
+      "description": "Auto Valuator"
+    },
+    "CTL-AVA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Variance Analyzer"
+    },
+    "CTL-AVM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "AI Valuation Model"
+    },
+    "CTL-BA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 6,
+      "description": "Blockchain Auditor"
+    },
+    "CTL-BE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Billing Engine"
+    },
+    "CTL-BF": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTL-BM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Budget Modeler"
+    },
+    "CTL-BT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Balance Tracker"
+    },
+    "CTL-CA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Contract Analyzer"
+    },
+    "CTL-CC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 8,
+      "description": "Certification Cascade"
+    },
+    "CTL-CCM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Continuous Control Monitor"
+    },
+    "CTL-CE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 8,
+      "description": "Consistency Engine"
+    },
+    "CTL-CG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Commentary Generator"
+    },
+    "CTL-CI": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Continuous Improver"
+    },
+    "CTL-CIA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Continuous Improvement AI"
+    },
+    "CTL-CM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 13,
+      "description": "Continuous Monitor"
+    },
+    "CTL-CO": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Cash Optimizer"
+    },
+    "CTL-CP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Cutoff Processor"
+    },
+    "CTL-CR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Cross Referencer"
+    },
+    "CTL-CS": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Contract Setup"
+    },
+    "CTL-CT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Capital Tracker"
+    },
+    "CTL-CW": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Certification Workflow"
+    },
+    "CTL-DA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 16,
+      "description": "Digital Approver"
+    },
+    "CTL-DAR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Agreement Reviewer"
+    },
+    "CTL-DAT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Digital Audit Trail"
+    },
+    "CTL-DAT2": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Digital Asset Tagger"
+    },
+    "CTL-DC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 6,
+      "description": "Digital Configurator"
+    },
+    "CTL-DD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 21,
+      "description": "Deficiency Detector"
+    },
+    "CTL-DDL": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Digital Disclosure Library"
+    },
+    "CTL-DE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Documentation Engine"
+    },
+    "CTL-DG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 6,
+      "description": "Disclosure Generator"
+    },
+    "CTL-DI": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 6,
+      "description": "Dynamic Insights"
+    },
+    "CTL-DM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Dependency Manager"
+    },
+    "CTL-DR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 8,
+      "description": "Dispute Resolver"
+    },
+    "CTL-DRF": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Roll-Forward"
+    },
+    "CTL-DS": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 8,
+      "description": "Digital Statements"
+    },
+    "CTL-DSI": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Digital Statement Intake"
+    },
+    "CTL-DT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Digital Trainer"
+    },
+    "CTL-DU": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Driver Updater"
+    },
+    "CTL-DVP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Digital Vendor Portal"
+    },
+    "CTL-DW": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Digital Walkthrough"
+    },
+    "CTL-EA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Exception Analyzer"
+    },
+    "CTL-EC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Equity Calculator"
+    },
+    "CTL-EE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Elimination Engine"
+    },
+    "CTL-EG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Entry Generator"
+    },
+    "CTL-ER": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 5,
+      "description": "Expense Router"
+    },
+    "CTL-EV": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Evidence Vault"
+    },
+    "CTL-FC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Format Converter"
+    },
+    "CTL-FD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Flux Detector"
+    },
+    "CTL-FG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Footnote Generator"
+    },
+    "CTL-FM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Format Mapper"
+    },
+    "CTL-FO": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Fee Optimizer"
+    },
+    "CTL-GA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "GAAP Analyzer"
+    },
+    "CTL-GC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Governance Checker"
+    },
+    "CTL-HO": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Hierarchy Optimizer"
+    },
+    "CTL-HP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "High-Performance engine"
+    },
+    "CTL-IA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 5,
+      "description": "Issue Aggregator"
+    },
+    "CTL-IAT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "IoT Asset Tracker"
+    },
+    "CTL-IC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Interest Calculator"
+    },
+    "CTL-ID": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 7,
+      "description": "Integrated Distributor"
+    },
+    "CTL-II": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "IC Invoicer"
+    },
+    "CTL-IM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Indicator Monitor"
+    },
+    "CTL-IT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 6,
+      "description": "Implementation Tracker"
+    },
+    "CTL-JA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "JV Accountant"
+    },
+    "CTL-JC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Journal Creator"
+    },
+    "CTL-JG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Journal Generator"
+    },
+    "CTL-KG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "K-1 Generator"
+    },
+    "CTL-KM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "KPI Manager"
+    },
+    "CTL-LA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Lease Analyzer"
+    },
+    "CTL-LC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Lease Classifier"
+    },
+    "CTL-MBT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "ML-Based Tester"
+    },
+    "CTL-MD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Master Data Manager"
+    },
+    "CTL-ME": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Matching Engine"
+    },
+    "CTL-MH": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Modification Handler"
+    },
+    "CTL-ML": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Machine Learning"
+    },
+    "CTL-MM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 8,
+      "description": "Milestone Monitor"
+    },
+    "CTL-MO": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Method Optimizer"
+    },
+    "CTL-MP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Multi-Poster"
+    },
+    "CTL-MT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Material Tracker"
+    },
+    "CTL-NC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Natural Commentary"
+    },
+    "CTL-NN": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Natural Narrator"
+    },
+    "CTL-NO": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Netting Optimizer"
+    },
+    "CTL-NT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Neural Translator"
+    },
+    "CTL-PA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Predictive Analytics"
+    },
+    "CTL-PC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "POC Calculator"
+    },
+    "CTL-PCD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Policy Change Detector"
+    },
+    "CTL-PD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "POB Detector"
+    },
+    "CTL-PE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 8,
+      "description": "Predictive EAC"
+    },
+    "CTL-PEH": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Predictive Exception Handler"
+    },
+    "CTL-PF": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 6,
+      "description": "Process Flows"
+    },
+    "CTL-PG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "PBC Generator"
+    },
+    "CTL-PI": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Predictive Issues"
+    },
+    "CTL-PIA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Impairment Analyzer"
+    },
+    "CTL-PM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 8,
+      "description": "Payment Matcher"
+    },
+    "CTL-PO": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Payment Optimizer"
+    },
+    "CTL-PR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Payment Router"
+    },
+    "CTL-PRA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Risk Analytics"
+    },
+    "CTL-PRW": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Parallel Review Workflow"
+    },
+    "CTL-PS": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Project Structurer"
+    },
+    "CTL-PTR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Payment Tracker"
+    },
+    "CTL-QR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Query Responder"
+    },
+    "CTL-RA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 15,
+      "description": "Risk Assessor"
+    },
+    "CTL-RC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 12,
+      "description": "Real-time Confirmer"
+    },
+    "CTL-RD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 11,
+      "description": "Real-time Dashboard"
+    },
+    "CTL-RDD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Real-time Dashboard"
+    },
+    "CTL-RE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Real-time Executor"
+    },
+    "CTL-RF": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Roll-Forward generator"
+    },
+    "CTL-RG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 8,
+      "description": "Report Generator"
+    },
+    "CTL-RLS": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTL-RM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 5,
+      "description": "Rate Manager"
+    },
+    "CTL-RMD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Market Data"
+    },
+    "CTL-RP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 14,
+      "description": "Reporting Portal"
+    },
+    "CTL-RPD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Position Dashboard"
+    },
+    "CTL-RR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 5,
+      "description": "Real-time Reconciler"
+    },
+    "CTL-RS": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Risk Scorer"
+    },
+    "CTL-RT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 8,
+      "description": "Real-time Tracker"
+    },
+    "CTL-RTB": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Real-Time Balancer"
+    },
+    "CTL-RTC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Real-Time Consolidator"
+    },
+    "CTL-RTC2": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "RegTech Compliance"
+    },
+    "CTL-RTC3": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "RegTech Compliance"
+    },
+    "CTL-RTL": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Real-Time Locator"
+    },
+    "CTL-RTM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Real-Time Measurement"
+    },
+    "CTL-RU": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Real-time Updater"
+    },
+    "CTL-RW": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Review Workflow"
+    },
+    "CTL-SA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 15,
+      "description": "Smart Accruals"
+    },
+    "CTL-SAR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Smart Approval Router"
+    },
+    "CTL-SAT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Smart Adjustment Tracker"
+    },
+    "CTL-SC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 13,
+      "description": "Smart Communicator"
+    },
+    "CTL-SD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 16,
+      "description": "Smart Documentation"
+    },
+    "CTL-SDP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Secure Distribution Platform"
+    },
+    "CTL-SDR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Smart Dispute Router"
+    },
+    "CTL-SDW": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Smart Disposal Workflow"
+    },
+    "CTL-SE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "SSP Engine"
+    },
+    "CTL-SF": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Smart Formatter"
+    },
+    "CTL-SG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Statement Generator"
+    },
+    "CTL-SI": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Smart Investigator"
+    },
+    "CTL-SIC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Smart Invoice Creator"
+    },
+    "CTL-SIM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTL-SIT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Smart Item Tracker"
+    },
+    "CTL-SM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 6,
+      "description": "Structure Mapper"
+    },
+    "CTL-SMT": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Smart Mapping Tool"
+    },
+    "CTL-SP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Smart Publisher"
+    },
+    "CTL-SPC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Smart Payment Categorizer"
+    },
+    "CTL-SR": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 3,
+      "description": "Smart Remediator"
+    },
+    "CTL-SRM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Smart Remeasurement"
+    },
+    "CTL-SS": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 6,
+      "description": "Severity Scorer"
+    },
+    "CTL-ST": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Submission Tracker"
+    },
+    "CTL-STE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": "Smart Term Extractor"
+    },
+    "CTL-SV": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 6,
+      "description": "Smart Validator"
+    },
+    "CTL-SVA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Smart Variance Analyzer"
+    },
+    "CTL-SW": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Smart Withholder"
+    },
+    "CTL-TA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Tax Allocator"
+    },
+    "CTL-TC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Time Capturer"
+    },
+    "CTL-TD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Trend Detector"
+    },
+    "CTL-TE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Tax Engine"
+    },
+    "CTL-TG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Task Generator"
+    },
+    "CTL-TI": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Tax Integrator"
+    },
+    "CTL-TM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Task Manager"
+    },
+    "CTL-TP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Test Planner"
+    },
+    "CTL-TS": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Template Selector"
+    },
+    "CTL-VA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 4,
+      "description": "Version Automator"
+    },
+    "CTL-VD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Variance Detector"
+    },
+    "CTL-WA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Walkthrough Assistant"
+    },
+    "CTL-WE": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": "Waterfall Engine"
+    },
+    "CTRL-AAD": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-ADA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-ADG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-AFG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-AJC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-ASC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-ASG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-CDG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-DCA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-FFC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-FSC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-FSP": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-FSV": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-FVA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-GLM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-IAM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-JEG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "CTRL-JPA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-MAA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-MFG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-NDG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "CTRL-PPA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-REC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-SAA": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-SIC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-SSG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-SSU": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-STM": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-SVC": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-VEG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "CTRL-XTG": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-AAA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "AI Action Assigner"
+    },
+    "FPA-AC": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-ADT": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Automated Distribution Tool"
+    },
+    "FPA-AIB": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "AI Benchmarking"
+    },
+    "FPA-AL": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Alert Manager"
+    },
+    "FPA-AM": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "FPA-AME": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Automated Multi-source Extractor"
+    },
+    "FPA-AP": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "FPA-ARG": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Automated Report Generator"
+    },
+    "FPA-AT": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 2,
+      "description": "Action Tracker"
+    },
+    "FPA-AVD": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "AI Variance Detector"
+    },
+    "FPA-AVS": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "AI Visualization Selector"
+    },
+    "FPA-BI": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "FPA-BP": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 4,
+      "description": "Business Partner"
+    },
+    "FPA-CA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 5,
+      "description": "Causal Analyzer"
+    },
+    "FPA-CM": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-CP": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-CR": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 6,
+      "description": "Commentary Robot"
+    },
+    "FPA-CS": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "FPA-DA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 5,
+      "description": "Driver Analyzer"
+    },
+    "FPA-DG": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 6,
+      "description": "Data Gatherer"
+    },
+    "FPA-DH": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-DM": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 2,
+      "description": "Distribution Manager"
+    },
+    "FPA-DO": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-DP": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "FPA-DQ": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 2,
+      "description": "Data Quality"
+    },
+    "FPA-DQV": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Data Quality Validator"
+    },
+    "FPA-DR": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-DSC": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Scorecard"
+    },
+    "FPA-FAU": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Feedback Automation"
+    },
+    "FPA-FM": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Follow-up Manager"
+    },
+    "FPA-FX": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "FX Manager"
+    },
+    "FPA-GP": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-HM": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Hierarchy Manager"
+    },
+    "FPA-IE": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Intercompany Eliminator"
+    },
+    "FPA-IR": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 4,
+      "description": "Insight Reporter"
+    },
+    "FPA-KS": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-KT": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "KPI Tracker"
+    },
+    "FPA-MC": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 3,
+      "description": ""
+    },
+    "FPA-MO": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-MONITOR-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Performance Monitor"
+    },
+    "FPA-MR": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 6,
+      "description": "Management Reporter"
+    },
+    "FPA-MTP": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "ML Trend Predictor"
+    },
+    "FPA-NLG": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Natural Language Generator"
+    },
+    "FPA-NS": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Narrative Synthesizer"
+    },
+    "FPA-OM": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 4,
+      "description": ""
+    },
+    "FPA-PA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 6,
+      "description": "Predictive Analyzer"
+    },
+    "FPA-PC": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-PD": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Presentation Designer"
+    },
+    "FPA-PG": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-PM": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-RA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Risk Analyzer"
+    },
+    "FPA-RCA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Root Cause Analyzer"
+    },
+    "FPA-RF": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "FPA-RG": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Report Generator"
+    },
+    "FPA-RKM": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Real-time KPI Monitor"
+    },
+    "FPA-RS": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-RTC": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Real-Time Consolidator"
+    },
+    "FPA-SA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-SAT": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Smart Action Tracker"
+    },
+    "FPA-SDI": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Smart Driver Identifier"
+    },
+    "FPA-SG": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-SM": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 5,
+      "description": "Scenario Modeler"
+    },
+    "FPA-SME": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Smart Mapping Engine"
+    },
+    "FPA-SMS": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Smart Meeting Scheduler"
+    },
+    "FPA-SP": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-TA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 3,
+      "description": ""
+    },
+    "FPA-TB": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-TD": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Trend Detector"
+    },
+    "FPA-TS": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "FPA-VA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 4,
+      "description": "Variance Analyzer"
+    },
+    "FPA-VCA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Version Control Automation"
+    },
+    "FPA-VD": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 1,
+      "description": "Visualization Designer"
+    },
+    "FPA-WA": {
+      "workflows": [
+        "Fpa"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "GEN-ACCRUE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Accrual Calculator"
+    },
+    "GEN-ANOMALY-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Anomaly Detector"
+    },
+    "GEN-APPROVE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 3,
+      "description": "Approval Router"
+    },
+    "GEN-APPROVE-002": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Approval Validator"
+    },
+    "GEN-AUDITINSIGHT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "GEN-AUDITTARGET-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Audit Targeter"
+    },
+    "GEN-BANKREC-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Bank Reconciler"
+    },
+    "GEN-BUDGETCHECK-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Budget Checker"
+    },
+    "GEN-CARDCONNECT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Card Connector"
+    },
+    "GEN-CASHFLOW-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Cash Flow Optimizer"
+    },
+    "GEN-CLASSIFY-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Document Classifier"
+    },
+    "GEN-COMPGUIDE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Compliance Guide"
+    },
+    "GEN-COMPLY-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 3,
+      "description": "Compliance Checker"
+    },
+    "GEN-CURRENCY-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "FX Manager"
+    },
+    "GEN-DASHBOARD-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Dashboard Intelligence"
+    },
+    "GEN-DELEGATE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Delegation Manager"
+    },
+    "GEN-DOCRETRIEVE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Document Retriever"
+    },
+    "GEN-ESCALATE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Escalation Manager"
+    },
+    "GEN-EXCEPT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Exception Resolver"
+    },
+    "GEN-EXCEPTFLAG-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Exception Flagger"
+    },
+    "GEN-EXTRACT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 5,
+      "description": "Data Extractor"
+    },
+    "GEN-FILE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Smart Filer"
+    },
+    "GEN-FRAUD-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "GEN-IMPROVE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Improvement Recommender"
+    },
+    "GEN-INSIGHT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Insight Generator"
+    },
+    "GEN-NOTIFY-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Confirmation Notifier"
+    },
+    "GEN-OCRASSIST-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "GEN-OPTIMIZE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Optimization Recommender"
+    },
+    "GEN-PATTERN-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Pattern Recognizer"
+    },
+    "GEN-PAYCALC-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Payment Calculator"
+    },
+    "GEN-POLICYVAL-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Policy Validator"
+    },
+    "GEN-PREDICT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Analyzer"
+    },
+    "GEN-REPORT-002": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Report Generator"
+    },
+    "GEN-RESTRACK-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Resolution Tracker"
+    },
+    "GEN-RISKANALYZE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "GEN-ROOTCAUSE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Root Cause Analyzer"
+    },
+    "GEN-SECURITY-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "GEN-STATUS-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Status Tracker"
+    },
+    "GEN-STMTIMPORT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Statement Importer"
+    },
+    "GEN-SYSUPDATE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "System Updater"
+    },
+    "GEN-TAXVAL-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "GEN-TREND-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Trend Analyzer"
+    },
+    "GEN-VALIDATE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Data Validator"
+    },
+    "GEN-VISUALIZE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Visualization Generator"
+    },
+    "GEN-WORKFLOW-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Approval Manager"
+    },
+    "IR-ACT": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-AFF": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Automated Filing Framework"
+    },
+    "IR-AGR": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Auto-Generated Reports"
+    },
+    "IR-AIR": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "AI Recommender"
+    },
+    "IR-AIT": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 3,
+      "description": "AI Institutional Tracker"
+    },
+    "IR-AMO": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "AI Message Optimizer"
+    },
+    "IR-AMP": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Automated MM Portal"
+    },
+    "IR-APA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "AI Peer Analytics"
+    },
+    "IR-APB": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "AI Presentation Builder"
+    },
+    "IR-APC": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "AI-Powered CRM"
+    },
+    "IR-APT": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-ASC": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-ASO": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "AI Spread Optimizer"
+    },
+    "IR-ATE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-AVA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "AI Volume Analytics"
+    },
+    "IR-BMA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-CRI": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-DAG": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-DEW": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-DMA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-DRG": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-ERC": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-FAA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-FAG": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-FBE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-FUP": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-IAE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Intelligent Alert Engine"
+    },
+    "IR-IIG": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-IRS": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-ITE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-KMC": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-LOE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-MAA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-MSE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-MTA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "ML Trade Analyzer"
+    },
+    "IR-NGE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-OTE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Optimal Timing Engine"
+    },
+    "IR-PAI": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Perception AI"
+    },
+    "IR-PCA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-PGE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-PLE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Preference Learning Engine"
+    },
+    "IR-PPE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 3,
+      "description": "Pattern Prediction Engine"
+    },
+    "IR-PQE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Predictive Q&A Engine"
+    },
+    "IR-PRD": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-PTA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-PVM": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Predictive Volatility Model"
+    },
+    "IR-QAP": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-RAE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Relationship Analytics Engine"
+    },
+    "IR-RAM": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-RDI": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-RDR": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-RIM": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 3,
+      "description": "Real-time Industry Monitor"
+    },
+    "IR-RLT": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Real-time Liquidity Tracker"
+    },
+    "IR-ROT": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Real-time Ownership Tracker"
+    },
+    "IR-RPE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-RPF": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Real-time Price Feed"
+    },
+    "IR-RSA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-RSM": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Real-time Short Monitor"
+    },
+    "IR-RST": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Real-time Sentiment Tracker"
+    },
+    "IR-RTD": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-SAF": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Smart Alert Filter"
+    },
+    "IR-SAG": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Sentiment Aggregation"
+    },
+    "IR-SCS": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Smart Channel Selector"
+    },
+    "IR-SDE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-SEA": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-SEE": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-SEP": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Smart Escalation Platform"
+    },
+    "IR-SIP": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Smart Investor Profiler"
+    },
+    "IR-SMC": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-SNF": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-SPR": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "IR-SSC": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 2,
+      "description": "Smart Scheduling Coordinator"
+    },
+    "IR-TPG": {
+      "workflows": [
+        "Investor Relations"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "O2C-AA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Automated Approver"
+    },
+    "O2C-AA02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Automated Allocator"
+    },
+    "O2C-AA04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Auto Acknowledger"
+    },
+    "O2C-AC01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Automated Confirmer"
+    },
+    "O2C-AC02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Automated Communicator"
+    },
+    "O2C-AD": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Anomaly Detector"
+    },
+    "O2C-AE02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Allocation Engine"
+    },
+    "O2C-AE03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Adjustment Engine"
+    },
+    "O2C-AE04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Automated Enricher"
+    },
+    "O2C-AF02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Automated Follow-up"
+    },
+    "O2C-AF04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Automated Follow-up"
+    },
+    "O2C-AI02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Automated Investigator"
+    },
+    "O2C-AM03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Agency Matcher"
+    },
+    "O2C-AP": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Aging Predictor"
+    },
+    "O2C-AP01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Automated Poster"
+    },
+    "O2C-AP04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Agreement Processor"
+    },
+    "O2C-AR01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "AI Researcher"
+    },
+    "O2C-AR02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "AI Researcher"
+    },
+    "O2C-AR03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Approval Router"
+    },
+    "O2C-AT": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Audit Tracker"
+    },
+    "O2C-AV01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Accuracy Validator"
+    },
+    "O2C-AV02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Automated Verifier"
+    },
+    "O2C-AW03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Approval Workflow"
+    },
+    "O2C-BA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Behavior Analytics"
+    },
+    "O2C-BI01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Bank Integrator"
+    },
+    "O2C-BM": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Balance Monitor"
+    },
+    "O2C-CA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Change Analytics"
+    },
+    "O2C-CA01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 3,
+      "description": "Content Analyzer"
+    },
+    "O2C-CA02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Conversation Assistant"
+    },
+    "O2C-CAI": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Credit Application Intake"
+    },
+    "O2C-CC02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Compliance Checker"
+    },
+    "O2C-CF": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Cash Flow Modeler"
+    },
+    "O2C-CL": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Credit Limit Recommender"
+    },
+    "O2C-CLR": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Credit Limit Recommender"
+    },
+    "O2C-CM": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Compliance Monitor"
+    },
+    "O2C-CM01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Customer Matcher"
+    },
+    "O2C-CO02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Customer Outreach"
+    },
+    "O2C-CP": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Collection Prioritizer"
+    },
+    "O2C-CR": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Control Recommender"
+    },
+    "O2C-CS03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Channel Selector"
+    },
+    "O2C-CV02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Completion Verifier"
+    },
+    "O2C-CW01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Closure Workflow"
+    },
+    "O2C-DA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Discount Analyzer"
+    },
+    "O2C-DA01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Data Aggregator"
+    },
+    "O2C-DA04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Decision Automator"
+    },
+    "O2C-DC01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Deduction Capturer"
+    },
+    "O2C-DE03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Discount Engine"
+    },
+    "O2C-DH03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Discount Handler"
+    },
+    "O2C-DM": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Default Modeler"
+    },
+    "O2C-DM03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Document Manager"
+    },
+    "O2C-DP02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Personalizer"
+    },
+    "O2C-DP04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Digital Processor"
+    },
+    "O2C-DR03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 4,
+      "description": "Document Retriever"
+    },
+    "O2C-DR04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Reporter"
+    },
+    "O2C-DRM": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Risk Modeler"
+    },
+    "O2C-DS02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Dynamic Segmenter"
+    },
+    "O2C-EA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Exposure Analyzer"
+    },
+    "O2C-EA04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Exception Automator"
+    },
+    "O2C-EM": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Exposure Manager"
+    },
+    "O2C-ER01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Exception Resolver"
+    },
+    "O2C-ES": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Effectiveness Scorer"
+    },
+    "O2C-FAA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Financial Analysis AI"
+    },
+    "O2C-FC02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Feedback Collector"
+    },
+    "O2C-FL02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Fuzzy Logic"
+    },
+    "O2C-FO02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Follow-up Optimizer"
+    },
+    "O2C-FS04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Format Standardizer"
+    },
+    "O2C-HM": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Health Monitor"
+    },
+    "O2C-IM01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Invoice Matcher"
+    },
+    "O2C-IO": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Insurance Optimizer"
+    },
+    "O2C-IP02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Invoice Poster"
+    },
+    "O2C-IR01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Inquiry Resolver"
+    },
+    "O2C-KA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "KPI Analyzer"
+    },
+    "O2C-KB04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Knowledge Base"
+    },
+    "O2C-KD": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "KPI Dashboard"
+    },
+    "O2C-LB03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Load Balancer"
+    },
+    "O2C-LD02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Legal Documenter"
+    },
+    "O2C-LG02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Line Generator"
+    },
+    "O2C-ML03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Machine Learning"
+    },
+    "O2C-MS": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Mitigation Strategist"
+    },
+    "O2C-NA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "News Aggregator"
+    },
+    "O2C-OA04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Optimization Algorithm"
+    },
+    "O2C-OD01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Omnichannel Distributor"
+    },
+    "O2C-OI01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Omnichannel Integrator"
+    },
+    "O2C-OO01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Omnichannel Orchestrator"
+    },
+    "O2C-PA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Predictive Analytics"
+    },
+    "O2C-PA04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Analytics"
+    },
+    "O2C-PC02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Policy Checker"
+    },
+    "O2C-PC03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Collector"
+    },
+    "O2C-PD": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Pattern Detector"
+    },
+    "O2C-PE03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Pricing Engine"
+    },
+    "O2C-PE04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Escalator"
+    },
+    "O2C-PG02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Plan Generator"
+    },
+    "O2C-PI": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Insights"
+    },
+    "O2C-PI04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Proactive Intervener"
+    },
+    "O2C-PM": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Provision Modeler"
+    },
+    "O2C-PM01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Payment Matcher"
+    },
+    "O2C-PM03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Predictive Matcher"
+    },
+    "O2C-PP01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Portal Provisioner"
+    },
+    "O2C-PP03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Preventer"
+    },
+    "O2C-PR03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Pattern Recognizer"
+    },
+    "O2C-PR04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Resolver"
+    },
+    "O2C-PRD": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Predictive Risk Detector"
+    },
+    "O2C-PS03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Promise Scorer"
+    },
+    "O2C-PT": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Payment Term Modeler"
+    },
+    "O2C-PT01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Promise Tracker"
+    },
+    "O2C-PU": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Process Updater"
+    },
+    "O2C-PV": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Pricing Validator"
+    },
+    "O2C-QA04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Quality Automator"
+    },
+    "O2C-QR03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Query Resolver"
+    },
+    "O2C-RC04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Calculator"
+    },
+    "O2C-RCA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Root Cause Analyzer"
+    },
+    "O2C-RD01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Dashboard"
+    },
+    "O2C-RG": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Report Generator"
+    },
+    "O2C-RG01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Response Generator"
+    },
+    "O2C-RI04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Insights"
+    },
+    "O2C-RO01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Recovery Optimizer"
+    },
+    "O2C-RO04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "ROI Optimizer"
+    },
+    "O2C-RP03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Processor"
+    },
+    "O2C-RP04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Processor"
+    },
+    "O2C-RR01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Resolution Recommender"
+    },
+    "O2C-RR02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Reconciler"
+    },
+    "O2C-RS": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Risk Scorer"
+    },
+    "O2C-RS02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Statementer"
+    },
+    "O2C-RS03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Risk Scorer"
+    },
+    "O2C-RT": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Recovery Tracker"
+    },
+    "O2C-RT04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Real-time Tracker"
+    },
+    "O2C-RV": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Reference Validator"
+    },
+    "O2C-SA03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Sentiment Analyzer"
+    },
+    "O2C-SA04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Self-service Adjustments"
+    },
+    "O2C-SC": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Smart Configurator"
+    },
+    "O2C-SC03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Smart Categorizer"
+    },
+    "O2C-SD": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Smart Documenter"
+    },
+    "O2C-SE03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Settlement Engine"
+    },
+    "O2C-SE04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Self-service Enabler"
+    },
+    "O2C-SL04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Self-learner"
+    },
+    "O2C-SN": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Smart Notifier"
+    },
+    "O2C-SO": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Strategy Optimizer"
+    },
+    "O2C-SP04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Self-service Portal"
+    },
+    "O2C-SR01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Solution Recommender"
+    },
+    "O2C-SR02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Skill Router"
+    },
+    "O2C-SU04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Stakeholder Updater"
+    },
+    "O2C-TA": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Trend Analyzer"
+    },
+    "O2C-TA02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Trend Analyzer"
+    },
+    "O2C-TC02": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Ticket Creator"
+    },
+    "O2C-TE04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 2,
+      "description": "Timing Engine"
+    },
+    "O2C-TS01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Template Selector"
+    },
+    "O2C-UD01": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Unified Data"
+    },
+    "O2C-VA03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Variance Analyzer"
+    },
+    "O2C-VS03": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Validity Scorer"
+    },
+    "O2C-WD04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Work Distributor"
+    },
+    "O2C-WR04": {
+      "workflows": [
+        "Order To Cash"
+      ],
+      "reference_count": 1,
+      "description": "Write-off Recommender"
+    },
+    "P2P-AO": {
+      "workflows": [
+        "Controllership"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-ACTIONTRACK-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Action Tracker"
+    },
+    "PTP-ADJUSTGEN-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Adjustment Generator"
+    },
+    "PTP-APPREC-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Approval Recommender"
+    },
+    "PTP-BANKSUBMIT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-BANKVAL-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-BOOKPLAT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Booking Platform"
+    },
+    "PTP-BOOKREC-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Booking Recommender"
+    },
+    "PTP-CAPTURE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Invoice Capture Agent"
+    },
+    "PTP-CARDREQ-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Card Request Manager"
+    },
+    "PTP-COMPMON-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Compliance Monitor"
+    },
+    "PTP-COSTALLOC-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-DATACONS-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Data Consolidator"
+    },
+    "PTP-DISCOUNT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Discount Identifier"
+    },
+    "PTP-DISCREP-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Discrepancy Resolver"
+    },
+    "PTP-DISPUTE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Dispute Detector"
+    },
+    "PTP-DOCEXTRACT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-DUPDETECT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": ""
+    },
+    "PTP-ENRICH-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Invoice Enricher"
+    },
+    "PTP-ERPPOST-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-EXECSUMM-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Executive Summarizer"
+    },
+    "PTP-EXPENSECAT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Expense Categorizer"
+    },
+    "PTP-EXPMATCH-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-FAILPREDICT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-FILEGEN-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-GLCODE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-ITINERARY-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Itinerary Manager"
+    },
+    "PTP-JUSTIFY-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Justification Assistant"
+    },
+    "PTP-KPICALC-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "KPI Calculator"
+    },
+    "PTP-LIMITREC-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Spending Limit Recommender"
+    },
+    "PTP-MATCHCODE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Matcher & Coder"
+    },
+    "PTP-METRICANALYZE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Metric Analyzer"
+    },
+    "PTP-MILEAGE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Mileage Tracker"
+    },
+    "PTP-MLCODE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-PARSE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Invoice Parser"
+    },
+    "PTP-PAYAUTH-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-PAYEXEC-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Payment Processor"
+    },
+    "PTP-PAYINIT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-PAYSCHED-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Payment Scheduler"
+    },
+    "PTP-PAYSELECT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-PAYTRACK-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Payment Tracker"
+    },
+    "PTP-POLICYENF-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Policy Engine"
+    },
+    "PTP-POMATCH-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "PO Matcher"
+    },
+    "PTP-PRICEOPT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Price Optimizer"
+    },
+    "PTP-PRICEVER-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Price Verifier"
+    },
+    "PTP-RECEIPTCAP-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Receipt Capturer"
+    },
+    "PTP-RECEIPTMATCH-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Receipt Matcher"
+    },
+    "PTP-RECONANALYZE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Reconciliation Analyzer"
+    },
+    "PTP-REJECTHAND-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-SPENDANALYZE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 3,
+      "description": "Spend Analyzer"
+    },
+    "PTP-SPENDCAT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Spend Categorizer"
+    },
+    "PTP-STMTCAP-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Vendor Statement Capturer"
+    },
+    "PTP-THREEWAY-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Three-Way Matcher"
+    },
+    "PTP-TOLERANCE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Tolerance Manager"
+    },
+    "PTP-TRANSMATCH-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Transaction Matcher"
+    },
+    "PTP-TRANSMON-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Transaction Monitor"
+    },
+    "PTP-TRAVELREQ-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Travel Requestor"
+    },
+    "PTP-VALIDATE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Invoice Validator"
+    },
+    "PTP-VENDCOM-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 2,
+      "description": "Vendor Communicator"
+    },
+    "PTP-VENDNOT-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Vendor Notifier"
+    },
+    "PTP-VENDOR-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Vendor Matcher"
+    },
+    "PTP-VENDORCONS-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Vendor Consolidator"
+    },
+    "PTP-VENDUPDATE-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": ""
+    },
+    "PTP-VIRTUALCARD-001": {
+      "workflows": [
+        "Procure To Pay"
+      ],
+      "reference_count": 1,
+      "description": "Virtual Card Issuer"
+    }
+  }
+}
