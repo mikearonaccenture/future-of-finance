@@ -7,11 +7,6 @@
     "regions": [
         "iad1"
     ],
-    "functions": {
-        "site-build/app/api/demo-data/forecast/route.ts": {
-            "maxDuration": 30
-        }
-    },
     "headers": [
         {
             "source": "/(.*)",
