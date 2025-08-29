@@ -1,14 +1,14 @@
 {
-    "buildCommand": "npm run build",
-    "outputDirectory": ".next",
-    "devCommand": "npm run dev",
-    "installCommand": "npm install",
+    "buildCommand": "cd site-build && npm run build",
+    "outputDirectory": "site-build/.next",
+    "devCommand": "cd site-build && npm run dev",
+    "installCommand": "cd site-build && npm install",
     "framework": "nextjs",
     "regions": [
         "iad1"
     ],
     "functions": {
-        "app/api/demo-data/forecast/route.ts": {
+        "site-build/app/api/demo-data/forecast/route.ts": {
             "maxDuration": 30
         }
     },
