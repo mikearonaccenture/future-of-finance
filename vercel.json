@@ -1,9 +1,10 @@
 {
-    "buildCommand": "cd site-build && npm run build",
-    "outputDirectory": "site-build/.next",
-    "devCommand": "cd site-build && npm run dev", 
-    "installCommand": "cd site-build && npm install",
+    "buildCommand": "npm run build",
+    "outputDirectory": ".next",
+    "devCommand": "npm run dev", 
+    "installCommand": "npm install",
     "framework": "nextjs",
+    "rootDirectory": "site-build",
     "regions": [
         "iad1"
     ],
